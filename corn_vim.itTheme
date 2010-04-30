@@ -1,0 +1,161 @@
+{
+	title      : 'Corn'
+	settings  : [
+		{
+			settings  : {
+				caret           : '#F0F0F0'
+				foreground      : '#E0E0E0'
+				background      : '#333333'
+				line_highlight  : '#A8A8A8DD'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				foreground      : '#C0C0C0'
+				background      : '#808080'
+			}
+		}
+		/******************************************************/
+		/*                       LineNr                       */
+		/******************************************************/
+		{
+			title     : 'LineNr'
+			scope     : 'linenr'
+			settings  : {
+				foreground      : '#CCCCCC'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				foreground      : '#CCCCCC'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				foreground      : '#B8860B'
+				background      : '#E5E5E5'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				foreground      : '#C0C0C0'
+				background      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				foreground      : '#C0C0C0'
+				background      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#BBCCEE'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				foreground      : '#EEDDAA'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				foreground      : '#CCEE00'
+			}
+		}
+		/******************************************************/
+		/*                     StatementU                     */
+		/******************************************************/
+		{
+			title     : 'StatementU'
+			scope     : 'statementu'
+			settings  : {
+				foreground      : '#CCEE00'
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				foreground      : '#CCEE00'
+			}
+		}
+		/******************************************************/
+		/*                     Underlined                     */
+		/******************************************************/
+		{
+			title     : 'Underlined'
+			scope     : 'underlined'
+			settings  : {
+				foreground      : '#E0E0E0'
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                       Error                        */
+		/******************************************************/
+		{
+			title     : 'Error'
+			scope     : 'error'
+			settings  : {
+				foreground      : '#FFFFFF'
+				background      : '#FF0000'
+			}
+		}
+		/******************************************************/
+		/*                     Attribute                      */
+		/******************************************************/
+		{
+			title     : 'Attribute'
+			scope     : 'attribute'
+			settings  : {
+				foreground      : '#CCCCCC'
+			}
+		}
+	]
+	uuid      : '34813157-83F9-E89D-3A7C-FAB4909D00BA'
+}

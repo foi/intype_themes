@@ -1,0 +1,269 @@
+{
+
+title     : '[ Argonaut ]'
+settings  : [
+	{
+	settings : 	{
+		background	: '#151515'
+		caret	: '#FF2200'
+		foreground	: '#B2B2B2'
+		invisibles	: '#000000'
+		line_highlight	: '#000C16'
+		selection	: '#002F53'
+	}
+	}
+
+	{
+	title: 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#00A6FF'
+	}
+	}
+
+	{
+	title: 'Keyword'
+		scope	: 'keyword, storage, support.type'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'String'
+		scope	: 'string'
+	settings : 	{
+		foreground	: '#6497C5'
+	}
+	}
+
+	{
+	title: 'String interpolation'
+		scope	: 'constant.character.escaped, string source'
+	settings : 	{
+		foreground	: '#A0A3F9'
+	}
+	}
+
+	{
+	title: 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#D70000'
+	}
+	}
+
+	{
+	title: 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		foreground	: '#0068C5'
+	}
+	}
+
+	{
+	title: 'Constant'
+		scope	: 'constant'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#A4ED2D'
+	}
+	}
+
+	{
+	title: 'Preprocessor line'
+		scope	: 'other.preprocessor'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#7B9A00'
+	}
+	}
+
+	{
+	title: 'Preprocessor directive'
+		scope	: 'entity.name.preprocessor'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFCE00'
+	}
+	}
+
+	{
+	title: 'Function name'
+		scope	: 'entity.name.function'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFCA00'
+	}
+	}
+
+	{
+	title: 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		background	: '#000000'
+		font_style	: 'underline'
+		foreground	: '#DB001C'
+	}
+	}
+
+	{
+	title: 'Function parameter'
+		scope	: 'variable.parameter'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: 'Function argument and result types'
+		scope	: 'storage.type.method'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#70727E'
+	}
+	}
+
+	{
+	title: 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#990000'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'Invalid trailing whitespace'
+		scope	: 'invalid.trailing-whitespace'
+	settings : 	{
+		background	: '#FFD0D0'
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: 'Section'
+		scope	: 'declaration.section entity.name.section'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#3FAF30'
+	}
+	}
+
+	{
+	title: 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#815DB3'
+	}
+	}
+
+	{
+	title: 'Library object'
+		scope	: 'support.class, support.type'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#7A88F6'
+	}
+	}
+
+	{
+	title: 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		foreground	: '#06960E'
+	}
+	}
+
+	{
+	title: 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#F18F94'
+	}
+	}
+
+	{
+	title: 'JS: Operator'
+		scope	: 'keyword.operator.js'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#606E7E'
+	}
+	}
+
+	{
+	title: 'Embedded source'
+		scope	: 'text source, string.unquoted'
+	settings : 	{
+		background	: '#00020559'
+	}
+	}
+
+	{
+	title: 'Markup XML declaration'
+		scope	: 'declaration.xml-processing'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#68685B'
+	}
+	}
+
+	{
+	title: 'Markup DOCTYPE'
+		scope	: 'declaration.doctype'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#888888'
+	}
+	}
+
+	{
+	title: 'Markup DTD'
+		scope	: 'declaration.doctype.DTD'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: 'Markup tag'
+		scope	: 'declaration.tag'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#62A6FF'
+	}
+	}
+
+	{
+	title: 'Markuptitleof tag'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		foreground	: '#0065D3'
+	}
+	}
+
+	{
+	title: 'Inherited class name'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: 'Markup tag attribute'
+		scope	: 'entity.parameter.attribute'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+]
+uuid      : 'E30AB985-2C10-4EB1-9C06-06CC4FF68D62'
+}

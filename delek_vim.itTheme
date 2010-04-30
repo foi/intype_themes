@@ -1,0 +1,342 @@
+{
+	title      : 'Delek'
+	settings  : [
+		{
+			settings  : {
+				foreground      : '#000000'
+				background      : '#FFFFFF'
+				caret           : '#008000'
+				invisibles      : '#0000FF'
+				caret           : ''
+				line_highlight  : '#B2B2B2DD'
+			}
+		}
+		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid, invalid.deprecated, invalid.illegal, invalid.illegal.attribute-value.unrecognized'
+			settings  : {
+				background      : '#FF0000'
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                     IncSearch                      */
+		/******************************************************/
+		{
+			title     : 'IncSearch'
+			scope     : 'incsearch'
+			settings  : {
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				foreground      : '#BEBEBE'
+				background      : ''
+			}
+		}
+		/******************************************************/
+		/*                     VisualNOS                      */
+		/******************************************************/
+		{
+			title     : 'VisualNOS'
+			scope     : 'visualnos'
+			settings  : {
+			}
+		}
+		/******************************************************/
+		/*                      DiffText                      */
+		/******************************************************/
+		{
+			title     : 'DiffText'
+			scope     : 'difftext'
+			settings  : {
+				font_style      : 'bold'
+				background      : '#FF0000'
+			}
+		}
+		/******************************************************/
+		/*                      lCursor                       */
+		/******************************************************/
+		{
+			title     : 'lCursor'
+			scope     : 'lcursor'
+			settings  : {
+				background      : '#00FFFF'
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                     Directory                      */
+		/******************************************************/
+		{
+			title     : 'Directory'
+			scope     : 'directory'
+			settings  : {
+				foreground      : '#0000FF'
+			}
+		}
+		/******************************************************/
+		/*                       LineNr                       */
+		/******************************************************/
+		{
+			title     : 'LineNr'
+			scope     : 'linenr'
+			settings  : {
+				foreground      : '#A52A2A'
+			}
+		}
+		/******************************************************/
+		/*                      MoreMsg                       */
+		/******************************************************/
+		{
+			title     : 'MoreMsg'
+			scope     : 'moremsg'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#2E8B57'
+			}
+		}
+		/******************************************************/
+		/*                      Question                      */
+		/******************************************************/
+		{
+			title     : 'Question'
+			scope     : 'question'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#2E8B57'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				background      : '#FFFF00'
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                       Title                        */
+		/******************************************************/
+		{
+			title     : 'Title'
+			scope     : 'title'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FF00FF'
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				foreground      : '#FF0000'
+			}
+		}
+		/******************************************************/
+		/*                      WildMenu                      */
+		/******************************************************/
+		{
+			title     : 'WildMenu'
+			scope     : 'wildmenu'
+			settings  : {
+				background      : '#FFFF00'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				background      : '#D3D3D3'
+				foreground      : '#00008B'
+			}
+		}
+		/******************************************************/
+		/*                     FoldColumn                     */
+		/******************************************************/
+		{
+			title     : 'FoldColumn'
+			scope     : 'foldcolumn'
+			settings  : {
+				background      : '#BEBEBE'
+				foreground      : '#00008B'
+			}
+		}
+		/******************************************************/
+		/*                      DiffAdd                       */
+		/******************************************************/
+		{
+			title     : 'DiffAdd'
+			scope     : 'diffadd'
+			settings  : {
+				background      : '#ADD8E6'
+			}
+		}
+		/******************************************************/
+		/*                     DiffChange                     */
+		/******************************************************/
+		{
+			title     : 'DiffChange'
+			scope     : 'diffchange'
+			settings  : {
+				background      : ''
+			}
+		}
+		/******************************************************/
+		/*                     DiffDelete                     */
+		/******************************************************/
+		{
+			title     : 'DiffDelete'
+			scope     : 'diffdelete'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#0000FF'
+				background      : '#E0FFFF'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				background      : '#FFD700'
+				foreground      : '#0000FF'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				background      : '#FFD700'
+				foreground      : '#0000FF'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#BEBEBE'
+				background      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				foreground      : ''
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				foreground      : ''
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#RED2'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				foreground      : ''
+			}
+		}
+		/******************************************************/
+		/*                      Special                       */
+		/******************************************************/
+		{
+			title     : 'Special'
+			scope     : 'special'
+			settings  : {
+				foreground      : '#DEEPPINK'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#0000FF'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#0000FF'
+			}
+		}
+	]
+	uuid      : '8467A55D-351C-F6B9-3EC1-12F6F9D17804'
+}

@@ -1,0 +1,304 @@
+{
+
+title     : 'BBEdit'
+settings  : [
+	{
+	settings : 	{
+		background	: '#FFFFFF'
+		caret	: '#000000'
+		foreground	: '#000000'
+		invisibles	: '#BFBFBF'
+		line_highlight	: '#00000012'
+		selection	: '#C3DCFF'
+	}
+	}
+
+	{
+	title: 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#804000'
+	}
+	}
+
+	{
+	title: 'Keyword'
+		scope	: 'keyword, storage'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0000FF'
+	}
+	}
+
+	{
+	title: 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FF0080'
+	}
+	}
+
+	{
+	title: 'String'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FF0080'
+	}
+	}
+
+	{
+	title: 'User-defined constant'
+		scope	: 'constant'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#C5060B'
+	}
+	}
+
+	{
+	title: 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#004080'
+	}
+	}
+
+	{
+	title: 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#006600'
+	}
+	}
+
+	{
+	title: 'String interpolation'
+		scope	: 'constant.character.escaped, constant.character.escape, string source'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#33CC33'
+	}
+	}
+
+	{
+	title: 'Preprocessor line'
+		scope	: 'other.preprocessor'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#1A921C'
+	}
+	}
+
+	{
+	title: 'Preprocessor directive'
+		scope	: 'entity.name.preprocessor'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0C450D'
+	}
+	}
+
+	{
+	title: 'Function name'
+		scope	: 'entity.name.function, keyword.other.name-of-parameter.objc'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0000A2'
+	}
+	}
+
+	{
+	title: 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+	title: 'Inherited class name'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Function parameter'
+		scope	: 'variable.parameter'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Function argument and result types'
+		scope	: 'storage.type.method'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#70727E'
+	}
+	}
+
+	{
+	title: 'Section'
+		scope	: 'meta.section entity.name.section, declaration.section entity.name.section'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0000FF'
+	}
+	}
+
+	{
+	title: 'Library object'
+		scope	: 'support.class, support.type'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#6D79DE'
+	}
+	}
+
+	{
+	title: 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#06960E'
+	}
+	}
+
+	{
+	title: 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#21439C'
+	}
+	}
+
+	{
+	title: 'JS: Operator'
+		scope	: 'keyword.operator.js'
+	settings : 	{
+		foreground	: '#687687'
+	}
+	}
+
+	{
+	title: 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#990000'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'Invalid trailing whitespace'
+		scope	: 'invalid.trailing-whitespace'
+	settings : 	{
+		background	: '#FFD0D0'
+	}
+	}
+
+	{
+	title: 'Embedded source'
+		scope	: 'text source, string.unquoted'
+	settings : 	{
+		background	: '#427FF51A'
+	}
+	}
+
+	{
+	title: 'Markup XML declaration'
+		scope	: 'meta.xml-processing, declaration.xml-processing'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#68685B'
+	}
+	}
+
+	{
+	title: 'Markup DOCTYPE'
+		scope	: 'meta.doctype, declaration.doctype'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#888888'
+	}
+	}
+
+	{
+	title: 'Markup DTD'
+		scope	: 'meta.doctype.DTD, declaration.doctype.DTD'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Markup tag'
+		scope	: 'meta.tag, declaration.tag'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#1C02FF'
+	}
+	}
+
+	{
+	title: 'Markuptitleof tag'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Markup tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Markup: Heading'
+		scope	: 'markup.heading'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0C07FF'
+	}
+	}
+
+	{
+	title: 'Markup: Quote'
+		scope	: 'markup.quote'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: 'Markup: List'
+		scope	: 'markup.list'
+	settings : 	{
+		foreground	: '#B90690'
+	}
+	}
+
+]
+uuid      : '0047F0B6-DB9C-4533-A155-5BAA91BD70F2'
+}

@@ -1,0 +1,250 @@
+{
+	title      : 'Mine'
+	settings  : [
+		{
+			settings  : {
+				foreground      : '#FFFFFF'
+				background      : '#061A3E'
+				caret           : '#D74141'
+				invisibles      : '#BF9261'
+				line_highlight  : '#962D2DDD'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+				background      : '#C0FFFF'
+				foreground      : '#075554'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				background      : '#FFC0C0'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                     FoldColumn                     */
+		/******************************************************/
+		{
+			title     : 'FoldColumn'
+			scope     : 'foldcolumn'
+			settings  : {
+				background      : '#800080'
+				foreground      : '#D2B48C'
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				foreground      : '#404040'
+				background      : '#C0C0C0'
+			}
+		}
+		/******************************************************/
+		/*                      MoreMsg                       */
+		/******************************************************/
+		{
+			title     : 'MoreMsg'
+			scope     : 'moremsg'
+			settings  : {
+				foreground      : '#00CED1'
+				background      : '#188F90'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				background      : '#334C75'
+				foreground      : '#9FADC5'
+			}
+		}
+		/******************************************************/
+		/*                      Question                      */
+		/******************************************************/
+		{
+			title     : 'Question'
+			scope     : 'question'
+			settings  : {
+				foreground      : '#F4BB7E'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				background      : ''
+				foreground      : '#061A3E'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				background      : '#004443'
+				foreground      : '#C0FFFF'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				background      : '#067C7B'
+				foreground      : '#004443'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Title                        */
+		/******************************************************/
+		{
+			title     : 'Title'
+			scope     : 'title'
+			settings  : {
+				foreground      : '#8DB8C3'
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#000000'
+				background      : '#C0FFC0'
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				foreground      : '#F60000'
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#DABEA2'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				foreground      : '#72A5E4'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				foreground      : '#ADCBF1'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				foreground      : '#7E75B5'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				foreground      : '#14F07C'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				foreground      : '#A9EE8A'
+			}
+		}
+		/******************************************************/
+		/*                      Special                       */
+		/******************************************************/
+		{
+			title     : 'Special'
+			scope     : 'special'
+			settings  : {
+				foreground      : '#EEBABA'
+			}
+		}
+		/******************************************************/
+		/*                       Ignore                       */
+		/******************************************************/
+		{
+			title     : 'Ignore'
+			scope     : 'ignore'
+			settings  : {
+				foreground      : '#999999'
+			}
+		}
+		/******************************************************/
+		/*                        Todo                        */
+		/******************************************************/
+		{
+			title     : 'Todo'
+			scope     : 'todo'
+			settings  : {
+				background      : '#9C8C84'
+				foreground      : '#244C0A'
+			}
+		}
+	]
+	uuid      : 'CDB9DDE2-6CC2-5F99-95DF-33C3D70B227E'
+}

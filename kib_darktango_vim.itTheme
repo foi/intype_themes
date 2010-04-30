@@ -1,0 +1,659 @@
+{
+	title      : 'Kib_darktango'
+	settings  : [
+		{
+			settings  : {
+				background      : '#2E3436'
+				foreground      : '#D3D7CF'
+				caret           : '#FCAF3E'
+				invisibles      : '#CE5C00'
+				line_highlight  : '#212628'
+			}
+		}
+		/******************************************************/
+		/*                       Title                        */
+		/******************************************************/
+		{
+			title     : 'Title'
+			scope     : 'title'
+			settings  : {
+				foreground      : '#4E9A06'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#EDD400'
+			}
+		}
+		/******************************************************/
+		/*                     Constants                      */
+		/******************************************************/
+		{
+			title     : 'Constants'
+			scope     : 'constants'
+			settings  : {
+				foreground      : '#E9B96E'
+			}
+		}
+		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground      : '#729FCF'
+			}
+		}
+		/******************************************************/
+		/*                     Character                      */
+		/******************************************************/
+		{
+			title     : 'Character'
+			scope     : 'character'
+			settings  : {
+				foreground      : '#3465A4'
+			}
+		}
+		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				foreground      : '#E9B96E'
+			}
+		}
+		/******************************************************/
+		/*                      Boolean                       */
+		/******************************************************/
+		{
+			title     : 'Boolean'
+			scope     : 'boolean'
+			settings  : {
+				foreground      : '#C1C144'
+			}
+		}
+		/******************************************************/
+		/*                       Float                        */
+		/******************************************************/
+		{
+			title     : 'Float'
+			scope     : 'float'
+			settings  : {
+				foreground      : '#C1C144'
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				foreground      : '#729FCF'
+			}
+		}
+		/******************************************************/
+		/*                    Conditional                     */
+		/******************************************************/
+		{
+			title     : 'Conditional'
+			scope     : 'conditional'
+			settings  : {
+				foreground      : '#4E9A06'
+			}
+		}
+		/******************************************************/
+		/*                       Repeat                       */
+		/******************************************************/
+		{
+			title     : 'Repeat'
+			scope     : 'repeat'
+			settings  : {
+				foreground      : '#73D216'
+			}
+		}
+		/******************************************************/
+		/*                       Label                        */
+		/******************************************************/
+		{
+			title     : 'Label'
+			scope     : 'label'
+			settings  : {
+				foreground      : '#8AE234'
+			}
+		}
+		/******************************************************/
+		/*                      Operator                      */
+		/******************************************************/
+		{
+			title     : 'Operator'
+			scope     : 'operator'
+			settings  : {
+				foreground      : '#FCAF3E'
+			}
+		}
+		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                     Exception                      */
+		/******************************************************/
+		{
+			title     : 'Exception'
+			scope     : 'exception'
+			settings  : {
+				foreground      : '#CE5C00'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                      Include                       */
+		/******************************************************/
+		{
+			title     : 'Include'
+			scope     : 'include'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                       Define                       */
+		/******************************************************/
+		{
+			title     : 'Define'
+			scope     : 'define'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                       Macro                        */
+		/******************************************************/
+		{
+			title     : 'Macro'
+			scope     : 'macro'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                     PreCondit                      */
+		/******************************************************/
+		{
+			title     : 'PreCondit'
+			scope     : 'precondit'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                    StorageClass                    */
+		/******************************************************/
+		{
+			title     : 'StorageClass'
+			scope     : 'storageclass'
+			settings  : {
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                     Structure                      */
+		/******************************************************/
+		{
+			title     : 'Structure'
+			scope     : 'structure'
+			settings  : {
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                      Typedef                       */
+		/******************************************************/
+		{
+			title     : 'Typedef'
+			scope     : 'typedef'
+			settings  : {
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                      Special                       */
+		/******************************************************/
+		{
+			title     : 'Special'
+			scope     : 'special'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                    SpecialChar                     */
+		/******************************************************/
+		{
+			title     : 'SpecialChar'
+			scope     : 'specialchar'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                     Markup tag                     */
+		/******************************************************/
+		{
+			title     : 'Markup tag'
+			scope     : 'meta.tag, declaration.tag, entity.name.tag.single'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                     Delimiter                      */
+		/******************************************************/
+		{
+			title     : 'Delimiter'
+			scope     : 'delimiter'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                   SpecialComment                   */
+		/******************************************************/
+		{
+			title     : 'SpecialComment'
+			scope     : 'specialcomment'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                       Debug                        */
+		/******************************************************/
+		{
+			title     : 'Debug'
+			scope     : 'debug'
+			settings  : {
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                     Underlined                     */
+		/******************************************************/
+		{
+			title     : 'Underlined'
+			scope     : 'underlined'
+			settings  : {
+				foreground      : '#20B0EF'
+			}
+		}
+		/******************************************************/
+		/*                       Ignore                       */
+		/******************************************************/
+		{
+			title     : 'Ignore'
+			scope     : 'ignore'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                       Error                        */
+		/******************************************************/
+		{
+			title     : 'Error'
+			scope     : 'error'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                        Todo                        */
+		/******************************************************/
+		{
+			title     : 'Todo'
+			scope     : 'todo'
+			settings  : {
+				background      : '#CE5C00'
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                  pythonStatement                   */
+		/******************************************************/
+		{
+			title     : 'pythonStatement'
+			scope     : 'pythonstatement'
+			settings  : {
+				foreground      : '#729FCF'
+			}
+		}
+		/******************************************************/
+		/*                    pythonRepeat                    */
+		/******************************************************/
+		{
+			title     : 'pythonRepeat'
+			scope     : 'pythonrepeat'
+			settings  : {
+				foreground      : '#8AE234'
+			}
+		}
+		/******************************************************/
+		/*                 pythonConditional                  */
+		/******************************************************/
+		{
+			title     : 'pythonConditional'
+			scope     : 'pythonconditional'
+			settings  : {
+				foreground      : '#73D216'
+			}
+		}
+		/******************************************************/
+		/*                  pythonPrecondit                   */
+		/******************************************************/
+		{
+			title     : 'pythonPrecondit'
+			scope     : 'pythonprecondit'
+			settings  : {
+				foreground      : '#EF2929'
+			}
+		}
+		/******************************************************/
+		/*                   pythonOperator                   */
+		/******************************************************/
+		{
+			title     : 'pythonOperator'
+			scope     : 'pythonoperator'
+			settings  : {
+				foreground      : '#AD7FA8'
+			}
+		}
+		/******************************************************/
+		/*                   pythonComment                    */
+		/******************************************************/
+		{
+			title     : 'pythonComment'
+			scope     : 'pythoncomment'
+			settings  : {
+				foreground      : '#EDD400'
+			}
+		}
+		/******************************************************/
+		/*                    pythonEscape                    */
+		/******************************************************/
+		{
+			title     : 'pythonEscape'
+			scope     : 'pythonescape'
+			settings  : {
+				foreground      : '#3465A4'
+			}
+		}
+		/******************************************************/
+		/*                  pythonRawString                   */
+		/******************************************************/
+		{
+			title     : 'pythonRawString'
+			scope     : 'pythonrawstring'
+			settings  : {
+				foreground      : '#AD9361'
+			}
+		}
+		/******************************************************/
+		/*                   pythonBuiltin                    */
+		/******************************************************/
+		{
+			title     : 'pythonBuiltin'
+			scope     : 'pythonbuiltin'
+			settings  : {
+				foreground      : '#729FCF'
+			}
+		}
+		/******************************************************/
+		/*                  pythonException                   */
+		/******************************************************/
+		{
+			title     : 'pythonException'
+			scope     : 'pythonexception'
+			settings  : {
+				foreground      : '#CC0000'
+			}
+		}
+		/******************************************************/
+		/*                     Directory                      */
+		/******************************************************/
+		{
+			title     : 'Directory'
+			scope     : 'directory'
+			settings  : {
+				foreground      : '#BBD0DF'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+				background      : '#888A85'
+				foreground      : '#2E3436'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				background      : '#555753'
+				foreground      : '#EEEEEC'
+			}
+		}
+		/******************************************************/
+		/*                     FoldColumn                     */
+		/******************************************************/
+		{
+			title     : 'FoldColumn'
+			scope     : 'foldcolumn'
+			settings  : {
+				background      : '#2E3436'
+				foreground      : '#555753'
+			}
+		}
+		/******************************************************/
+		/*                       LineNr                       */
+		/******************************************************/
+		{
+			title     : 'LineNr'
+			scope     : 'linenr'
+			settings  : {
+				background      : '#2E3436'
+				foreground      : '#C4A000'
+			}
+		}
+		/******************************************************/
+		/*                     MatchParen                     */
+		/******************************************************/
+		{
+			title     : 'MatchParen'
+			scope     : 'matchparen'
+			settings  : {
+				background      : '#BABDB6'
+				foreground      : '#2E3436'
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                      MoreMsg                       */
+		/******************************************************/
+		{
+			title     : 'MoreMsg'
+			scope     : 'moremsg'
+			settings  : {
+				foreground      : '#F57900'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				background      : '#2E3436'
+				foreground      : '#555753'
+			}
+		}
+		/******************************************************/
+		/*                      Question                      */
+		/******************************************************/
+		{
+			title     : 'Question'
+			scope     : 'question'
+			settings  : {
+				foreground      : '#AABBCC'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				background      : '#FCE94F'
+				foreground      : '#C4A000'
+			}
+		}
+		/******************************************************/
+		/*                     IncSearch                      */
+		/******************************************************/
+		{
+			title     : 'IncSearch'
+			scope     : 'incsearch'
+			settings  : {
+				background      : '#C4A000'
+				foreground      : '#FCE94F'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				background      : '#888A85'
+				foreground      : '#2E3436'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				background      : '#888A85'
+				foreground      : '#FCE94F'
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				background      : '#FCAF3E'
+				foreground      : '#CE5C00'
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				foreground      : '#FA8072'
+			}
+		}
+		/******************************************************/
+		/*                       Pmenu                        */
+		/******************************************************/
+		{
+			title     : 'Pmenu'
+			scope     : 'pmenu'
+			settings  : {
+				background      : '#BABDB6'
+				foreground      : '#555753'
+			}
+		}
+		/******************************************************/
+		/*                      PmenuSel                      */
+		/******************************************************/
+		{
+			title     : 'PmenuSel'
+			scope     : 'pmenusel'
+			settings  : {
+				background      : '#EEEEEC'
+				foreground      : '#2E3436'
+			}
+		}
+	]
+	uuid      : 'A0502C53-09A4-FCBB-F2B5-E0003F215DD7'
+}

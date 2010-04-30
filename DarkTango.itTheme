@@ -1,0 +1,436 @@
+{
+	title     : 'DarkTango'
+	settings  : [
+		{
+			settings	: {
+				background: 	'#2e3436'
+				caret:		    '#FFFFFF'   /* not supported (and not planned to be supported) */
+				foreground:		'#d3d7cf'
+				invisibles:		'#2e3436'   /* color of whitespace and tabs */
+				line_highlight:	'#796C67'   /* is a color of line with caret (current line) */
+				selection:		'#888a85'   /* not supported (and not planned to be supported) */
+				active_margin: 	'#c4a000'   /* is a color of line with caret (current line) */
+                passive_margin: '#'         /* is the default color for the thin 3px line */
+			}
+
+		}
+        
+        /******************************************************/ 
+        /* For the theme items, there are available 3 these settings: */
+        /* title:        actually a title of the rule */
+        /* scope:       rule scope */
+        /* foreground:  foreground color */
+        /* background:  background color */
+        /* font_style:  value can be bold, italic or underlined keywords separated by a  */
+        /*              space, for example: font_style: “bold italic” */
+        /******************************************************/
+        
+		/******************************************************/
+		/*                      Comment                       */
+        /*                      Butter 2                      */
+		/******************************************************/
+		{
+			title      : 'Comment'
+			scope     : 'comment'
+			settings  : {
+                font_style  : 'italic'
+				foreground  : '#edd400'
+			}
+		}
+
+		/******************************************************/
+		/*                      Keyword                       */
+        /*                      SkyBlue 1                     */
+		/******************************************************/
+		{
+			title      : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				foreground  : '#729fcf'
+			}
+		}
+
+ 		/******************************************************/
+		/*                       Number                       */
+        /*                      MyPink 1                      */
+		/******************************************************/
+		{
+			title      : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				font_style  : ''
+				foreground  : '#f08080'
+			}
+		}
+ 		/******************************************************/
+		/*                 Built-in constant                  */
+        /*                      Chocolate 2                      */
+		/******************************************************/
+		{
+			title      : 'Built-in constant'
+			scope     : 'constant.language'
+			settings  : {
+				font_style  : ''
+				foreground  : '#c17d11'
+			}
+		}
+
+ 		/******************************************************/
+		/*                      Variable                      */
+        /*                      MyMarroon 1                   */
+		/******************************************************/
+		{
+			title      : 'Variable'
+			scope     : 'variable.language, variable.other'
+			settings  : {
+				foreground  : '#8B7765'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+        /*                      MyRed                         */
+		/******************************************************/
+		{
+			title      : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground  : '#CD4F39'
+			}
+		}
+		/******************************************************/
+		/*                String interpolation                */
+        /*                      MyBeige                       */
+		/******************************************************/
+		{
+			title      : 'String interpolation'
+			scope     : 'constant.character.escaped, constant.character.escape, string source'
+			settings  : {
+				foreground  : '#FFFACD'
+			}
+		}
+ 		/******************************************************/
+		/*                 Preprocessor line                  */
+        /*                      MyBeige                       */
+		/******************************************************/
+		{
+			title      : 'Preprocessor line'
+			scope     : 'other.preprocessor'
+			settings  : {
+				font_style  : ''
+				foreground  : '#4e9a06'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+        /*                      ScarletRed1                   */
+		/******************************************************/
+		{
+			title      : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor'
+			settings  : {
+				font_style  : ''
+				foreground  : '#ef2929'
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+        /*                   Orange    2                      */
+		/******************************************************/
+		{
+			title      : 'Function name'
+			scope     : 'entity.name.function, keyword.other.name-of-parameter.objc'
+			settings  : {
+				/*font_style  : 'bold'*/
+				foreground  : '#f57900'
+			}
+		}
+ 		/******************************************************/
+		/*                     Class name                     */
+        /*                     Orange 1                       */
+		/******************************************************/
+		{
+			title      : 'Class name'
+			scope     : 'entity.name.class'
+			settings  : {
+                foreground  : '#fcaf3e'
+			}
+		}
+ 		/******************************************************/
+		/*                Inherited class name                */
+        /*                     MySkyBlue 2                    */
+		/******************************************************/
+		{
+			title      : 'Inherited class name'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+                font_style  : 'italic, bold'
+                foreground  : '#87CEFA'
+			}
+		}
+ 		/******************************************************/
+		/*                 Function parameter                 */
+        /*                                                    */
+		/******************************************************/
+		{
+			title      : 'Function parameter'
+			scope     : 'variable.parameter'
+			settings  : {
+                foreground  : '#e9b96e'
+			}
+		}
+ 		/******************************************************/
+		/*         Function argument and result types         */
+        /*                                                    */
+		/******************************************************/
+		{
+			title      : 'Function argument and result types'
+			scope     : 'storage.type.method'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#4e9a06'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library function                  */
+        /*                                                    */
+		/******************************************************/
+		{
+			title      : 'Library function'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : ''
+				foreground  : '#AF2B25'
+			}
+		}
+ 		/******************************************************/
+		/*                   Library object                   */
+        /*                   Chameleon 1                      */
+		/******************************************************/
+		{
+			title      : 'Library object'
+			scope     : 'support.class, support.type'
+			settings  : {
+				foreground  : '#8ae234'
+			}
+		}
+		/******************************************************/
+		/*                  Library constant                  */
+        /*                   Plum 1                           */
+		/******************************************************/
+		{
+			title      : 'Library constant'
+			scope     : 'support.constant'
+			settings  : {
+				font_style  : ''
+				foreground  : '#ad7fa8'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library variable                  */
+        /*                  Chameleon 2                      */
+		/******************************************************/
+		{
+			title      : 'Library variable'
+			scope     : 'support.other.variable'
+			settings  : {
+				font_style  : ''
+				foreground  : '#73d216'
+			}
+		}
+ 		/******************************************************/
+		/*                    JS: Operator                    */
+        /*                       Caca                         */
+		/******************************************************/
+		{
+			title      : 'JS: Operator'
+			scope     : 'keyword.operator.js'
+			settings  : {
+				foreground  : '#DBDB70'
+			}
+		}
+		/******************************************************/
+		/*                     Markup tag                     */
+        /*                      Beige2                        */
+		/******************************************************/
+		{
+			title      : 'Markup tag'
+			scope     : 'meta.tag, declaration.tag'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#F5F5DC'
+			}
+		}
+ 		/******************************************************/
+		/*                Markup tag attribute                */
+        /*                      burlywood1                    */
+		/******************************************************/
+		{
+			title      : 'Markup tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#FFD39B'
+			}
+		}
+        
+        /*-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-*/
+        /*o-o-o-    Specially for Python editing       o-o-o-*/
+        /*-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-*/
+        /******************************************************/
+        /*               ie >from                          */ 
+		/******************************************************/
+        {
+			title      : 'From'
+			scope     : 'keyword.other.include.from'
+			settings  : {
+				foreground  : '#EF2929'
+			}
+		}
+        /******************************************************/
+        /*               ie >import                          */ 
+		/******************************************************/
+		{
+			title      : 'Imports'
+			scope     : 'keyword.other.include.import'
+			settings  : {
+				foreground  : '#EF2929'
+			}
+		}
+        /******************************************************/
+        /*                i.e >'something'                    */
+		/******************************************************/
+        {
+			title      : 'Single strings'
+			scope     : 'string.quoted.single.py'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#F57900'
+			}
+		}
+        /******************************************************/
+        /*                i.e >"something"                    */
+		/******************************************************/
+        {
+			title      : 'Double strings'
+			scope     : 'string.quoted.double.py'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#F57900'
+			}
+		}
+        /******************************************************/
+        /*                i.e >"""something"""                */
+		/******************************************************/
+        {
+			title      : 'Double strings multilines'
+			scope     : 'string.quoted.single.multiline.py, string.quoted.double.multiline.py'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#729FCF'
+			}
+		}
+        /******************************************************/
+		/*                Function call                       */
+        /*                i.e >math.cos(t)                    */
+		/******************************************************/
+		{
+			title      : 'Fonction call'
+			scope     : 'meta.function-call.py'
+			settings  : {
+                foreground  : '#F57900'
+			}
+		}
+        /******************************************************/
+        /*                i.e >len(...), __name__           */
+		/******************************************************/
+		{
+			title      : 'Fonction call'
+			scope     : 'support.function.py'
+			settings  : {
+                foreground  : '#4E9A06'
+			}
+		}
+        /******************************************************/
+        /*                i.e >class(...)                     */
+		/******************************************************/
+		{
+			title      : 'Class'
+			scope     : 'declaration.class.py'
+			settings  : {
+                foreground  : '#EDD400'
+			}
+		}
+        /******************************************************/
+        /*                i.e >def(...)                     */
+		/******************************************************/
+		{
+			title      : 'Def'
+			scope     : 'declaration.function.py'
+			settings  : {
+                foreground  : '#AD7FA8'
+			}
+		}
+        /******************************************************/
+        /*                i.e >def __init__(...)                     */
+		/******************************************************/
+		{
+			title      : 'Def'
+			scope     : 'declaration.function.operator.py'
+			settings  : {
+                foreground  : '#f08080'
+			}
+		}
+        
+        /******************************************************/
+        /*                i.e >self, cls                      */
+		/******************************************************/
+		{
+			title      : 'Language'
+			scope     : 'variable.language.py'
+			settings  : {
+                foreground  : '#87CEFA'
+			}
+		}
+        
+        /*-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-*/
+        /*o-o-o-        Specially for reST             o-o-o-*/
+        /*-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-*/
+        {
+			title      : 'Directives'
+			scope     : 'punctuation.definition.heading.restructuredtext'
+			settings  : {
+				foreground  : '#E9B96E'
+			}
+		}
+        {
+			title      : 'Links titles'
+			scope     : 'string.other.link.title.restructuredtext'
+			settings  : {
+				foreground  : '#EF2929'
+			}
+		}
+        {
+			title      : 'Links'
+			scope     : 'markup.underline.link.restructuredtext'
+			settings  : {
+                font_style  : 'italic'
+				foreground  : '#edd400'
+			}
+		}
+        {
+			title      : 'Directives definiion'
+			scope     : 'punctuation.definition.directive.restructuredtext'
+			settings  : {
+				foreground  : '#F57900'
+			}
+		}
+        {
+			title      : 'Directives'
+			scope     : 'meta.other.directive.restructuredtext'
+			settings  : {
+				foreground  : '#F57900'
+			}
+		}
+	]
+	uuid      : '71D40D9D-KIB2-11D9-920A-000D93589AF6'
+}

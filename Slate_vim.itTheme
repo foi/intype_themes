@@ -1,0 +1,24 @@
+{
+	title      : 'SlateBG'
+	settings  : [
+		{
+			settings  : {
+				background      : '#2F4F4F'
+				foreground      : '#FFEFDB'
+				caret           : ''
+				line_highlight  : '#3D6666DD'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				background      : '#1F3F3F'
+			}
+		}
+	]
+	uuid      : 'A054138F-4016-AC4E-A2D2-A6F55B2FC621'
+}

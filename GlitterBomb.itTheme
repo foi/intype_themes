@@ -1,0 +1,270 @@
+{
+	title : 'GlitterBomb'
+	settings : [
+		{
+			settings : {
+     		caret : '#E2E9FF'
+     		foreground : '#CFCFCF'
+     		selection : '#FFFFFF59'
+     		invisibles : '#484848'
+     		line_highlight : '#F8F8F8'
+     		background : '#0B0A0A'
+            }
+		}
+
+        {
+        title : 'Comment'
+        scope : 'comment'
+        settings:
+        	{
+         		foreground : '#44444E'
+         		fontStyle : 'italic'
+         	}
+        }
+        {
+        title : 'Comment Block'
+        scope : 'comment.block'
+        settings:
+        	{
+         		foreground : '#44444E'
+         		fontStyle : 'italic'
+         	}
+        }
+        {
+        title : 'Constant'
+        scope : 'constant'
+        settings:
+        	{
+         		foreground : '#C0A368'
+         	}
+        }
+        {
+        title : 'Entity'
+        scope : 'entity'
+        settings:
+        	{
+         		foreground : '#E16521'
+         		fontStyle : 'bold'
+         	}
+        }
+        {
+        title : 'Operators'
+        scope : 'keyword.operator'
+        settings:
+        	{
+         		foreground : '#988155'
+         	}
+        }
+        {
+        title : 'Keyword'
+        scope : 'keyword'
+        settings:
+        	{
+         		foreground : '#DBB800'
+         		fontStyle : 'bold'
+         	}
+        }
+        {
+        title : 'Number'
+        scope : 'constant.numeric'
+        settings:
+        	{
+         		foreground : '#D3C788'
+         	}
+        }
+        {
+        title : 'Storage'
+        scope : 'storage'
+        settings:
+        	{
+         		foreground : '#F6F080'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'String'
+        scope : 'string'
+        settings:
+        	{
+         		foreground : '#4D6537'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'Support'
+        scope : 'support'
+        settings:
+        	{
+         		foreground : '#7D6C55'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'Variable'
+        scope : 'variable'
+        settings:
+        	{
+         		foreground : '#AE5251'
+         	}
+        }
+        {
+        title : 'Invalid'
+        scope : 'invalid'
+        settings:
+        	{
+         		foreground : '#F8F8F8'
+         		background : '#D8290DBF'
+         	}
+        }
+        {
+        title : 'Embedded Source'
+        scope : 'text source'
+        settings:
+        	{
+         		foreground : '#705393'
+         		background : '#B0B3BA14'
+         	}
+        }
+        {
+        title : 'Embedded Source (Bright)'
+        scope : 'text.html.ruby source'
+        settings:
+        	{
+         		foreground : '#5F4482'
+         		background : '#B1B3BA21'
+         	}
+        }
+        {
+        title : 'Entity inherited-class'
+        scope : 'entity.other.inherited-class'
+        settings:
+        	{
+         		foreground : '#783301'
+         		fontStyle : 'italic'
+         	}
+        }
+        {
+        title : 'String embedded-source'
+        scope : 'string.quoted source'
+        settings:
+        	{
+         		foreground : '#8F8B63'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'String constant'
+        scope : 'string constant'
+        settings:
+        	{
+         		foreground : '#707576'
+         	}
+        }
+        {
+        title : 'String.regexp'
+        scope : 'string.regexp'
+        settings:
+        	{
+         		foreground : '#364627'
+         	}
+        }
+        {
+        title : 'String variable'
+        scope : 'string variable'
+        settings:
+        	{
+         		foreground : '#EDEF7D'
+         	}
+        }
+        {
+        title : 'Support.function'
+        scope : 'support.function'
+        settings:
+        	{
+         		foreground : '#935E29'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'Support.constant'
+        scope : 'support.constant'
+        settings:
+        	{
+         		foreground : '#EBAC47'
+         		fontStyle : ''
+         	}
+        }
+        {
+        title : 'C/C++ Preprocessor Line'
+        scope : 'other.preprocessor.c'
+        settings:
+        	{
+         		foreground : '#8996A8'
+         	}
+        }
+        {
+        title : 'C/C++ Preprocessor Directive'
+        scope : 'other.preprocessor.c entity'
+        settings:
+        	{
+         		foreground : '#AFC4DB'
+         	}
+        }
+        {
+        title : 'Doctype/XML Processing'
+        scope : 'declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string'
+        settings:
+        	{
+         		foreground : '#73817D'
+         	}
+        }
+        {
+        title : 'Meta.tag.A'
+        scope : 'declaration.tag, declaration.tag entity, meta.tag, meta.tag entity'
+        settings:
+        	{
+         		foreground : '#AAD7EF'
+         	}
+        }
+        {
+        title : 'diff.header'
+        scope : 'meta.diff, meta.diff.header'
+        settings:
+        	{
+         		foreground : '#F8F8F8'
+         		fontStyle : 'italic'
+         		background : '#0E2231'
+         	}
+        }
+        {
+        title : 'diff.deleted'
+        scope : 'markup.deleted'
+        settings:
+        	{
+         		foreground : '#F8F8F8'
+         		background : '#D03620'
+         	}
+        }
+        {
+        title : 'diff.changed'
+        scope : 'markup.changed'
+        settings:
+        	{
+         		foreground : '#F8F8F8'
+         		background : '#C4B14A'
+         	}
+        }
+        {
+        title : 'diff.inserted'
+        scope : 'markup.inserted'
+        settings:
+        	{
+         		foreground : '#F8F8F8'
+         		background : '#41A83E'
+         	}
+        }
+        
+		
+	]
+	uuid : 'FFBEA022-EAD8-4979-B070-83C117D1BE83'
+}

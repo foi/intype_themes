@@ -1,0 +1,604 @@
+{
+	title      : 'Zenburn'
+	settings  : [
+		{
+			settings  : {
+				caret           : '#8FAF9F'
+				foreground      : '#DCDCCC'
+				background      : '#3F3F3F'
+				invisibles      : '#9ECE9E'
+				line_highlight  : '#647A6FDD'
+			}
+		}
+		/******************************************************/
+		/*                      Boolean                       */
+		/******************************************************/
+		{
+			title     : 'Boolean'
+			scope     : 'boolean'
+			settings  : {
+				foreground      : '#DCA3A3'
+			}
+		}
+		/******************************************************/
+		/*                     Character                      */
+		/******************************************************/
+		{
+			title     : 'Character'
+			scope     : 'character'
+			settings  : {
+				foreground      : '#DCA3A3'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#7F9F7F'
+			}
+		}
+		/******************************************************/
+		/*                    Conditional                     */
+		/******************************************************/
+		{
+			title     : 'Conditional'
+			scope     : 'conditional'
+			settings  : {
+				foreground      : '#F0DFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				foreground      : '#DCA3A3'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Debug                        */
+		/******************************************************/
+		{
+			title     : 'Debug'
+			scope     : 'debug'
+			settings  : {
+				foreground      : '#DCA3A3'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Define                       */
+		/******************************************************/
+		{
+			title     : 'Define'
+			scope     : 'define'
+			settings  : {
+				foreground      : '#FFCFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     Delimiter                      */
+		/******************************************************/
+		{
+			title     : 'Delimiter'
+			scope     : 'delimiter'
+			settings  : {
+				foreground      : '#8F8F8F'
+			}
+		}
+		/******************************************************/
+		/*                      DiffAdd                       */
+		/******************************************************/
+		{
+			title     : 'DiffAdd'
+			scope     : 'diffadd'
+			settings  : {
+				foreground      : '#709080'
+				background      : '#313C36'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     DiffChange                     */
+		/******************************************************/
+		{
+			title     : 'DiffChange'
+			scope     : 'diffchange'
+			settings  : {
+				background      : '#333333'
+			}
+		}
+		/******************************************************/
+		/*                     DiffDelete                     */
+		/******************************************************/
+		{
+			title     : 'DiffDelete'
+			scope     : 'diffdelete'
+			settings  : {
+				foreground      : '#333333'
+				background      : '#464646'
+			}
+		}
+		/******************************************************/
+		/*                      DiffText                      */
+		/******************************************************/
+		{
+			title     : 'DiffText'
+			scope     : 'difftext'
+			settings  : {
+				foreground      : '#ECBCBC'
+				background      : '#41363C'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     Directory                      */
+		/******************************************************/
+		{
+			title     : 'Directory'
+			scope     : 'directory'
+			settings  : {
+				foreground      : '#DCDCCC'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid, invalid.deprecated, invalid.illegal, invalid.illegal.attribute-value.unrecognized'
+			settings  : {
+				foreground      : '#60B48A'
+				background      : '#3F3F3F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     Exception                      */
+		/******************************************************/
+		{
+			title     : 'Exception'
+			scope     : 'exception'
+			settings  : {
+				foreground      : '#C3BF9F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Float                        */
+		/******************************************************/
+		{
+			title     : 'Float'
+			scope     : 'float'
+			settings  : {
+				foreground      : '#C0BED1'
+			}
+		}
+		/******************************************************/
+		/*                     FoldColumn                     */
+		/******************************************************/
+		{
+			title     : 'FoldColumn'
+			scope     : 'foldcolumn'
+			settings  : {
+				foreground      : '#93B3A3'
+				background      : '#3F4040'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				foreground      : '#93B3A3'
+				background      : '#3F4040'
+			}
+		}
+		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function, keyword.other.name-of-parameter.objc'
+			settings  : {
+				foreground      : '#EFEF8F'
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				foreground      : '#EFDCBC'
+			}
+		}
+		/******************************************************/
+		/*                     IncSearch                      */
+		/******************************************************/
+		{
+			title     : 'IncSearch'
+			scope     : 'incsearch'
+			settings  : {
+				background      : '#F8F893'
+				foreground      : '#385F38'
+			}
+		}
+		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				foreground      : '#F0DFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Label                        */
+		/******************************************************/
+		{
+			title     : 'Label'
+			scope     : 'label'
+			settings  : {
+				foreground      : '#DFCFAF'
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                       LineNr                       */
+		/******************************************************/
+		{
+			title     : 'LineNr'
+			scope     : 'linenr'
+			settings  : {
+				foreground      : '#7F8F8F'
+				background      : '#464646'
+			}
+		}
+		/******************************************************/
+		/*                       Macro                        */
+		/******************************************************/
+		{
+			title     : 'Macro'
+			scope     : 'macro'
+			settings  : {
+				foreground      : '#FFCFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				foreground      : '#FFCFAF'
+			}
+		}
+		/******************************************************/
+		/*                      MoreMsg                       */
+		/******************************************************/
+		{
+			title     : 'MoreMsg'
+			scope     : 'moremsg'
+			settings  : {
+				foreground      : '#FFFFFF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				foreground      : '#404040'
+			}
+		}
+		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				foreground      : '#8CD0D3'
+			}
+		}
+		/******************************************************/
+		/*                      Operator                      */
+		/******************************************************/
+		{
+			title     : 'Operator'
+			scope     : 'operator'
+			settings  : {
+				foreground      : '#F0EFD0'
+			}
+		}
+		/******************************************************/
+		/*                     PreCondit                      */
+		/******************************************************/
+		{
+			title     : 'PreCondit'
+			scope     : 'precondit'
+			settings  : {
+				foreground      : '#DFAF8F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				foreground      : '#FFCFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Question                      */
+		/******************************************************/
+		{
+			title     : 'Question'
+			scope     : 'question'
+			settings  : {
+				foreground      : '#FFFFFF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Repeat                       */
+		/******************************************************/
+		{
+			title     : 'Repeat'
+			scope     : 'repeat'
+			settings  : {
+				foreground      : '#FFD7A7'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				foreground      : '#FFFFE0'
+				background      : '#385F38'
+			}
+		}
+		/******************************************************/
+		/*                    SpecialChar                     */
+		/******************************************************/
+		{
+			title     : 'SpecialChar'
+			scope     : 'specialchar'
+			settings  : {
+				foreground      : '#DCA3A3'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                   SpecialComment                   */
+		/******************************************************/
+		{
+			title     : 'SpecialComment'
+			scope     : 'specialcomment'
+			settings  : {
+				foreground      : '#82A282'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Special                       */
+		/******************************************************/
+		{
+			title     : 'Special'
+			scope     : 'special'
+			settings  : {
+				foreground      : '#CFBFAF'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				foreground      : '#E3CEAB'
+				background      : '#3F3F3F'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				foreground      : '#1E2320'
+				background      : '#ACBC90'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				foreground      : '#2E3330'
+				background      : '#88B090'
+			}
+		}
+		/******************************************************/
+		/*                    StorageClass                    */
+		/******************************************************/
+		{
+			title     : 'StorageClass'
+			scope     : 'storageclass'
+			settings  : {
+				foreground      : '#C3BF9F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground      : '#CC9393'
+			}
+		}
+		/******************************************************/
+		/*                     Structure                      */
+		/******************************************************/
+		{
+			title     : 'Structure'
+			scope     : 'structure'
+			settings  : {
+				foreground      : '#EFEFAF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     Markup tag                     */
+		/******************************************************/
+		{
+			title     : 'Markup tag'
+			scope     : 'meta.tag, declaration.tag, entity.name.tag.single'
+			settings  : {
+				foreground      : '#DCA3A3'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Title                        */
+		/******************************************************/
+		{
+			title     : 'Title'
+			scope     : 'title'
+			settings  : {
+				foreground      : '#EFEFEF'
+				background      : '#3F3F3F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                        Todo                        */
+		/******************************************************/
+		{
+			title     : 'Todo'
+			scope     : 'todo'
+			settings  : {
+				foreground      : '#7FAF8F'
+				background      : '#3F3F3F'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      Typedef                       */
+		/******************************************************/
+		{
+			title     : 'Typedef'
+			scope     : 'typedef'
+			settings  : {
+				foreground      : '#DFE4CF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				foreground      : '#DFDFBF'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                     Underlined                     */
+		/******************************************************/
+		{
+			title     : 'Underlined'
+			scope     : 'underlined'
+			settings  : {
+				foreground      : '#DCDCCC'
+				background      : '#3F3F3F'
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+				foreground      : '#303030'
+				background      : '#688060'
+			}
+		}
+		/******************************************************/
+		/*                     VisualNOS                      */
+		/******************************************************/
+		{
+			title     : 'VisualNOS'
+			scope     : 'visualnos'
+			settings  : {
+				foreground      : '#333333'
+				background      : '#F18C96'
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				foreground      : '#FFFFFF'
+				background      : '#333333'
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                      WildMenu                      */
+		/******************************************************/
+		{
+			title     : 'WildMenu'
+			scope     : 'wildmenu'
+			settings  : {
+				background      : '#2C302D'
+				foreground      : '#CBECD0'
+				font_style      : 'underline'
+			}
+		}
+	]
+	uuid      : '0EF035CA-D7FD-B3AE-DAEF-A043E019F0C2'
+}

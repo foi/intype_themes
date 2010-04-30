@@ -1,0 +1,368 @@
+{
+	title     : 'Eiffel'
+	settings  : [
+		{
+			settings  : {
+				background      : '#FFFFFF'
+				caret           : '#000000'
+				foreground      : '#000000'
+				invisibles      : '#BFBFBF'
+				line_highlight  : '#00000012'
+				selection       : '#C3DCFF'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				font_style  : ''
+				foreground  : '#00B418'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#0206FF'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0100B6'
+			}
+		}
+ 		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#CD0000'
+			}
+		}
+ 		/******************************************************/
+		/*               User-defined constant                */
+		/******************************************************/
+		{
+			title     : 'User-defined constant'
+			scope     : 'constant'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#C5060B'
+			}
+		}
+ 		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant.language'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#585CF6'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				font_style  : ''
+				foreground  : '#D80800'
+			}
+		}
+ 		/******************************************************/
+		/*                String interpolation                */
+		/******************************************************/
+		{
+			title     : 'String interpolation'
+			scope     : 'constant.character.escape, string source'
+			settings  : {
+				font_style  : ''
+				foreground  : '#26B31A'
+			}
+		}
+ 		/******************************************************/
+		/*                 Preprocessor line                  */
+		/******************************************************/
+		{
+			title     : 'Preprocessor line'
+			scope     : 'meta.preprocessor'
+			settings  : {
+				font_style  : ''
+				foreground  : '#1A921C'
+			}
+		}
+ 		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'keyword.control.import'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0C450D'
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function, keyword.other.name-of-parameter.objc'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0000A2'
+			}
+		}
+ 		/******************************************************/
+		/*                     Type name                      */
+		/******************************************************/
+		{
+			title     : 'Type name'
+			scope     : 'entity.name.type'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                Inherited class name                */
+		/******************************************************/
+		{
+			title     : 'Inherited class name'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                 Function parameter                 */
+		/******************************************************/
+		{
+			title     : 'Function parameter'
+			scope     : 'variable.parameter'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*         Function argument and result types         */
+		/******************************************************/
+		{
+			title     : 'Function argument and result types'
+			scope     : 'storage.type.method'
+			settings  : {
+				font_style  : ''
+				foreground  : '#70727E'
+			}
+		}
+ 		/******************************************************/
+		/*                      Section                       */
+		/******************************************************/
+		{
+			title     : 'Section'
+			scope     : 'meta.section entity.name.section, declaration.section entity.name.section'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library function                  */
+		/******************************************************/
+		{
+			title     : 'Library function'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#3C4C72'
+			}
+		}
+ 		/******************************************************/
+		/*                   Library object                   */
+		/******************************************************/
+		{
+			title     : 'Library object'
+			scope     : 'support.class, support.type'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#6D79DE'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library constant                  */
+		/******************************************************/
+		{
+			title     : 'Library constant'
+			scope     : 'support.constant'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#06960E'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library variable                  */
+		/******************************************************/
+		{
+			title     : 'Library variable'
+			scope     : 'support.variable'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#21439C'
+			}
+		}
+ 		/******************************************************/
+		/*                    JS: Operator                    */
+		/******************************************************/
+		{
+			title     : 'JS: Operator'
+			scope     : 'keyword.operator.js'
+			settings  : {
+				foreground  : '#687687'
+			}
+		}
+ 		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid'
+			settings  : {
+				background  : '#990000'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*            Invalid trailing whitespace             */
+		/******************************************************/
+		{
+			title     : 'Invalid trailing whitespace'
+			scope     : 'invalid.deprecated.trailing-whitespace'
+			settings  : {
+				background  : '#FFD0D0'
+			}
+		}
+ 		/******************************************************/
+		/*                  Embedded source                   */
+		/******************************************************/
+		{
+			title     : 'Embedded source'
+			scope     : 'text source, string.unquoted'
+			settings  : {
+				background  : '#427FF530'
+			}
+		}
+ 		/******************************************************/
+		/*               Markup XML declaration               */
+		/******************************************************/
+		{
+			title     : 'Markup XML declaration'
+			scope     : 'meta.xml-processing, declaration.xml-processing'
+			settings  : {
+				font_style  : ''
+				foreground  : '#68685B'
+			}
+		}
+ 		/******************************************************/
+		/*                   Markup DOCTYPE                   */
+		/******************************************************/
+		{
+			title     : 'Markup DOCTYPE'
+			scope     : 'meta.doctype, declaration.doctype'
+			settings  : {
+				font_style  : ''
+				foreground  : '#888888'
+			}
+		}
+ 		/******************************************************/
+		/*                     Markup DTD                     */
+		/******************************************************/
+		{
+			title     : 'Markup DTD'
+			scope     : 'meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                     Markup tag                     */
+		/******************************************************/
+		{
+			title     : 'Markup tag'
+			scope     : 'meta.tag, declaration.tag'
+			settings  : {
+				font_style  : ''
+				foreground  : '#1C02FF'
+			}
+		}
+ 		/******************************************************/
+		/*                 Markup name of tag                 */
+		/******************************************************/
+		{
+			title     : 'Markup name of tag'
+			scope     : 'entity.name.tag'
+			settings  : {
+				font_style  : 'bold'
+			}
+		}
+ 		/******************************************************/
+		/*                Markup tag attribute                */
+		/******************************************************/
+		{
+			title     : 'Markup tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                  Markup: Heading                   */
+		/******************************************************/
+		{
+			title     : 'Markup: Heading'
+			scope     : 'markup.heading'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0C07FF'
+			}
+		}
+ 		/******************************************************/
+		/*                   Markup: Quote                    */
+		/******************************************************/
+		{
+			title     : 'Markup: Quote'
+			scope     : 'markup.quote'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                    Markup: List                    */
+		/******************************************************/
+		{
+			title     : 'Markup: List'
+			scope     : 'markup.list'
+			settings  : {
+				foreground  : '#B90690'
+			}
+		}
+ 	]
+	uuid      : 'ADD7FDE7-C6BE-454B-A71A-7951ED54FB04'
+}

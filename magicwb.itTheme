@@ -1,0 +1,316 @@
+{
+	/*
+		Inspired by the original 8 MagicWB colors from Martin Huttenloher
+	*/
+	title     : 'MagicWB (Amiga)'
+	settings  : [
+		{
+			settings  : {
+				background      : '#969696'
+				caret           : '#FFFFFF'
+				foreground      : '#000000'
+				invisibles      : '#FF38FF'
+				line_highlight  : '#00000012'
+				selection       : '#B1B1B1'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#8D2E75'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				background  : '#FF000033'
+				font_style  : ''
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                 Constant: Built-in                 */
+		/******************************************************/
+		{
+			title     : 'Constant: Built-in'
+			scope     : 'constant.language'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*               Constant: User-defined               */
+		/******************************************************/
+		{
+			title     : 'Constant: User-defined'
+			scope     : 'constant.character, constant.other'
+			settings  : {
+				background  : '#0000FF33'
+				font_style  : ''
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable.language, variable.other'
+			settings  : {
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : 'bold'
+			}
+		}
+ 		/******************************************************/
+		/*                      Storage                       */
+		/******************************************************/
+		{
+			title     : 'Storage'
+			scope     : 'storage'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#3A68A3'
+			}
+		}
+ 		/******************************************************/
+		/*                     Type Name                      */
+		/******************************************************/
+		{
+			title     : 'Type Name'
+			scope     : 'entity.name.type'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                  Inherited Class                   */
+		/******************************************************/
+		{
+			title     : 'Inherited Class'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                   Function Name                    */
+		/******************************************************/
+		{
+			title     : 'Function Name'
+			scope     : 'entity.name.function'
+			settings  : {
+				font_style  : ''
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                 Function Argument                  */
+		/******************************************************/
+		{
+			title     : 'Function Argument'
+			scope     : 'variable.parameter'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                    Entity Name                     */
+		/******************************************************/
+		{
+			title     : 'Entity Name'
+			scope     : 'entity.name'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0000FF'
+			}
+		}
+ 		/******************************************************/
+		/*                   Tag Attribute                    */
+		/******************************************************/
+		{
+			title     : 'Tag Attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#3A68A3'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library Function                  */
+		/******************************************************/
+		{
+			title     : 'Library Function'
+			scope     : 'support.function'
+			settings  : {
+				foreground  : '#E5B3FF'
+			}
+		}
+ 		/******************************************************/
+		/*              Objective-C Method Call               */
+		/******************************************************/
+		{
+			title     : 'Objective-C Method Call'
+			scope     : 'support.function.any-method'
+			settings  : {
+				font_style  : ''
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*            Objective-C Method Call - :             */
+		/******************************************************/
+		{
+			title     : 'Objective-C Method Call - :'
+			scope     : 'support.function.any-method - punctuation'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library Constant                  */
+		/******************************************************/
+		{
+			title     : 'Library Constant'
+			scope     : 'support.constant'
+			settings  : {
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                 Library Class/Type                 */
+		/******************************************************/
+		{
+			title     : 'Library Class/Type'
+			scope     : 'support.type, support.class'
+			settings  : {
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library Variable                  */
+		/******************************************************/
+		{
+			title     : 'Library Variable'
+			scope     : 'support.variable'
+			settings  : {
+				foreground  : '#3A68A3'
+			}
+		}
+ 		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid'
+			settings  : {
+				background  : '#797979'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                  Include <system>                  */
+		/******************************************************/
+		{
+			title     : 'Include <system>'
+			scope     : 'string.quoted.other.lt-gt.include'
+			settings  : {
+				background  : '#969696'
+				font_style  : 'italic'
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                   Include "user"                   */
+		/******************************************************/
+		{
+			title     : 'Include "user"'
+			scope     : 'string.quoted.double.include'
+			settings  : {
+				background  : '#969696'
+				foreground  : '#FFA995'
+			}
+		}
+ 		/******************************************************/
+		/*                 Markup: List Item                  */
+		/******************************************************/
+		{
+			title     : 'Markup: List Item'
+			scope     : 'markup.list'
+			settings  : {
+				foreground  : '#4D4E60'
+			}
+		}
+ 		/******************************************************/
+		/*                    Markup: Raw                     */
+		/******************************************************/
+		{
+			title     : 'Markup: Raw'
+			scope     : 'markup.raw'
+			settings  : {
+				background  : '#0000FF'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*               Markup: Quote (Email)                */
+		/******************************************************/
+		{
+			title     : 'Markup: Quote (Email)'
+			scope     : 'markup.quote'
+			settings  : {
+				foreground  : '#00F0C9'
+			}
+		}
+ 		/******************************************************/
+		/*            Markup: Quote Double (Email)            */
+		/******************************************************/
+		{
+			title     : 'Markup: Quote Double (Email)'
+			scope     : 'markup.quote markup.quote'
+			settings  : {
+				font_style  : ''
+				foreground  : '#4C457E'
+			}
+		}
+ 		/******************************************************/
+		/*                  Embedded Source                   */
+		/******************************************************/
+		{
+			title     : 'Embedded Source'
+			scope     : 'text.html source'
+			settings  : {
+				background  : '#8A9ECB'
+			}
+		}
+ 	]
+	uuid      : 'B0A18BAA-6220-481C-9914-F6D3E51B5410'
+}

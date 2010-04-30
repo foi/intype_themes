@@ -1,0 +1,240 @@
+{
+	title     : 'LAZY'
+	settings  : [
+		{
+			settings  : {
+				background      : '#FFFFFF'
+				caret           : '#7C7C7C'
+				foreground      : '#000000'
+				invisibles      : '#B6B6B6'
+				line_highlight  : '#EFFCA68F'
+				selection       : '#E3FC8D'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				font_style  : ''
+				foreground  : '#8C868F'
+			}
+		}
+ 		/******************************************************/
+		/*                      Constant                      */
+		/******************************************************/
+		{
+			title     : 'Constant'
+			scope     : 'constant'
+			settings  : {
+				font_style  : ''
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*                       Entity                       */
+		/******************************************************/
+		{
+			title     : 'Entity'
+			scope     : 'entity'
+			settings  : {
+				font_style  : ''
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*                    Latex Entity                    */
+		/******************************************************/
+		{
+			title     : 'Latex Entity'
+			scope     : 'text.tex.latex entity'
+			settings  : {
+				font_style  : ''
+				foreground  : '#D62A28'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword, storage'
+			settings  : {
+				font_style  : ''
+				foreground  : '#FF7800'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string, meta.verbatim'
+			settings  : {
+				font_style  : ''
+				foreground  : '#409B1C'
+			}
+		}
+ 		/******************************************************/
+		/*                      Support                       */
+		/******************************************************/
+		{
+			title     : 'Support'
+			scope     : 'support'
+			settings  : {
+				font_style  : ''
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable'
+			settings  : {
+				font_style  : ''
+			}
+		}
+ 		/******************************************************/
+		/*               Invalid – Deprecated               */
+		/******************************************************/
+		{
+			title     : 'Invalid – Deprecated'
+			scope     : 'invalid.deprecated'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#990000'
+			}
+		}
+ 		/******************************************************/
+		/*                Invalid – Illegal                 */
+		/******************************************************/
+		{
+			title     : 'Invalid – Illegal'
+			scope     : 'invalid.illegal'
+			settings  : {
+				background  : '#9D1E15'
+				foreground  : '#F8F8F8'
+			}
+		}
+ 		/******************************************************/
+		/*                     Superclass                     */
+		/******************************************************/
+		{
+			title     : 'Superclass'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*                String interpolation                */
+		/******************************************************/
+		{
+			title     : 'String interpolation'
+			scope     : 'string constant.other.placeholder'
+			settings  : {
+				font_style  : ''
+				foreground  : '#671EBB'
+			}
+		}
+ 		/******************************************************/
+		/*               meta.function-call.py                */
+		/******************************************************/
+		{
+			title     : 'meta.function-call.py'
+			scope     : 'meta.function-call.py'
+			settings  : {
+				font_style  : ''
+				foreground  : '#3E4558'
+			}
+		}
+ 		/******************************************************/
+		/*                      meta.tag                      */
+		/******************************************************/
+		{
+			title     : 'meta.tag'
+			scope     : 'meta.tag, meta.tag entity'
+			settings  : {
+				foreground  : '#3A4A64'
+			}
+		}
+ 		/******************************************************/
+		/*                   OCaml variant                    */
+		/******************************************************/
+		{
+			title     : 'OCaml variant'
+			scope     : 'keyword.type.variant'
+			settings  : {
+				font_style  : ''
+				foreground  : '#7F90AA'
+			}
+		}
+ 		/******************************************************/
+		/*                   OCaml operator                   */
+		/******************************************************/
+		{
+			title     : 'OCaml operator'
+			scope     : 'source.ocaml keyword.operator'
+			settings  : {
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                OCaml infix operator                */
+		/******************************************************/
+		{
+			title     : 'OCaml infix operator'
+			scope     : 'source.ocaml keyword.operator.symbol.infix'
+			settings  : {
+				font_style  : ''
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*               OCaml prefix operator                */
+		/******************************************************/
+		{
+			title     : 'OCaml prefix operator'
+			scope     : 'source.ocaml keyword.operator.symbol.prefix'
+			settings  : {
+				foreground  : '#3B5BB5'
+			}
+		}
+ 		/******************************************************/
+		/*              OCaml infix f-p operator              */
+		/******************************************************/
+		{
+			title     : 'OCaml infix f-p operator'
+			scope     : 'source.ocaml keyword.operator.symbol.infix.floating-point'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*             OCaml prefix f-p operator              */
+		/******************************************************/
+		{
+			title     : 'OCaml prefix f-p operator'
+			scope     : 'source.ocaml keyword.operator.symbol.prefix.floating-point'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                 OCaml f-p constant                 */
+		/******************************************************/
+		{
+			title     : 'OCaml f-p constant'
+			scope     : 'source.ocaml constant.numeric.floating-point'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 	]
+	uuid      : 'A1E55FCB-3CD2-4811-9E73-D9B87419443A'
+}

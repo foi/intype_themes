@@ -1,0 +1,502 @@
+{
+
+title      : 'Texari'
+settings  : [
+	{
+	settings : 	{
+		background	: '#332722FC'
+		caret	: '#A7A7A7'
+		foreground	: '#F8F8F8'
+		invisibles	: '#FFFFFF40'
+		line_highlight	: '#FFFFFF30'
+		selection	: '#FDFFD870'
+	}
+	}
+
+	{
+		title     : 'Constant'
+		scope	: 'constant'
+	settings : 	{
+		foreground	: '#C98FB0C4'
+	}
+	}
+
+	{
+		title     : 'invalid attribute unrecognized'
+		scope	: 'invalid.illegal.attribute-value.unrecognized'
+	settings : 	{
+		background	: '#FE254930'
+		foreground	: '#FFF6F6'
+	}
+	}
+
+	{
+		title     : 'Entity'
+		scope	: 'entity.name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#C1C1C1'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#CDA869'
+	}
+	}
+
+	{
+		title     : 'Storage'
+		scope	: 'storage'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#F9EE98'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#817767'
+	}
+	}
+
+	{
+		title     : 'Support'
+		scope	: 'support'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9B859D'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable'
+	settings : 	{
+		foreground	: '#7587A6'
+	}
+	}
+
+	{
+		title     : 'Invalid – Deprecated'
+		scope	: 'invalid.deprecated'
+	settings : 	{
+		font_style	: 'italic underline'
+		foreground	: '#D2A8A1'
+	}
+	}
+
+	{
+		title     : 'Invalid – Illegal'
+		scope	: 'invalid.illegal'
+	settings : 	{
+		background	: '#2A2B2A0D'
+		foreground	: '#EBE9F8'
+	}
+	}
+
+	{
+		title     : 'Embedded Source'
+		scope	: 'text source'
+	settings : 	{
+		background	: '#B0B3BA14'
+	}
+	}
+
+	{
+		title     : 'Embedded Source (Bright)'
+		scope	: 'text.html.ruby source'
+	settings : 	{
+		background	: '#B1B3BA21'
+	}
+	}
+
+	{
+		title     : 'Entity inherited-class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#9B5C2E'
+	}
+	}
+
+	{
+		title     : 'String embedded-source'
+		scope	: 'string.quoted source'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#DAEFA3'
+	}
+	}
+
+	{
+		title     : 'String constant'
+		scope	: 'string.constant'
+	settings : 	{
+		foreground	: '#DDF2A4'
+	}
+	}
+
+	{
+		title     : 'String.regexp'
+		scope	: 'string.regexp'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#E9C062'
+	}
+	}
+
+	{
+		title     : 'String.regexp.«special»'
+		scope	: 'string.regexp constant.character.escaped, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition'
+	settings : 	{
+		foreground	: '#CF7D34'
+	}
+	}
+
+	{
+		title     : 'String variable'
+		scope	: 'string variable'
+	settings : 	{
+		foreground	: '#8A9A95'
+	}
+	}
+
+	{
+		title     : 'Support.function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#DAD085'
+	}
+	}
+
+	{
+		title     : 'Support.constant'
+		scope	: 'support.constant'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#CF6A4C'
+	}
+	}
+
+	{
+		title     : 'C/C++ Preprocessor Line'
+		scope	: 'other.preprocessor.c'
+	settings : 	{
+		foreground	: '#8996A8'
+	}
+	}
+
+	{
+		title     : 'C/C++ Preprocessor Directive'
+		scope	: 'other.preprocessor.c entity'
+	settings : 	{
+		foreground	: '#AFC4DB'
+	}
+	}
+
+	{
+		title     : 'Doctype/XML Processing'
+		scope	: 'meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string'
+	settings : 	{
+		foreground	: '#494949'
+	}
+	}
+
+	{
+		title     : 'Meta.tag.«all»'
+		scope	: 'declaration.tag, declaration.tag entity, meta.tag, meta.tag entity'
+	settings : 	{
+		foreground	: '#AC885B'
+	}
+	}
+
+	{
+		title     : 'Meta.tag.inline'
+		scope	: 'declaration.tag.inline, declaration.tag.inline entity, source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity'
+	settings : 	{
+		foreground	: '#E0C589'
+	}
+	}
+
+	{
+		title     : 'css tag-name'
+		scope	: 'meta.selector.css entity.name.tag'
+	settings : 	{
+		foreground	: '#CDA869'
+	}
+	}
+
+	{
+		title     : 'css:pseudo-class'
+		scope	: 'meta.selector.css entity.other.attribute-name.tag.pseudo-class'
+	settings : 	{
+		foreground	: '#8F9D6A'
+	}
+	}
+
+	{
+		title     : 'css#id'
+		scope	: 'meta.selector.css entity.other.attribute-name.id'
+	settings : 	{
+		foreground	: '#8B98AB'
+	}
+	}
+
+	{
+		title     : 'css.class'
+		scope	: 'meta.selector.css entity.other.attribute-name.class'
+	settings : 	{
+		foreground	: '#9B703F'
+	}
+	}
+
+	{
+		title     : 'css property-title     :'
+		scope	: 'support.type.property-name.css'
+	settings : 	{
+		foreground	: '#C5AF75'
+	}
+	}
+
+	{
+		title     : 'css property-value;'
+		scope	: 'meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css'
+	settings : 	{
+		foreground	: '#F9EE98'
+	}
+	}
+
+	{
+		title     : 'css @at-rule'
+		scope	: 'meta.preprocessor.at-rule keyword.control.at-rule'
+	settings : 	{
+		foreground	: '#8693A5'
+	}
+	}
+
+	{
+		title     : 'css additional-constants'
+		scope	: 'meta.property-value support.constant.named-color.css, meta.property-value constant'
+	settings : 	{
+		foreground	: '#CA7840'
+	}
+	}
+
+	{
+		title     : 'css constructor.argument'
+		scope	: 'meta.constructor.argument.css'
+	settings : 	{
+		foreground	: '#8F9D6A'
+	}
+	}
+
+	{
+		title     : 'diff.header'
+		scope	: 'meta.diff, meta.diff.header'
+	settings : 	{
+		background	: '#0E2231'
+		font_style	: 'italic'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.deleted'
+		scope	: 'markup.deleted'
+	settings : 	{
+		background	: '#420E09'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.changed'
+		scope	: 'markup.changed'
+	settings : 	{
+		background	: '#4A410D'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.inserted'
+		scope	: 'markup.inserted'
+	settings : 	{
+		background	: '#253B22'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'Markup: List'
+		scope	: 'markup.list'
+	settings : 	{
+		foreground	: '#F9EE98'
+	}
+	}
+
+	{
+		title     : 'Markup: Heading'
+		scope	: 'markup.heading'
+	settings : 	{
+		foreground	: '#CF6A4C'
+	}
+	}
+
+	{
+		title     : 'String constant'
+		scope	: 'string.constant.prefix'
+	settings : 	{
+		foreground	: '#F8E3AA'
+	}
+	}
+
+	{
+		title     : 'attribute value txp'
+		scope	: 'attribute-value.known.txp'
+	settings : 	{
+		foreground	: '#B3F88C'
+	}
+	}
+
+	{
+		title     : 'attribute value known'
+		scope	: 'attribute-value.known.txp'
+	settings : 	{
+		background	: '#1693E10D'
+		foreground	: '#7CC7B6'
+	}
+	}
+
+	{
+		title     : 'text html txp'
+		scope	: 'text.html.txp'
+	settings : 	{
+		background	: '#0D1417CF'
+		foreground	: '#D3DC99'
+	}
+	}
+
+	{
+		title     : 'attribute with value'
+		scope	: 'text.html.txp entity.name.tag.plugin.single.txp  attribute.with-value.txp'
+	settings : 	{
+		background	: '#BBB5EC12'
+		foreground	: '#ADE6FF'
+	}
+	}
+
+	{
+		title     : 'txp container tag'
+		scope	: 'txp.container.tag'
+	settings : 	{
+		background	: '#45343417'
+		foreground	: '#CAD0A8'
+	}
+	}
+
+	{
+		title     : 'entity name tag'
+		scope	: 'entity.name.tag.txp'
+	settings : 	{
+		background	: '#2E2E2EAB'
+		foreground	: '#F8DAA0'
+	}
+	}
+
+	{
+		title     : 'txp attribute.name'
+		scope	: 'text.html.txp attribute.name'
+	settings : 	{
+		background	: '#716B6F7A'
+		font_style	: ''
+		foreground	: '#ABC288'
+	}
+	}
+
+	{
+		title     : 'entity name tag single'
+		scope	: 'entity.name.tag.single'
+	settings : 	{
+		foreground	: '#B76746'
+	}
+	}
+
+	{
+		title     : 'meta tag sgml doctype'
+		scope	: 'meta.tag.sgml.doctype'
+	settings : 	{
+		foreground	: '#B5C8A6'
+	}
+	}
+
+	{
+		title     : 'string quoted docinfo'
+		scope	: 'string.quoted.docinfo'
+	settings : 	{
+		foreground	: '#CFA29D'
+	}
+	}
+
+	{
+		title     : 'string other tag plugin'
+		scope	: 'string.other.tag.plugin'
+	settings : 	{
+		foreground	: '#DCE5F8'
+	}
+	}
+
+	{
+		title     : 'string tag attribute'
+		scope	: 'text.html.txp string.quoted.double.html.strict'
+	settings : 	{
+		background	: '#69636724'
+		font_style	: 'italic'
+		foreground	: '#7DAFC2'
+	}
+	}
+
+	{
+		title     : 'meta tag single'
+		scope	: 'meta.tag.single'
+	settings : 	{
+		foreground	: '#D7ECCE'
+	}
+	}
+
+	{
+		title     : 'entity name tag condition'
+		scope	: 'entity.name.tag.condition'
+	settings : 	{
+		foreground	: '#7DA6C2'
+	}
+	}
+
+	{
+		title     : 'plugin ID'
+		scope	: 'keyword.operator.plugin'
+	settings : 	{
+		foreground	: '#959BB8'
+	}
+	}
+
+	{
+		title     : 'string comment'
+		scope	: 'text.html.txp string.unquoted.txp.htmlcomment.txp'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#404040C4'
+	}
+	}
+
+]
+uuid      : '2DFECD60-3E07-4C47-B7B6-2AF5BA6AEA1F'
+}

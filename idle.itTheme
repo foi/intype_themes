@@ -1,0 +1,211 @@
+{
+	title     : 'IDLE'
+	settings  : [
+		{
+			settings  : {
+				background      : '#FFFFFF'
+				caret           : '#000000'
+				foreground      : '#000000'
+				invisibles      : '#BFBFBF'
+				line_highlight  : '#00000012'
+				selection       : '#BAD6FD'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				foreground  : '#919191'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground  : '#00A33F'
+			}
+		}
+ 		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant.language'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*               User-defined constant                */
+		/******************************************************/
+		{
+			title     : 'User-defined constant'
+			scope     : 'constant.character, constant.other'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable.language, variable.other'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				foreground  : '#FF5600'
+			}
+		}
+ 		/******************************************************/
+		/*                      Storage                       */
+		/******************************************************/
+		{
+			title     : 'Storage'
+			scope     : 'storage'
+			settings  : {
+				foreground  : '#FF5600'
+			}
+		}
+ 		/******************************************************/
+		/*                     Type name                      */
+		/******************************************************/
+		{
+			title     : 'Type name'
+			scope     : 'entity.name.type'
+			settings  : {
+				foreground  : '#21439C'
+			}
+		}
+ 		/******************************************************/
+		/*                  Inherited class                   */
+		/******************************************************/
+		{
+			title     : 'Inherited class'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function'
+			settings  : {
+				foreground  : '#21439C'
+			}
+		}
+ 		/******************************************************/
+		/*                 Function argument                  */
+		/******************************************************/
+		{
+			title     : 'Function argument'
+			scope     : 'variable.parameter'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                      Tag name                      */
+		/******************************************************/
+		{
+			title     : 'Tag name'
+			scope     : 'entity.name.tag'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                   Tag attribute                    */
+		/******************************************************/
+		{
+			title     : 'Tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                  Library function                  */
+		/******************************************************/
+		{
+			title     : 'Library function'
+			scope     : 'support.function'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library constant                  */
+		/******************************************************/
+		{
+			title     : 'Library constant'
+			scope     : 'support.constant'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                 Library class/type                 */
+		/******************************************************/
+		{
+			title     : 'Library class/type'
+			scope     : 'support.type, support.class'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library variable                  */
+		/******************************************************/
+		{
+			title     : 'Library variable'
+			scope     : 'support.variable'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid'
+			settings  : {
+				background  : '#990000'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                String interpolation                */
+		/******************************************************/
+		{
+			title     : 'String interpolation'
+			scope     : 'constant.other.placeholder.py'
+			settings  : {
+				font_style  : ''
+				foreground  : '#990000'
+			}
+		}
+ 	]
+	uuid      : 'DDC0CBE1-442B-4CB5-80E4-26E4CFB3A277'
+}

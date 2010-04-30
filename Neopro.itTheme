@@ -1,0 +1,190 @@
+{
+	title: 'Neopro' 
+	settings: [
+		{
+			settings : {
+				caret : '#FF01B3'
+				foreground : '#FFFFFF'
+				selection : '#7E0003E3'
+				invisibles : '#393939BF'
+				line_highlight : '#25263DCC'
+				background : '#0B0A0A'
+			}
+		}
+		{
+			scope : 'text'
+			title : 'Text base'
+			settings : { 
+				foreground : '#FFFFFF'
+				background : '#0B0A0A'
+			}
+		}
+		{
+			scope : 'source'
+			title : 'Source base'
+			settings : { 
+				foreground : '#FFFFFF'
+				background : '#0B0A0A'
+			}
+		}
+		{
+			scope : 'comment'
+			title : 'Comment'
+			settings : { 
+				foreground : '#CFD1D1'
+				font_style : ''
+				background : '#242525FA'
+			}
+		}
+		{
+			scope : 'string'
+			title : 'String'
+			settings : { 
+				foreground : '#AAE0FF'
+				font_style : ''
+				background : '#031D28'
+			}
+		}
+		{
+			scope : 'constant.numeric'
+			title : 'Number'
+			settings : { 
+				foreground : '#FBFF96'
+				font_style : ''
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'constant.language'
+			title : 'Built-in constant'
+			settings : { 
+				foreground : '#2184FF'
+			}
+		}
+		{
+			scope : 'constant.character, constant.other'
+			title : 'User-defined constant'
+			settings : { 
+				foreground : '#70EEFF'
+				background : '#0A2930'
+			}
+		}
+		{
+			scope : 'variable.language, variable.other'
+			title : 'Variable'
+			settings : { 
+				foreground : '#FF244E'
+			}
+		}
+		{
+			scope : 'keyword'
+			title : 'Keyword'
+			settings : { 
+				foreground : '#80A6FF'
+				font_style : 'bold'
+				background : '#1B2935'
+			}
+		}
+		{
+			scope : 'storage'
+			title : 'Storage'
+			settings : { 
+				foreground : '#FF00B2'
+				font_style : 'bold'
+				background : '#28001C'
+			}
+		}
+		{
+			scope : 'entity.name.class'
+			title : 'Class name'
+			settings : { 
+				foreground : '#C9FF8E'
+			}
+		}
+		{
+			scope : 'entity.other.inherited-class'
+			title : 'Inherited class'
+			settings : { 
+				foreground : '#FF9F9C'
+			}
+		}
+		{
+			scope : 'entity.name.function'
+			title : 'Function name'
+			settings : { 
+				foreground : '#A9F83B'
+				font_style : 'bold'
+				background : '#2E4411'
+			}
+		}
+		{
+			scope : 'variable.parameter'
+			title : 'Function argument'
+			settings : { 
+				foreground : '#00FFF9'
+				font_style : ''
+				background : '#002C2C'
+			}
+		}
+		{
+			scope : 'entity.name.tag'
+			title : 'Tag name'
+			settings : { 
+				foreground : '#FF00F9'
+				font_style : ''
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name'
+			title : 'Tag attribute'
+			settings : { 
+				foreground : '#67F800'
+				font_style : ''
+				background : '#1B2109'
+			}
+		}
+		{
+			scope : 'support.function'
+			title : 'Library function'
+			settings : { 
+				foreground : '#AE8BF7'
+				font_style : 'bold'
+				background : '#352A4B'
+			}
+		}
+		{
+			scope : 'support.constant'
+			title : 'Library constant'
+			settings : { 
+				foreground : '#FF9C00'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'support.type, support.class'
+			title : 'Library class/type'
+			settings : { 
+				foreground : '#D3BEFF'
+				background : '#200C51'
+			}
+		}
+		{
+			scope : 'support.other.variable'
+			title : 'Library variable'
+			settings : { 
+				foreground : '#FFADEE9E'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'invalid'
+			title : 'Invalid'
+			settings : { 
+				foreground : '#9ABBF8'
+				font_style : ''
+			}
+		}
+	]
+	uuid : 'CD0EE15B-FD8F-4F3C-A130-119915056FBA' 
+}

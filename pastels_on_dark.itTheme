@@ -1,0 +1,607 @@
+{
+	title     : 'Pastels on Dark'
+	settings  : [
+		{
+			settings  : {
+				background      : '#211E1E'
+				caret           : '#FFFFFF'
+				foreground      : '#DADADA'
+				invisibles      : '#4F4D4D'
+				line_highlight  : '#353030'
+				selection       : '#73597E80'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comments                      */
+		/******************************************************/
+		{
+			title     : 'Comments'
+			scope     : 'comment'
+			settings  : {
+				font_style  : ''
+				foreground  : '#555555'
+			}
+		}
+ 		/******************************************************/
+		/*                   Comments Block                   */
+		/******************************************************/
+		{
+			title     : 'Comments Block'
+			scope     : 'comment.block'
+			settings  : {
+				font_style  : ''
+				foreground  : '#555555'
+			}
+		}
+ 		/******************************************************/
+		/*                      Strings                       */
+		/******************************************************/
+		{
+			title     : 'Strings'
+			scope     : 'string'
+			settings  : {
+				foreground  : '#AD9361'
+			}
+		}
+ 		/******************************************************/
+		/*                      Numbers                       */
+		/******************************************************/
+		{
+			title     : 'Numbers'
+			scope     : 'constant.numeric'
+			settings  : {
+				font_style  : ''
+				foreground  : '#CCCCCC'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keywords                      */
+		/******************************************************/
+		{
+			title     : 'Keywords'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : ''
+				foreground  : '#A1A1FF'
+			}
+		}
+ 		/******************************************************/
+		/*                 Preprocessor Line                  */
+		/******************************************************/
+		{
+			title     : 'Preprocessor Line'
+			scope     : 'meta.preprocessor'
+			settings  : {
+				font_style  : ''
+				foreground  : '#2F006E'
+			}
+		}
+ 		/******************************************************/
+		/*               Preprocessor Directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor Directive'
+			scope     : 'keyword.control.import'
+			settings  : {
+				font_style  : 'bold'
+			}
+		}
+ 		/******************************************************/
+		/*                     Functions                      */
+		/******************************************************/
+		{
+			title     : 'Functions'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : ''
+				foreground  : '#A1A1FF'
+			}
+		}
+ 		/******************************************************/
+		/*                  Function result                   */
+		/******************************************************/
+		{
+			title     : 'Function result'
+			scope     : 'declaration.function function-result'
+			settings  : {
+				foreground  : '#0000FF'
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'declaration.function function-name'
+			settings  : {
+				font_style  : 'bold'
+			}
+		}
+ 		/******************************************************/
+		/*               Function argument name               */
+		/******************************************************/
+		{
+			title     : 'Function argument name'
+			scope     : 'declaration.function argument-name'
+			settings  : {
+				font_style  : 'bold'
+			}
+		}
+ 		/******************************************************/
+		/*               Function argument type               */
+		/******************************************************/
+		{
+			title     : 'Function argument type'
+			scope     : 'declaration.function function-arg-type'
+			settings  : {
+				foreground  : '#0000FF'
+			}
+		}
+ 		/******************************************************/
+		/*             Function argument variable             */
+		/******************************************************/
+		{
+			title     : 'Function argument variable'
+			scope     : 'declaration.function function-argument'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                     Class name                     */
+		/******************************************************/
+		{
+			title     : 'Class name'
+			scope     : 'declaration.class class-name'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                 Class inheritance                  */
+		/******************************************************/
+		{
+			title     : 'Class inheritance'
+			scope     : 'declaration.class class-inheritance'
+			settings  : {
+				font_style  : 'italic underline'
+			}
+		}
+ 		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid'
+			settings  : {
+				background  : '#FF0000'
+				font_style  : 'bold'
+				foreground  : '#FFF9F9'
+			}
+		}
+ 		/******************************************************/
+		/*            Invalid Trailing Whitespace             */
+		/******************************************************/
+		{
+			title     : 'Invalid Trailing Whitespace'
+			scope     : 'invalid.deprecated.trailing-whitespace'
+			settings  : {
+				background  : '#FFD0D0'
+			}
+		}
+ 		/******************************************************/
+		/*                      Section                       */
+		/******************************************************/
+		{
+			title     : 'Section'
+			scope     : 'declaration.section section-name'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                   Interpolation                    */
+		/******************************************************/
+		{
+			title     : 'Interpolation'
+			scope     : 'string.interpolation'
+			settings  : {
+				foreground  : '#C10006'
+			}
+		}
+ 		/******************************************************/
+		/*                Regular Expressions                 */
+		/******************************************************/
+		{
+			title     : 'Regular Expressions'
+			scope     : 'string.regexp'
+			settings  : {
+				font_style  : ''
+				foreground  : '#666666'
+			}
+		}
+ 		/******************************************************/
+		/*                     Variables                      */
+		/******************************************************/
+		{
+			title     : 'Variables'
+			scope     : 'variable'
+			settings  : {
+				foreground  : '#C1C144'
+			}
+		}
+ 		/******************************************************/
+		/*                     Constants                      */
+		/******************************************************/
+		{
+			title     : 'Constants'
+			scope     : 'constant'
+			settings  : {
+				foreground  : '#6782D3'
+			}
+		}
+ 		/******************************************************/
+		/*                Character Constants                 */
+		/******************************************************/
+		{
+			title     : 'Character Constants'
+			scope     : 'constant.character'
+			settings  : {
+				font_style  : ''
+				foreground  : '#AFA472'
+			}
+		}
+ 		/******************************************************/
+		/*                 Language Constants                 */
+		/******************************************************/
+		{
+			title     : 'Language Constants'
+			scope     : 'constant.language'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#DE8E30'
+			}
+		}
+ 		/******************************************************/
+		/*                   Embedded Code                    */
+		/******************************************************/
+		{
+			title     : 'Embedded Code'
+			scope     : 'embedded'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                      Tag name                      */
+		/******************************************************/
+		{
+			title     : 'Tag name'
+			scope     : 'keyword.markup.element-name'
+			settings  : {
+				font_style  : ''
+				foreground  : '#858EF4'
+			}
+		}
+ 		/******************************************************/
+		/*                   Attribute name                   */
+		/******************************************************/
+		{
+			title     : 'Attribute name'
+			scope     : 'keyword.markup.attribute-name'
+			settings  : {
+				font_style  : ''
+				foreground  : '#9B456F'
+			}
+		}
+ 		/******************************************************/
+		/*                Attribute with Value                */
+		/******************************************************/
+		{
+			title     : 'Attribute with Value'
+			scope     : 'meta.attribute-with-value'
+			settings  : {
+				font_style  : ''
+				foreground  : '#9B456F'
+			}
+		}
+ 		/******************************************************/
+		/*                     Exceptions                     */
+		/******************************************************/
+		{
+			title     : 'Exceptions'
+			scope     : 'keyword.exception'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#C82255'
+			}
+		}
+ 		/******************************************************/
+		/*                     Operators                      */
+		/******************************************************/
+		{
+			title     : 'Operators'
+			scope     : 'keyword.operator'
+			settings  : {
+				font_style  : ''
+				foreground  : '#47B8D6'
+			}
+		}
+ 		/******************************************************/
+		/*                 Control Structures                 */
+		/******************************************************/
+		{
+			title     : 'Control Structures'
+			scope     : 'keyword.control'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#6969FA'
+			}
+		}
+ 		/******************************************************/
+		/*                 HTML: DocInfo XML                  */
+		/******************************************************/
+		{
+			title     : 'HTML: DocInfo XML'
+			scope     : 'meta.tag.preprocessor.xml'
+			settings  : {
+				foreground  : '#68685B'
+			}
+		}
+ 		/******************************************************/
+		/*                   HTML: DocType                    */
+		/******************************************************/
+		{
+			title     : 'HTML: DocType'
+			scope     : 'meta.tag.sgml.doctype'
+			settings  : {
+				foreground  : '#888888'
+			}
+		}
+ 		/******************************************************/
+		/*                 HTML: DocInfo DTD                  */
+		/******************************************************/
+		{
+			title     : 'HTML: DocInfo DTD'
+			scope     : 'string.quoted.docinfo.doctype.DTD'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*             HTML: ServerSide Includes              */
+		/******************************************************/
+		{
+			title     : 'HTML: ServerSide Includes'
+			scope     : 'comment.other.server-side-include.xhtml, comment.other.server-side-include.html'
+			settings  : {
+				foreground  : '#909090'
+			}
+		}
+ 		/******************************************************/
+		/*                     HTML: Tag                      */
+		/******************************************************/
+		{
+			title     : 'HTML: Tag'
+			scope     : 'text.html declaration.tag, text.html meta.tag, text.html entity.name.tag.xhtml'
+			settings  : {
+				foreground  : '#858EF4'
+			}
+		}
+ 		/******************************************************/
+		/*                 HTML: attribute=""                 */
+		/******************************************************/
+		{
+			title     : 'HTML: attribute=""'
+			scope     : 'keyword.markup.attribute-name'
+			settings  : {
+				foreground  : '#9B456F'
+			}
+		}
+ 		/******************************************************/
+		/*                    PHP: PHPdocs                    */
+		/******************************************************/
+		{
+			title     : 'PHP: PHPdocs'
+			scope     : 'keyword.other.phpdoc.php'
+			settings  : {
+				foreground  : '#777777'
+			}
+		}
+ 		/******************************************************/
+		/*             PHP: Include() & Require()             */
+		/******************************************************/
+		{
+			title     : 'PHP: Include() & Require()'
+			scope     : 'keyword.other.include.php'
+			settings  : {
+				foreground  : '#C82255'
+			}
+		}
+ 		/******************************************************/
+		/*           PHP: Constants Core Predefined           */
+		/******************************************************/
+		{
+			title     : 'PHP: Constants Core Predefined'
+			scope     : 'support.constant.core.php'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#DE8E20'
+			}
+		}
+ 		/******************************************************/
+		/*         PHP: Constants Standard Predefined         */
+		/******************************************************/
+		{
+			title     : 'PHP: Constants Standard Predefined'
+			scope     : 'support.constant.std.php'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#DE8E10'
+			}
+		}
+ 		/******************************************************/
+		/*               PHP: Variables Globals               */
+		/******************************************************/
+		{
+			title     : 'PHP: Variables Globals'
+			scope     : 'variable.other.global.php'
+			settings  : {
+				foreground  : '#B72E1D'
+			}
+		}
+ 		/******************************************************/
+		/*            PHP: Variables Safer Globals            */
+		/******************************************************/
+		{
+			title     : 'PHP: Variables Safer Globals'
+			scope     : 'variable.other.global.safer.php'
+			settings  : {
+				foreground  : '#00FF00'
+			}
+		}
+ 		/******************************************************/
+		/*             PHP: Strings Single-Quoted             */
+		/******************************************************/
+		{
+			title     : 'PHP: Strings Single-Quoted'
+			scope     : 'string.quoted.single.php'
+			settings  : {
+				foreground  : '#BFA36D'
+			}
+		}
+ 		/******************************************************/
+		/*               PHP: Keywords Storage                */
+		/******************************************************/
+		{
+			title     : 'PHP: Keywords Storage'
+			scope     : 'keyword.storage.php'
+			settings  : {
+				foreground  : '#6969FA'
+			}
+		}
+ 		/******************************************************/
+		/*             PHP: Strings Double-Quoted             */
+		/******************************************************/
+		{
+			title     : 'PHP: Strings Double-Quoted'
+			scope     : 'string.quoted.double.php'
+			settings  : {
+				foreground  : '#AD9361'
+			}
+		}
+ 		/******************************************************/
+		/*                 CSS: Selectors #ID                 */
+		/******************************************************/
+		{
+			title     : 'CSS: Selectors #ID'
+			scope     : 'entity.other.attribute-name.id.css'
+			settings  : {
+				foreground  : '#EC9E00'
+			}
+		}
+ 		/******************************************************/
+		/*             CSS: Selectors <Elements>              */
+		/******************************************************/
+		{
+			title     : 'CSS: Selectors <Elements>'
+			scope     : 'entity.name.tag.css'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#B8CD06'
+			}
+		}
+ 		/******************************************************/
+		/*             CSS: Selectors .ClassName              */
+		/******************************************************/
+		{
+			title     : 'CSS: Selectors .ClassName'
+			scope     : 'entity.other.attribute-name.class.css'
+			settings  : {
+				foreground  : '#EDCA06'
+			}
+		}
+ 		/******************************************************/
+		/*            CSS: Selectors :PseudoClass             */
+		/******************************************************/
+		{
+			title     : 'CSS: Selectors :PseudoClass'
+			scope     : 'entity.other.attribute-name.pseudo-class.css'
+			settings  : {
+				foreground  : '#2E759C'
+			}
+		}
+ 		/******************************************************/
+		/*                 CSS: Invalid Comma                 */
+		/******************************************************/
+		{
+			title     : 'CSS: Invalid Comma'
+			scope     : 'invalid.bad-comma.css'
+			settings  : {
+				background  : '#FF0000'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                CSS: Property Value                 */
+		/******************************************************/
+		{
+			title     : 'CSS: Property Value'
+			scope     : 'support.constant.property-value.css'
+			settings  : {
+				foreground  : '#9B2E4D'
+			}
+		}
+ 		/******************************************************/
+		/*               CSS: Property Keyword                */
+		/******************************************************/
+		{
+			title     : 'CSS: Property Keyword'
+			scope     : 'support.type.property-name.css'
+			settings  : {
+				foreground  : '#E1C96B'
+			}
+		}
+ 		/******************************************************/
+		/*               CSS: Property Colours                */
+		/******************************************************/
+		{
+			title     : 'CSS: Property Colours'
+			scope     : 'constant.other.rgb-value.css'
+			settings  : {
+				foreground  : '#666633'
+			}
+		}
+ 		/******************************************************/
+		/*                  CSS: Font Names                   */
+		/******************************************************/
+		{
+			title     : 'CSS: Font Names'
+			scope     : 'support.constant.font-name.css'
+			settings  : {
+				foreground  : '#666633'
+			}
+		}
+ 		/******************************************************/
+		/*                  TMLangDef: Keys                   */
+		/******************************************************/
+		{
+			title     : 'TMLangDef: Keys'
+			scope     : 'support.constant.tm-language-def, support.constant.name.tm-language-def'
+			settings  : {
+				foreground  : '#7171F3'
+			}
+		}
+ 		/******************************************************/
+		/*                     CSS: Units                     */
+		/******************************************************/
+		{
+			title     : 'CSS: Units'
+			scope     : 'keyword.other.unit.css'
+			settings  : {
+				foreground  : '#6969FA'
+			}
+		}
+ 	]
+	uuid      : '343011CC-B7DF-11D9-B5C6-000D93C8BE28'
+}

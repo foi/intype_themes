@@ -1,0 +1,81 @@
+{
+
+title      : 'zbq light 2'
+settings  : [
+	{
+	settings : 	{
+		background	: '#FFFFFFF2'
+		caret	: '#000000'
+		foreground	: '#000000'
+		invisibles	: '#4C4C4C'
+		line_highlight	: '#E6E6E6'
+		selection	: '#BBBBBB'
+	}
+	}
+
+	{
+		title     : 'all'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#191919'
+	}
+	}
+
+	{
+		title     : 'string'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#305A5A'
+	}
+	}
+
+	{
+		title     : 'entity.name'
+		scope	: 'entity.name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#004080'
+	}
+	}
+
+	{
+		title     : 'entity.other'
+		scope	: 'entity.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#333333'
+	}
+	}
+
+	{
+		title     : 'keyword, support, storage, variable'
+		scope	: 'keyword.control,support,storage.type,variable.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#004080'
+	}
+	}
+
+	{
+		title     : 'comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#7F7F7F'
+	}
+	}
+
+	{
+		title     : 'invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#F7E6E7F7'
+		font_style	: ''
+		foreground	: '#CE000D'
+	}
+	}
+
+]
+uuid      : 'DE3550C1-F4D6-451D-9FE9-C02FFCD7AD61'
+}

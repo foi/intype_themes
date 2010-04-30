@@ -1,0 +1,306 @@
+{
+
+title      : 'Slate'
+settings  : [
+	{
+	settings : 	{
+		background	: '#1B3849F2'
+		caret	: '#8BA7A7'
+		foreground	: '#F8F8F8'
+		invisibles	: '#FFFFFF40'
+		line_highlight	: '#0000004A'
+		selection	: '#C5DFE980'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#1E9AE0'
+	}
+	}
+
+	{
+		title     : 'Constant'
+		scope	: 'constant'
+	settings : 	{
+		foreground	: '#FF3A83'
+	}
+	}
+
+	{
+		title     : 'Entity'
+		scope	: 'entity'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#EFE900'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FFAA00'
+	}
+	}
+
+	{
+		title     : 'Storage'
+		scope	: 'storage'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#F6F080'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#55E439'
+	}
+	}
+
+	{
+		title     : 'Support'
+		scope	: 'support'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9DF39F'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable'
+	settings : 	{
+		foreground	: '#FB9A4B'
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#D8290DBF'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'Embedded Source'
+		scope	: 'text source'
+	settings : 	{
+		background	: '#B0B3BA14'
+	}
+	}
+
+	{
+		title     : 'Embedded Source (Bright)'
+		scope	: 'text.html.ruby source'
+	settings : 	{
+		background	: '#B1B3BA21'
+	}
+	}
+
+	{
+		title     : 'Entity inherited-class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#4EE161'
+	}
+	}
+
+	{
+		title     : 'String embedded-source'
+		scope	: 'string.quoted source'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9DF39F'
+	}
+	}
+
+	{
+		title     : 'String constant'
+		scope	: 'string constant'
+	settings : 	{
+		foreground	: '#9DF39F'
+	}
+	}
+
+	{
+		title     : 'String.regexp'
+		scope	: 'string.regexp'
+	settings : 	{
+		foreground	: '#FFB454'
+	}
+	}
+
+	{
+		title     : 'String variable'
+		scope	: 'string variable'
+	settings : 	{
+		foreground	: '#EDEF7D'
+	}
+	}
+
+	{
+		title     : 'Support.function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FFB454'
+	}
+	}
+
+	{
+		title     : 'Support.constant'
+		scope	: 'support.constant'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#EB939A'
+	}
+	}
+
+	{
+		title     : 'C/C++ Preprocessor Line'
+		scope	: 'other.preprocessor.c'
+	settings : 	{
+		foreground	: '#8996A8'
+	}
+	}
+
+	{
+		title     : 'C/C++ Preprocessor Directive'
+		scope	: 'other.preprocessor.c entity'
+	settings : 	{
+		foreground	: '#AFC4DB'
+	}
+	}
+
+	{
+		title     : 'Doctype/XML Processing'
+		scope	: 'declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string'
+	settings : 	{
+		foreground	: '#73817D'
+	}
+	}
+
+	{
+		title     : 'Meta.tag.A'
+		scope	: 'declaration.tag, declaration.tag entity, meta.tag, meta.tag entity'
+	settings : 	{
+		foreground	: '#9EFFFF'
+	}
+	}
+
+	{
+		title     : 'css tag-name'
+		scope	: 'meta.selector.css entity.name.tag'
+	settings : 	{
+		foreground	: '#9EFFFF'
+	}
+	}
+
+	{
+		title     : 'css#id'
+		scope	: 'meta.selector.css entity.other.attribute-name.id'
+	settings : 	{
+		foreground	: '#FFB454'
+	}
+	}
+
+	{
+		title     : 'css.class'
+		scope	: 'meta.selector.css entity.other.attribute-name.class'
+	settings : 	{
+		foreground	: '#5FE461'
+	}
+	}
+
+	{
+		title     : 'css property-title     :'
+		scope	: 'support.type.property-name.css'
+	settings : 	{
+		foreground	: '#9DF39F'
+	}
+	}
+
+	{
+		title     : 'css property-value;'
+		scope	: 'meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css'
+	settings : 	{
+		foreground	: '#F6F080'
+	}
+	}
+
+	{
+		title     : 'css @at-rule'
+		scope	: 'meta.preprocessor.at-rule keyword.control.at-rule'
+	settings : 	{
+		foreground	: '#F6AA11'
+	}
+	}
+
+	{
+		title     : 'css additional-constants'
+		scope	: 'meta.property-value support.constant.named-color.css, meta.property-value constant'
+	settings : 	{
+		foreground	: '#EDF080'
+	}
+	}
+
+	{
+		title     : 'css constructor.argument'
+		scope	: 'meta.constructor.argument.css'
+	settings : 	{
+		foreground	: '#EB939A'
+	}
+	}
+
+	{
+		title     : 'diff.header'
+		scope	: 'meta.diff, meta.diff.header'
+	settings : 	{
+		background	: '#0E2231'
+		font_style	: 'italic'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.deleted'
+		scope	: 'markup.deleted'
+	settings : 	{
+		background	: '#D03620'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.changed'
+		scope	: 'markup.changed'
+	settings : 	{
+		background	: '#C4B14A'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+	{
+		title     : 'diff.inserted'
+		scope	: 'markup.inserted'
+	settings : 	{
+		background	: '#41A83E'
+		foreground	: '#F8F8F8'
+	}
+	}
+
+]
+uuid      : '5B697FF1-38A6-4B42-9BF6-84830E816A0D'
+}

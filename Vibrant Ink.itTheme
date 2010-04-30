@@ -1,0 +1,349 @@
+{     title : 'Vibrant Ink'
+      settings : [     settings:
+             {
+            caret : '#FFFFFF'
+            foreground : '#FFFFFF'
+            selection : '#35493CE0'
+            invisibles : '#404040'
+            line_highlight : '#333300'
+            background : '#000000'
+            }
+ 
+     {
+     /* -- Text base -- */
+     title : 'Text base'
+     scope : 'text'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            background : '#0F0F0F'
+            }
+     } 
+     {
+     /* -- Inline Ruby Html -- */
+     title : 'Inline Ruby Html'
+     scope : 'source.ruby.rails.embedded.html'
+     settings:
+             {
+            background : '#000000'
+            }
+     } 
+     {
+     /* -- Ruby Html -- */
+     title : 'Ruby Html'
+     scope : 'text.html.ruby'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            background : '#101010'
+            }
+     } 
+     {
+     /* -- Ruby Number -- */
+     title : 'Ruby Number'
+     scope : 'constant.numeric.ruby'
+     settings:
+             {
+            foreground : '#CCFF33'
+            }
+     } 
+     {
+     /* -- Ruby source -- */
+     title : 'Ruby source'
+     scope : 'source.ruby'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            background : '#0F0F0F'
+            }
+     } 
+     {
+     /* -- Source base -- */
+     title : 'Source base'
+     scope : 'source'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            background : '#000000'
+            }
+     } 
+     {
+     /* -- Comment -- */
+     title : 'Comment'
+     scope : 'comment'
+     settings:
+             {
+            foreground : '#9933CC'
+            }
+     } 
+     {
+     /* -- Constant -- */
+     title : 'Constant'
+     scope : 'constant'
+     settings:
+             {
+            foreground : '#339999'
+            }
+     } 
+     {
+     /* -- Keyword -- */
+     title : 'Keyword'
+     scope : 'keyword'
+     settings:
+             {
+            foreground : '#FF6600'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Pre-processor Line -- */
+     title : 'Pre-processor Line'
+     scope : 'keyword.preprocessor'
+     settings:
+             {
+            foreground : '#EDF8F9'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Pre-processor Directive -- */
+     title : 'Pre-processor Directive'
+     scope : 'keyword.preprocessor directive'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Function name -- */
+     title : 'Function name'
+     scope : 'entity.name.function, storage.type.function.js'
+     settings:
+             {
+            foreground : '#FFCC00'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Function argument -- */
+     title : 'Function argument'
+     scope : 'variable.parameter'
+     settings:
+             {
+            font_style : 'italic'
+            }
+     } 
+     {
+     /* -- Block comment -- */
+     title : 'Block comment'
+     scope : 'source comment.block'
+     settings:
+             {
+            foreground : '#772CB7'
+            background : '#070707'
+            }
+     } 
+     {
+     /* -- Variable -- */
+     title : 'Variable'
+     scope : 'variable.other'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- ActiveRecord Function -- */
+     title : 'ActiveRecord Function'
+     scope : 'support.function.activerecord.rails'
+     settings:
+             {
+            foreground : '#999966'
+            }
+     } 
+     {
+     /* -- String -- */
+     title : 'String'
+     scope : 'string'
+     settings:
+             {
+            foreground : '#66FF00'
+            }
+     } 
+     {
+     /* -- String escapes -- */
+     title : 'String escapes'
+     scope : 'string constant.character.escape'
+     settings:
+             {
+            foreground : '#AAAAAA'
+            }
+     } 
+     {
+     /* -- String (executed) -- */
+     title : 'String (executed)'
+     scope : 'string.interpolated'
+     settings:
+             {
+            foreground : '#000000'
+            background : '#CCCC33'
+            }
+     } 
+     {
+     /* -- Regular expression -- */
+     title : 'Regular expression'
+     scope : 'string.regexp'
+     settings:
+             {
+            foreground : '#44B4CC'
+            }
+     } 
+     {
+     /* -- String (literal) -- */
+     title : 'String (literal)'
+     scope : 'string.literal'
+     settings:
+             {
+            foreground : '#CCCC33'
+            }
+     } 
+     {
+     /* -- String escapes (executed) -- */
+     title : 'String escapes (executed)'
+     scope : 'string.interpolated constant.character.escape'
+     settings:
+             {
+            foreground : '#555555'
+            }
+     } 
+     {
+     /* -- Class name -- */
+     title : 'Class name'
+     scope : 'entity.name.class, support.class.js'
+     settings:
+             {
+            font_style : 'underline'
+            }
+     } 
+     {
+     /* -- Class inheritance -- */
+     title : 'Class inheritance'
+     scope : 'entity.other.inherited-class'
+     settings:
+             {
+            font_style : 'italic underline'
+            }
+     } 
+     {
+     /* -- Tag name -- */
+     title : 'Tag name'
+     scope : 'entity.name.tag'
+     settings:
+             {
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Html Meta -- */
+     title : 'Html Meta'
+     scope : 'meta.tag.inline.any.html,  meta.tag.block.any.html'
+     settings:
+             {
+            foreground : '#FF6600'
+            font_style : ''
+            }
+     } 
+     {
+     /* -- Tag attribute -- */
+     title : 'Tag attribute'
+     scope : 'entity.other.attribute-name'
+     settings:
+             {
+            foreground : '#99CC99'
+            font_style : 'italic'
+            }
+     } 
+     {
+     /* -- Other Keywords -- */
+     title : 'Other Keywords'
+     scope : 'keyword.other'
+     settings:
+             {
+            foreground : '#DDE93D'
+            }
+     } 
+     {
+     /* -- CSS Selector -- */
+     title : 'CSS Selector'
+     scope : 'meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css'
+     settings:
+             {
+            foreground : '#FF6600'
+            }
+     } 
+     {
+     /* -- CSS Property -- */
+     title : 'CSS Property'
+     scope : 'support.type.property-name.css'
+     settings:
+             {
+            foreground : '#999966'
+            }
+     } 
+     {
+     /* -- CSS Other -- */
+     title : 'CSS Other'
+     scope : 'keyword.other.unit.css, constant.other.rgb-value.css, constant.numeric.css'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            }
+     } 
+     {
+     /* -- Javascript Events -- */
+     title : 'Javascript Events'
+     scope : 'support.function.event-handler.js'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            }
+     } 
+     {
+     /* -- Javascript Operators -- */
+     title : 'Javascript Operators'
+     scope : 'keyword.operator.js'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            }
+     } 
+     {
+     /* -- Javascript Keywords -- */
+     title : 'Javascript Keywords'
+     scope : 'keyword.control.js'
+     settings:
+             {
+            foreground : '#CCCC66'
+            }
+     } 
+     {
+     /* -- Prototype Objects -- */
+     title : 'Prototype Objects'
+     scope : 'support.class.prototype.js'
+     settings:
+             {
+            foreground : '#FFFFFF'
+            }
+     } 
+     {
+     /* -- Prototype Methods -- */
+     title : 'Prototype Methods'
+     scope : 'object.property.function.prototype.js'
+     settings:
+             {
+            foreground : '#FF6600'
+            }
+     } 
+     ]     uuid : '4B7A9AA6-C472-4460-BA48-199E2624956B' }

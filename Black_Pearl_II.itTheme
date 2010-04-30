@@ -1,0 +1,307 @@
+{
+	title: 'Black Pearl II' 
+	settings: [
+		{
+			settings : { 
+				
+				caret : '#FFFFFF'
+				foreground : '#FFFFFF'
+				selection : '#FFFFFF26'
+				invisibles : '#404040'
+				line_highlight : '#FFFFFF0D'
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'text'
+			title : 'Text base'
+			settings : { 
+				foreground : '#B4D3E2'
+			}
+		}
+		{
+			scope : 'source'
+			title : 'Source base'
+			settings : { 
+				foreground : '#CCCCCC'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'comment'
+			title : 'Comment'
+			settings : { 
+				foreground : '#428BDD'
+				font_style : 'italic'
+			}
+		}
+		{
+			scope : 'constant, variable.other'
+			title : 'Variable'
+			settings : { 
+				foreground : '#D0FF7E'
+			}
+		}
+		{
+			scope : 'variable.other.php'
+			title : 'PHP Variable'
+			settings : { 
+				foreground : '#FFFFFF'
+			}
+		}
+		{
+			scope : 'constant.language'
+			title : 'Language Constant'
+			settings : { 
+				foreground : '#80D500'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'keyword, keyword.operator.logical'
+			title : 'Keyword'
+			settings : { 
+				foreground : '#F8BB00'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'keyword.operator'
+			title : 'Operators'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'keyword.control'
+			title : 'Control'
+			settings : { 
+				foreground : '#FF9D00'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'storage'
+			title : 'Type'
+			settings : { 
+				foreground : '#80D500'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'declaration.function, entity.name.function'
+			title : 'Function Declaration'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'other.preprocessor.c'
+			title : 'Pre-processor Line'
+			settings : { 
+				foreground : '#B6B9F9'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'variable.parameter'
+			title : 'Function argument'
+			settings : { 
+				foreground : '#8AA6C1'
+				font_style : 'italic'
+			}
+		}
+		{
+			scope : 'string'
+			title : 'String'
+			settings : { 
+				foreground : '#CC66FF'
+			}
+		}
+		{
+			scope : 'string constant'
+			title : 'String escapes'
+			settings : { 
+				foreground : '#FF2837'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'source string source'
+			title : 'String Embedded Source'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'string.interpolated'
+			title : 'String (executed)'
+			settings : { 
+				foreground : '#FF7819'
+			}
+		}
+		{
+			scope : 'string.regexp'
+			title : 'Regular expression'
+			settings : { 
+				foreground : '#CA4344'
+			}
+		}
+		{
+			scope : 'string.regexp constant'
+			title : 'Regexp Escapes'
+			settings : { 
+				foreground : '#FF7819'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'constant.numeric'
+			title : 'Numbers'
+			settings : { 
+				foreground : '#EDDD5A'
+			}
+		}
+		{
+			scope : 'constant.other'
+			title : 'Symbols'
+			settings : { 
+				foreground : '#66CCFF'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'invalid'
+			title : 'Invalid'
+			settings : { 
+				font_style : 'bold'
+				background : '#670000'
+			}
+		}
+		{
+			scope : 'entity.name.class, declaration.class'
+			title : 'Class name'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.inherited-class'
+			title : 'Class inheritance'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold italic'
+			}
+		}
+		{
+			scope : 'support.function, support.constant, support.variable, support.other'
+			title : 'Library funct/const/var'
+			settings : { 
+				foreground : '#8AA6C1'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'support.class, support.type'
+			title : 'Library object'
+			settings : { 
+				foreground : '#8AA6C1'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.name.tag'
+			title : 'Tag name'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name'
+			title : 'Tag Attribute'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css'
+			title : 'CSS Selector'
+			settings : { 
+				foreground : '#B53B3C'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'support.type.property-name.css'
+			title : 'CSS Property'
+			settings : { 
+				foreground : '#8AA6C1'
+			}
+		}
+		{
+			scope : 'meta.diff, meta.diff.header'
+			title : 'Diff Header'
+			settings : { 
+				font_style : 'italic'
+				background : '#0E2231'
+			}
+		}
+		{
+			scope : 'markup.inserted'
+			title : 'Diff Inserted'
+			settings : { 
+				background : '#253B22'
+			}
+		}
+		{
+			scope : 'markup.changed'
+			title : 'Diff Changed'
+			settings : { 
+				background : '#4A410D'
+			}
+		}
+		{
+			scope : 'markup.deleted'
+			title : 'Diff Deleted'
+			settings : { 
+				background : '#420E09'
+			}
+		}
+		{
+			scope : 'markup.underline'
+			title : 'Underline'
+			settings : { 
+				font_style : 'underline'
+			}
+		}
+		{
+			scope : 'markup.underline.link'
+			title : 'Link'
+			settings : { 
+				foreground : '#66CCFF'
+				font_style : 'underline'
+			}
+		}
+		{
+			scope : 'markup.bold'
+			title : 'Bold'
+			settings : { 
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'markup.italic'
+			title : 'Italic'
+			settings : { 
+				font_style : 'italic'
+			}
+		}
+	]
+	uuid : '9E32B2C8-052E-46EE-B709-04B1C7559DA1' 
+}

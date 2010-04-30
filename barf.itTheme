@@ -1,0 +1,174 @@
+{
+
+title      : 'Barf'
+settings  : [
+	{
+	settings : 	{
+		background	: '#15191EFA'
+		caret	: '#C4C4C4'
+		foreground	: '#EEF2F7'
+		invisibles	: '#BFBFBF'
+		line_highlight	: '#57575712'
+		selection	: '#90B2D557'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#6E6E6E'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#5C81B3'
+	}
+	}
+
+	{
+		title     : 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#C1E1B8'
+	}
+	}
+
+	{
+		title     : 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#53667D'
+	}
+	}
+
+	{
+		title     : 'User-defined constant'
+		scope	: 'constant.character, constant.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#53667D'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		foreground	: '#708E67'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#697A8E'
+	}
+	}
+
+	{
+		title     : 'Storage'
+		scope	: 'storage'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#A3D295'
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Inherited class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#A3D295'
+	}
+	}
+
+	{
+		title     : 'function name'
+		scope	: 'entity.name.function'
+	settings : 	{
+		background	: '#282E36'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#708E67'
+	}
+	}
+
+	{
+		title     : 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#BACCE1'
+	}
+	}
+
+	{
+		title     : 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Library class/type'
+		scope	: 'support.type, support.class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#FFFFFF99'
+		font_style	: ''
+		foreground	: '#FF0000'
+	}
+	}
+
+]
+uuid      : ''
+}

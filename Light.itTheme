@@ -1,0 +1,276 @@
+{
+	title      : 'Light'
+	settings  : [
+		{
+			settings  : {
+				background      : '#FFFFFFFC'
+				caret           : '#A600F6'
+				foreground      : '#333333'
+				invisibles      : '#D76A004D'
+				line_highlight  : '#FFFF551A'
+				selection       : '#A600F640'
+				active_margin   : '#95D771'
+				passive_margin  : '#F2F1F2'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				font_style  : 'italic'
+        background  : '#00000008'
+				foreground  : '#B35EED'
+			}
+		}
+ 		/******************************************************/
+		/*                      Constant                      */
+		/******************************************************/
+		{
+			title     : 'Constant'
+			scope     : 'constant'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#69B200'
+			}
+		}
+ 		/******************************************************/
+		/*                       Entity                       */
+		/******************************************************/
+		{
+			title     : 'Entity'
+			scope     : 'entity'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#308095'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : 'bold'
+        background  : '#FCE8EC1A'
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                      Support                       */
+		/******************************************************/
+		{
+			title     : 'Support'
+			scope     : 'support'
+			settings  : {
+				font_style  : ''
+				foreground  : '#AA5500'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable'
+			settings  : {
+				font_style  : 'bold'
+        foreground  : '#308095'
+			}
+		}
+ 		/******************************************************/
+		/*                     Superclass                     */
+		/******************************************************/
+		{
+			title     : 'Superclass'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'bold'
+				foreground	: ''
+			}
+		}
+		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				font_style  : ''
+				foreground  : '#69B200'
+			}
+		}
+
+ 		/******************************************************/
+		/*                String interpolation                */
+		/******************************************************/
+		{
+			title     : 'String interpolation'
+			scope     : 'string constant.other.placeholder'
+			settings  : {
+				font_style  : ''
+				foreground  : '#000000'
+				background  : '#CCCC33'
+			}
+		}
+		/******************************************************/
+		/*                 Preprocessor line                  */
+		/******************************************************/
+		{
+			title     : 'Preprocessor line'
+			scope     : 'other.preprocessor'
+			settings  : {
+				font_style  : ''
+				foreground  : '#EDF8F9'
+			}
+		}
+		/******************************************************/
+		/*                 Function parameter                 */
+		/******************************************************/
+		{
+			title     : 'Function parameter'
+			scope     : 'variable.parameter'
+			settings  : {
+				font_style  : 'bold'
+        foreground  : '#62D6F4'
+			}
+		}
+ 		/******************************************************/
+		/*                  Embedded source                   */
+		/******************************************************/
+		{
+			title     : 'Embedded source'
+			scope     : 'text source, string.unquoted'
+			settings  : {
+        background  : '#FFFFFFF2'
+        foreground  : '#565859'
+			}
+		}
+ 		/******************************************************/
+		/*                     Markup tag                     */
+		/******************************************************/
+		{
+			title     : 'Markup tag'
+			scope     : 'meta.tag, declaration.tag'
+			settings  : {
+				font_style  : ''
+        foreground	: '#39A0BA'
+			}
+		}
+ 		/******************************************************/
+		/*                 Markup name of tag                 */
+		/******************************************************/
+		{
+			title     : 'Markup name of tag'
+			scope     : 'entity.name.tag'
+			settings  : {
+				font_style  : 'bold'
+				background	: '#39A0BA1A'
+        foreground	: '#39A0BA'
+			}
+		}
+ 		/******************************************************/
+		/*                Markup tag attribute                */
+		/******************************************************/
+		{
+			title     : 'Markup tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				font_style  : ''
+        foreground	: '#39A0BA'
+			}
+		}
+ 		/******************************************************/
+		/*                entity.name.section                 */
+		/******************************************************/
+		{
+			title     : 'entity.name.section'
+			scope     : 'entity.name.section'
+			settings  : {
+				font_style  : 'underline'
+				foreground  : ''
+			}
+		}
+ 		/******************************************************/
+		/*               PList unquoted string                */
+		/******************************************************/
+		{
+			title     : 'PList unquoted string'
+			scope     : 'source.plist string.unquoted, source.plist keyword.operator'
+			settings  : {
+				foreground  : '#FFFFFF'
+			}
+		}
+    /******************************************************/
+		/*               Ruby source code                     */
+		/******************************************************/
+		{
+			title     : 'Ruby source'
+			scope     : 'source.ruby'
+			settings  : {
+				font_style  : ''
+        foreground	: '#dd5478'
+			}
+		}
+    /******************************************************/
+		/*               Ruby symbols                         */
+		/******************************************************/
+		{
+			title     : 'Ruby symbols'
+			scope     : 'variable.other.readwrite.instance.ruby'
+			settings  : {
+				font_style  : 'bold'
+				background	: '#39A0BA1A'
+        foreground	: '#39A0BA'
+			}
+		}
+    /******************************************************/
+		/*               Ruby keywords and function def       */
+		/******************************************************/
+		{
+			title     : 'Ruby symbols'
+			scope     : 'keyword.control.def.ruby, declaration.function.method.without-arguments.ruby, keyword.control.ruby'
+			settings  : {
+				font_style  : 'bold'
+        foreground  : '#333333'
+			}
+		}
+    /******************************************************/
+		/*               HTML Text                            */
+		/******************************************************/
+		{
+			title     : 'HTML Text'
+			scope     : 'text.html.basic'
+			settings  : {
+				font_style  : ''
+        foreground  : '#333333'
+			}
+		}
+    /******************************************************/
+		/*               Css Property value                   */
+		/******************************************************/
+		{
+			title     : 'Css Property value'
+			scope     : 'meta.property-value.css'
+			settings  : {
+				font_style  : ''
+        foreground  : '#333333'
+			}
+		}
+    /******************************************************/
+		/*               Tag value                            */
+		/******************************************************/
+		{
+			title     : 'Tag Value'
+			scope     : 'string.quoted.double.html, string.quoted.single.html'
+			settings  : {
+				font_style  : ''
+        foreground  : '#69B200'
+			}
+		}
+ 	]
+	uuid      : 'A2C6BAA7-90D0-4147-BBF5-96B0CD92D109'
+}

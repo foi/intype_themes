@@ -1,0 +1,355 @@
+{
+	title     : 'Active4D'
+	settings  : [
+		{
+			settings  : {
+				background      : '#FFFFFF'
+				caret           : '#000000'
+				foreground      : '#000000'
+				invisibles      : '#BFBFBF'
+				line_highlight  : '#00000012'
+				selection       : '#BAD6FD'
+			}
+		}
+ 		/******************************************************/
+		/*                  Embedded source                   */
+		/******************************************************/
+		{
+			title     : 'Embedded source'
+			scope     : 'text.html source.active4d'
+			settings  : {
+				background  : '#E2E9FF5E'
+			}
+		}
+ 		/******************************************************/
+		/*                   Plain XML text                   */
+		/******************************************************/
+		{
+			title     : 'Plain XML text'
+			scope     : 'text.xml'
+			settings  : {
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                    Line comment                    */
+		/******************************************************/
+		{
+			title     : 'Line comment'
+			scope     : 'comment.line'
+			settings  : {
+				font_style  : ''
+				foreground  : '#D33535'
+			}
+		}
+ 		/******************************************************/
+		/*                   Block comment                    */
+		/******************************************************/
+		{
+			title     : 'Block comment'
+			scope     : 'comment.block'
+			settings  : {
+				foreground  : '#D33435'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				font_style  : ''
+				foreground  : '#666666'
+			}
+		}
+ 		/******************************************************/
+		/*                Interpolated entity                 */
+		/******************************************************/
+		{
+			title     : 'Interpolated entity'
+			scope     : 'string.interpolated variable'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#66CCFF'
+			}
+		}
+ 		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				foreground  : '#A8017E'
+			}
+		}
+ 		/******************************************************/
+		/*               User-defined constant                */
+		/******************************************************/
+		{
+			title     : 'User-defined constant'
+			scope     : 'constant.character, constant.other'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                 Date/time literal                  */
+		/******************************************************/
+		{
+			title     : 'Date/time literal'
+			scope     : 'constant.other.date, constant.other.time'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#66CCFF'
+			}
+		}
+ 		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant.language'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                   Local variable                   */
+		/******************************************************/
+		{
+			title     : 'Local variable'
+			scope     : 'variable.other.local'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#6392FF'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#0053FF'
+			}
+		}
+ 		/******************************************************/
+		/*                    Table/field                     */
+		/******************************************************/
+		{
+			title     : 'Table/field'
+			scope     : 'variable.other.table-field'
+			settings  : {
+				foreground  : '#0BB600'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#006699'
+			}
+		}
+ 		/******************************************************/
+		/*                      Operator                      */
+		/******************************************************/
+		{
+			title     : 'Operator'
+			scope     : 'keyword.operator'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                      Storage                       */
+		/******************************************************/
+		{
+			title     : 'Storage'
+			scope     : 'storage'
+			settings  : {
+				foreground  : '#FF5600'
+			}
+		}
+ 		/******************************************************/
+		/*                     Type name                      */
+		/******************************************************/
+		{
+			title     : 'Type name'
+			scope     : 'entity.name.type'
+			settings  : {
+				foreground  : '#21439C'
+			}
+		}
+ 		/******************************************************/
+		/*                  Inherited class                   */
+		/******************************************************/
+		{
+			title     : 'Inherited class'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function'
+			settings  : {
+				foreground  : '#21439C'
+			}
+		}
+ 		/******************************************************/
+		/*                 Function argument                  */
+		/******************************************************/
+		{
+			title     : 'Function argument'
+			scope     : 'variable.parameter'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                   Tag container                    */
+		/******************************************************/
+		{
+			title     : 'Tag container'
+			scope     : 'meta.tag'
+			settings  : {
+				foreground  : '#7A7A7A'
+			}
+		}
+ 		/******************************************************/
+		/*                      Tag name                      */
+		/******************************************************/
+		{
+			title     : 'Tag name'
+			scope     : 'entity.name.tag'
+			settings  : {
+				foreground  : '#016CFF'
+			}
+		}
+ 		/******************************************************/
+		/*                   Tag attribute                    */
+		/******************************************************/
+		{
+			title     : 'Tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				foreground  : '#963DFF'
+			}
+		}
+ 		/******************************************************/
+		/*                   Command/method                   */
+		/******************************************************/
+		{
+			title     : 'Command/method'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#45AE34'
+			}
+		}
+ 		/******************************************************/
+		/*                   Named constant                   */
+		/******************************************************/
+		{
+			title     : 'Named constant'
+			scope     : 'support.constant'
+			settings  : {
+				foreground  : '#B7734C'
+			}
+		}
+ 		/******************************************************/
+		/*                 Library class/type                 */
+		/******************************************************/
+		{
+			title     : 'Library class/type'
+			scope     : 'support.type, support.class'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                  Library variable                  */
+		/******************************************************/
+		{
+			title     : 'Library variable'
+			scope     : 'support.variable'
+			settings  : {
+				foreground  : '#A535AE'
+			}
+		}
+ 		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid'
+			settings  : {
+				background  : '#990000'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                    diff header                     */
+		/******************************************************/
+		{
+			title     : 'diff header'
+			scope     : 'meta.diff'
+			settings  : {
+				background  : '#656565'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                  diff line range                   */
+		/******************************************************/
+		{
+			title     : 'diff line range'
+			scope     : 'meta.diff.range'
+			settings  : {
+				background  : '#1B63FF'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                 diff deleted line                  */
+		/******************************************************/
+		{
+			title     : 'diff deleted line'
+			scope     : 'markup.deleted.diff'
+			settings  : {
+				background  : '#FF7880'
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                 diff inserted line                 */
+		/******************************************************/
+		{
+			title     : 'diff inserted line'
+			scope     : 'markup.inserted.diff'
+			settings  : {
+				background  : '#98FF9A'
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                diff unchanged line                 */
+		/******************************************************/
+		{
+			title     : 'diff unchanged line'
+			scope     : 'source.diff'
+			settings  : {
+				foreground  : '#5E5E5E'
+			}
+		}
+ 	]
+	uuid      : '7D2863D0-473C-47A0-B03B-92880559EBA9'
+}

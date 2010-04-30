@@ -1,0 +1,246 @@
+{
+	title: 'Black Pearl' 
+	settings: [
+		{
+			settings : {
+				caret : '#FFFFFF'
+				foreground : '#FFFFFF'
+				selection : '#FFFFFF26'
+				invisibles : '#40404066'
+				line_highlight : '#FFFFFF0D'
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'text'
+			title : 'Text base'
+			settings : { 
+				foreground : '#B4D3E2'
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'source'
+			title : 'Source base'
+			settings : { 
+				foreground : '#FFFFFF'
+				background : '#000000'
+			}
+		}
+		{
+			scope : 'comment'
+			title : 'Comment'
+			settings : { 
+				foreground : '#428BDD'
+				font_style : 'italic'
+			}
+		}
+		{
+			scope : 'constant'
+			title : 'Constant'
+			settings : { 
+				foreground : '#8AA6C1'
+			}
+		}
+		{
+			scope : 'keyword'
+			title : 'Keyword'
+			settings : { 
+				foreground : '#8AA6C1'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'keyword.control'
+			title : 'Control'
+			settings : { 
+				foreground : '#F8BB00'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'storage'
+			title : 'Type'
+			settings : { 
+				foreground : '#80D500'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'other.preprocessor.c'
+			title : 'Pre-processor Line'
+			settings : { 
+				foreground : '#B6B9F9'
+				font_style : ''
+				background : '#00000000'
+			}
+		}
+		{
+			scope : 'variable.parameter'
+			title : 'Function argument'
+			settings : { 
+				foreground : '#8AA6C1'
+				font_style : 'italic'
+			}
+		}
+		{
+			scope : 'source comment.block'
+			title : 'Block comment'
+			settings : { 
+				foreground : '#438AD7'
+				font_style : 'italic'
+				background : '#00000000'
+			}
+		}
+		{
+			scope : 'string'
+			title : 'String'
+			settings : { 
+				foreground : '#CC66FF'
+			}
+		}
+		{
+			scope : 'string constant'
+			title : 'String escapes'
+			settings : { 
+				foreground : '#FF2837'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'string.interpolated'
+			title : 'String (executed)'
+			settings : { 
+				foreground : '#FF7819'
+				background : '#E9CC4600'
+			}
+		}
+		{
+			scope : 'string.regexp'
+			title : 'Regular expression'
+			settings : { 
+				foreground : '#CA4344'
+			}
+		}
+		{
+			scope : 'string.regexp constant'
+			title : 'Regexp Escapes'
+			settings : { 
+				foreground : '#FF9D00'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'string.literal'
+			title : 'String (literal)'
+			settings : { 
+				foreground : '#E2CE00'
+			}
+		}
+		{
+			scope : 'constant.numeric'
+			title : 'Numbers'
+			settings : { 
+				foreground : '#EDDD5A'
+			}
+		}
+		{
+			scope : 'constant.other'
+			title : 'Symbols'
+			settings : { 
+				foreground : '#80D500'
+			}
+		}
+		{
+			scope : 'keyword.operator'
+			title : 'Operators'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'invalid'
+			title : 'Invalid'
+			settings : { 
+				foreground : '#FFFFFF'
+				background : '#670000'
+			}
+		}
+		{
+			scope : 'entity.name.class'
+			title : 'Class name'
+			settings : { 
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.inherited-class'
+			title : 'Class inheritance'
+			settings : { 
+				font_style : 'bold italic'
+			}
+		}
+		{
+			scope : 'entity.name.tag'
+			title : 'Tag name'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'entity.other.attribute-name'
+			title : 'Tag attribute'
+			settings : { 
+				foreground : '#FFFFFF'
+				font_style : ''
+			}
+		}
+		{
+			scope : 'meta.selector.css, entity.other.attribute-name.pseudo-class.css, entity.name.tag.wildcard.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css'
+			title : 'CSS Selector'
+			settings : { 
+				foreground : '#B53B3C'
+				font_style : 'bold'
+			}
+		}
+		{
+			scope : 'support.type.property-name.css'
+			title : 'CSS Property'
+			settings : { 
+				foreground : '#8AA6C1'
+			}
+		}
+		{
+			scope : 'meta.diff, meta.diff.header'
+			title : 'Diff Header'
+			settings : { 
+				font_style : 'italic'
+				background : '#0E2231'
+			}
+		}
+		{
+			scope : 'markup.inserted'
+			title : 'Diff Inserted'
+			settings : { 
+				background : '#253B22'
+			}
+		}
+		{
+			scope : 'markup.changed'
+			title : 'Diff Changed'
+			settings : { 
+				background : '#4A410D'
+			}
+		}
+		{
+			scope : 'markup.deleted'
+			title : 'Diff Deleted'
+			settings : { 
+				background : '#420E09'
+			}
+		}
+	]
+	uuid : 'A760C5BF-0C35-4A14-A30E-74EEDFC35273' 
+}

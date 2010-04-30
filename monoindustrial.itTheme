@@ -1,0 +1,287 @@
+{
+
+title      : 'monoindustrial'
+settings  : [
+	{
+	settings : 	{
+		background	: '#222C28'
+		caret	: '#FFFFFF'
+		foreground	: '#FFFFFF'
+		invisibles	: '#666C6880'
+		line_highlight	: '#0C0D0C40'
+		selection	: '#91999466'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		background	: '#151C19'
+		font_style	: ''
+		foreground	: '#666C68'
+	}
+	}
+
+	{
+		title     : 'Type'
+		scope	: 'storage, support.type'
+	settings : 	{
+		foreground	: '#C23B00'
+	}
+	}
+
+	{
+		title     : 'Embedded code'
+		scope	: 'string.unquoted.embedded'
+	settings : 	{
+		background	: '#151C19'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string - string source, meta.scope.heredoc'
+	settings : 	{
+		background	: '#1A0700'
+		font_style	: ''
+		foreground	: '#C23800'
+	}
+	}
+
+	{
+		title     : 'String interpolation'
+		scope	: 'constant.character.escaped, string source'
+	settings : 	{
+		background	: '#1A0700'
+		foreground	: '#E9470000'
+	}
+	}
+
+	{
+		title     : 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#E98800'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#648BD2'
+	}
+	}
+
+	{
+		title     : 'Constant'
+		scope	: 'constant'
+	settings : 	{
+		foreground	: '#E98800'
+	}
+	}
+
+	{
+		title     : 'Preprocessor line'
+		scope	: 'other.preprocessor'
+	settings : 	{
+		background	: '#161D1A'
+		font_style	: ''
+		foreground	: '#A8B3AB'
+	}
+	}
+
+	{
+		title     : 'Preprocessor directive'
+		scope	: 'entity.name.preprocessor'
+	settings : 	{
+		background	: '#161D1A'
+		font_style	: ''
+		foreground	: '#A8B3AB'
+	}
+	}
+
+	{
+		title     : 'Function name'
+		scope	: 'entity.name.function, keyword.operator, keyword.other.name-of-parameter'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#A8B3AB'
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9A2F00'
+	}
+	}
+
+	{
+		title     : 'Function parameter'
+		scope	: 'variable.parameter'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#648BD2'
+	}
+	}
+
+	{
+		title     : 'Function argument and result types'
+		scope	: 'storage.type.method'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#666C68'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword, storage.type.function.php'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#A39E64'
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#990000AD'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Invalid trailing whitespace'
+		scope	: 'invalid.trailing-whitespace'
+	settings : 	{
+		background	: '#FFD0D0'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+		title     : 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#588E60'
+	}
+	}
+
+	{
+		title     : 'Library object'
+		scope	: 'support.class, support.type'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#5778B6'
+	}
+	}
+
+	{
+		title     : 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		foreground	: '#C87500'
+	}
+	}
+
+	{
+		title     : 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#5879B7'
+	}
+	}
+
+	{
+		title     : 'Embedded source'
+		scope	: 'text source, string.unquoted'
+	settings : 	{
+		background	: '#666C681A'
+	}
+	}
+
+	{
+		title     : 'Markup XML declaration'
+		scope	: 'declaration.xml-processing'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#68685B'
+	}
+	}
+
+	{
+		title     : 'Markup DOCTYPE'
+		scope	: 'declaration.doctype'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#888888'
+	}
+	}
+
+	{
+		title     : 'Markup DTD'
+		scope	: 'declaration.doctype.DTD'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#888888'
+	}
+	}
+
+	{
+		title     : 'Markup tag'
+		scope	: 'declaration.tag'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#A65EFF'
+	}
+	}
+
+	{
+		title     : 'Markup name of tag'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		foreground	: '#A65EFF'
+	}
+	}
+
+	{
+		title     : 'Markup tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#909993'
+	}
+	}
+
+	{
+		title     : 'Inherited class name'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#7642B7'
+	}
+	}
+
+	{
+		title     : 'Changed files (Subversion)'
+		scope	: 'meta.scope.changed-files.svn, markup.inserted.svn, markup.changed.svn, markup.deleted.svn'
+	settings : 	{
+		background	: '#00000059'
+		font_style	: ''
+		foreground	: '#FFFFFF'
+	}
+	}
+
+]
+uuid      : 'EEA328BA-54E5-49DC-81F3-1F25BF8AF163'
+}

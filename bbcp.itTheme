@@ -1,0 +1,71 @@
+{
+
+title      : 'Blueberries, Bubblegum & Circus Peanuts'
+settings  : [
+	{
+	settings : 	{
+		background	: '#000000F7'
+		caret	: '#FFFFFF'
+		foreground	: '#FFFFFF'
+		invisibles	: '#4C4C4C'
+		line_highlight	: '#191919'
+		selection	: '#004080'
+	}
+	}
+
+	{
+		title     : 'all'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#CCCCCC'
+	}
+	}
+
+	{
+		title     : 'string'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#DD7FBC'
+	}
+	}
+
+	{
+		title     : 'entity.name'
+		scope	: 'entity.name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FFCC66'
+	}
+	}
+
+	{
+		title     : 'entity.other'
+		scope	: 'entity.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#CCCCCC'
+	}
+	}
+
+	{
+		title     : 'keyword.control,support,storage.type'
+		scope	: 'keyword.control,support,storage.type,variable.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#4587CC'
+	}
+	}
+
+	{
+		title     : 'comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#666666'
+	}
+	}
+
+]
+uuid      : 'EC6628D7-083A-4722-AA9E-6CF5CBC1E89E'
+}

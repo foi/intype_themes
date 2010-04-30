@@ -1,0 +1,331 @@
+{
+
+title     : 'Amy'
+settings  : [
+	{
+	settings : 	{
+		background	: '#200020'
+		caret	: '#7070FF'
+		foreground	: '#E6E6E6'
+		invisibles	: '#BFBFBF'
+		line_highlight	: '#80000040'
+		selection	: '#80000080'
+	}
+	}
+
+	{
+	title: 'Comment'
+		scope	: 'comment.block'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#404080'
+	}
+	}
+
+	{
+	title: 'String'
+		scope	: 'string'
+	settings : 	{
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+		foreground	: '#707090'
+	}
+	}
+
+	{
+	title: 'Integer'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#7090B0'
+	}
+	}
+
+	{
+	title: 'Int32 constant'
+		scope	: 'constant.numeric.integer.int32'
+	settings : 	{
+		font_style	: 'bold'
+	}
+	}
+
+	{
+	title: 'Int64 constant'
+		scope	: 'constant.numeric.integer.int64'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: 'Nativeint constant'
+		scope	: 'constant.numeric.integer.nativeint'
+	settings : 	{
+		font_style	: 'bold italic'
+	}
+	}
+
+	{
+	title: 'Floating-point constant'
+		scope	: 'constant.numeric.floating-point.ocaml'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+	title: 'Character constant'
+		scope	: 'constant.character'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'Boolean constant'
+		scope	: 'constant.language.boolean'
+	settings : 	{
+		foreground	: '#8080A0'
+	}
+	}
+
+	{
+	title: 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'User-defined constant'
+		scope	: 'constant.other'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#008080'
+	}
+	}
+
+	{
+	title: 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		foreground	: '#A080FF'
+	}
+	}
+
+	{
+	title: 'Keyword operator'
+		scope	: 'keyword.operator'
+	settings : 	{
+		foreground	: '#A0A0FF'
+	}
+	}
+
+	{
+	title: 'Floating-point infix operator'
+		scope	: 'keyword.operator.infix.floating-point.ocaml'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+	title: 'Floating-point prefix operator'
+		scope	: 'keyword.operator.prefix.floating-point.ocaml'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+	title: 'Compiler directives'
+		scope	: 'keyword.other.directive'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#C080C0'
+	}
+	}
+
+	{
+	title: 'Line-number directives'
+		scope	: 'keyword.other.directive.line-number'
+	settings : 	{
+		font_style	: 'underline'
+		foreground	: '#C080C0'
+	}
+	}
+
+	{
+	title: 'Control keyword'
+		scope	: 'keyword.control'
+	settings : 	{
+		foreground	: '#80A0FF'
+	}
+	}
+
+	{
+	title: 'Storage'
+		scope	: 'storage'
+	settings : 	{
+		foreground	: '#B0FFF0'
+	}
+	}
+
+	{
+	title: 'Variants'
+		scope	: 'entity.name.type.variant'
+	settings : 	{
+		foreground	: '#60B0FF'
+	}
+	}
+
+	{
+	title: 'Polymorphic variants'
+		scope	: 'storage.type.variant.polymorphic, entity.name.type.variant.polymorphic'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#60B0FF'
+	}
+	}
+
+	{
+	title: 'Module definitions'
+		scope	: 'entity.name.type.module'
+	settings : 	{
+		foreground	: '#C40000'
+	}
+	}
+
+	{
+	title: 'Support modules'
+		scope	: 'support.other'
+	settings : 	{
+		foreground	: '#C44040'
+	}
+	}
+
+	{
+	title: 'Class name'
+		scope	: 'entity.name.type.class'
+	settings : 	{
+		foreground	: '#70E080'
+	}
+	}
+
+	{
+	title: 'Inherited class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Function name'
+		scope	: 'entity.name.function'
+	settings : 	{
+		foreground	: '#50A0A0'
+	}
+	}
+
+	{
+	title: 'Function argument'
+		scope	: 'variable.parameter'
+	settings : 	{
+		foreground	: '#80B0B0'
+	}
+	}
+
+	{
+	title: 'Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		foreground	: '#009090'
+	}
+	}
+
+	{
+	title: 'Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Library function'
+	settings : 	{
+		background	: '#200020'
+	}
+	}
+
+	{
+	title: 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		background	: '#200020'
+	}
+	}
+
+	{
+	title: 'Library class/type'
+		scope	: 'support.type, support.class'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Invalid - illegal'
+		scope	: 'invalid.illegal'
+	settings : 	{
+		background	: '#FFFF00'
+		font_style	: 'bold'
+		foreground	: '#400080'
+	}
+	}
+
+	{
+	title: 'Camlp4 code'
+		scope	: 'source.camlp4.embedded'
+	settings : 	{
+		background	: '#40008054'
+	}
+	}
+
+	{
+	title: 'Camlp4 temp (parser)'
+		scope	: 'source.camlp4.embedded.parser.ocaml'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'Punctuation'
+		scope	: 'punctuation'
+	settings : 	{
+		foreground	: '#FF6666'
+	}
+	}
+
+]
+uuid      : '3C01FADD-7592-49DD-B7A5-1B82CA4E57B5'
+}

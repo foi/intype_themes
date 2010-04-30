@@ -1,0 +1,220 @@
+{
+
+title      : 'Ruby Blue'
+settings  : [
+	{
+	settings : 	{
+		background	: '#121E31F2'
+		caret	: '#FFFFFF'
+		foreground	: '#FFFFFF'
+		invisibles	: '#404040'
+		line_highlight	: '#253E5A'
+		selection	: '#38566F'
+	}
+	}
+
+	{
+		title     : 'Text base'
+		scope	: 'text'
+	settings : 	{
+		background	: '#0D151E'
+		foreground	: '#8AA6C1'
+	}
+	}
+
+	{
+		title     : 'Source base'
+		scope	: 'source'
+	settings : 	{
+		background	: '#162433'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#428BDD'
+	}
+	}
+
+	{
+		title     : 'Constant'
+		scope	: 'constant'
+	settings : 	{
+		foreground	: '#8AA6C1'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#F8BB00'
+	}
+	}
+
+	{
+		title     : 'Pre-processor Line'
+		scope	: 'other.preprocessor.c'
+	settings : 	{
+		background	: '#0C151E'
+		font_style	: ''
+		foreground	: '#B6B9F9'
+	}
+	}
+
+	{
+		title     : 'Pre-processor Directive'
+		scope	: 'entity.name.preprocessor'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Function name'
+		scope	: 'entity.name.function'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Function argument'
+		scope	: 'variable.parameter'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#8AA6C1'
+	}
+	}
+
+	{
+		title     : 'Block comment'
+		scope	: 'source comment.block'
+	settings : 	{
+		background	: '#21374F'
+		foreground	: '#438AD7'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		foreground	: '#1DC116'
+	}
+	}
+
+	{
+		title     : 'String escapes'
+		scope	: 'string constant.character.escape'
+	settings : 	{
+		foreground	: '#EDDD37'
+	}
+	}
+
+	{
+		title     : 'String (executed)'
+		scope	: 'string.interpolated'
+	settings : 	{
+		background	: '#E9CC46'
+		foreground	: '#1E293B'
+	}
+	}
+
+	{
+		title     : 'Regular expression'
+		scope	: 'string.regexp'
+	settings : 	{
+		foreground	: '#CA4344'
+	}
+	}
+
+	{
+		title     : 'String (literal)'
+		scope	: 'string.literal'
+	settings : 	{
+		foreground	: '#E2CE00'
+	}
+	}
+
+	{
+		title     : 'Numbers'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#EDDD3D'
+	}
+	}
+
+	{
+		title     : 'Symbols'
+		scope	: 'constant.other'
+	settings : 	{
+		foreground	: '#B53B3C'
+	}
+	}
+
+	{
+		title     : 'Operators'
+		scope	: 'keyword.operator'
+	settings : 	{
+		foreground	: '#8AA6C1'
+	}
+	}
+
+	{
+		title     : 'String escapes (executed)'
+		scope	: 'string.interpolated constant.character.escape'
+	settings : 	{
+		foreground	: '#1C6A21'
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Class inheritance'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Support function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#B43D3D'
+	}
+	}
+
+]
+uuid      : '68DD7B60-826B-4250-8787-F757615C1987'
+}

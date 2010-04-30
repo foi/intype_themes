@@ -1,0 +1,408 @@
+{
+
+title      : 'Sin City (that yellow bastard)'
+settings  : [
+	{
+	settings : 	{
+		background	: '#2A2A2AFC'
+		caret	: '#FFFF55'
+		foreground	: '#A6A6A6'
+		invisibles	: '#BFBFBF'
+		line_highlight	: '#AA55001A'
+		selection	: '#AA550059'
+	}
+	}
+
+	{
+		title     : 'Source Comment'
+		scope	: 'source comment -text'
+	settings : 	{
+		background	: '#303030'
+		font_style	: 'italic'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment, declaration.sgml.html'
+	settings : 	{
+		background	: '#575757'
+		font_style	: 'italic'
+		foreground	: '#999999'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword, storage'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#EDEDED'
+	}
+	}
+
+	{
+		title     : 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#AAAAAA'
+	}
+	}
+
+	{
+		title     : 'User-defined constant'
+		scope	: 'constant'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#C5C5C5'
+	}
+	}
+
+	{
+		title     : 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#F6F6F6'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+		background	: '#0000AA0D'
+		font_style	: ''
+		foreground	: '#808080'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9B9B9B'
+	}
+	}
+
+	{
+		title     : 'String interpolation'
+		scope	: 'constant.character.escaped, constant.character.escape, string source'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#E4E4E4'
+	}
+	}
+
+	{
+		title     : 'Preprocessor line'
+		scope	: 'other.preprocessor'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#929292'
+	}
+	}
+
+	{
+		title     : 'Preprocessor directive'
+		scope	: 'entity.name.preprocessor'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Function name'
+		scope	: 'entity.name.function, keyword.other.name-of-parameter.objc'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+		title     : 'Inherited class name'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'Function parameter'
+		scope	: 'variable.parameter'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'Function argument and result types'
+		scope	: 'storage.type.method'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#9C9C9C'
+	}
+	}
+
+	{
+		title     : 'Section'
+		scope	: 'meta.section entity.name.section, declaration.section entity.name.section'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#D9D9D9'
+	}
+	}
+
+	{
+		title     : 'Library object'
+		scope	: 'support.class, support.type'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#DEDEDE'
+	}
+	}
+
+	{
+		title     : 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#AFAFAF'
+	}
+	}
+
+	{
+		title     : 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#E0E0E0'
+	}
+	}
+
+	{
+		title     : 'JS: Operator'
+		scope	: 'keyword.operator.js'
+	settings : 	{
+		foreground	: '#878787'
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#999999'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Invalid trailing whitespace'
+		scope	: 'invalid.trailing-whitespace'
+	settings : 	{
+		background	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'Embedded source'
+		scope	: 'text source, string.unquoted, meta.source'
+	settings : 	{
+		background	: '#F5F5F530'
+	}
+	}
+
+	{
+		title     : 'Markup XML declaration'
+		scope	: 'meta.xml-processing, declaration.xml-processing'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#8F8F8F'
+	}
+	}
+
+	{
+		title     : 'Markup DOCTYPE'
+		scope	: 'meta.doctype, declaration.doctype'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#888888'
+	}
+	}
+
+	{
+		title     : 'Markup DTD'
+		scope	: 'meta.doctype.DTD, declaration.doctype.DTD'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'Markup tag'
+		scope	: 'meta.tag, declaration.tag'
+	settings : 	{
+		background	: '#FFFFFF08'
+		font_style	: ''
+		foreground	: '#F2F2F2'
+	}
+	}
+
+	{
+		title     : 'Markup name of tag'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		font_style	: 'bold'
+	}
+	}
+
+	{
+		title     : 'Markup tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'function name'
+		scope	: 'meta.function, storage.type.function, support.function, entity.name.function'
+	settings : 	{
+		background	: '#00AAAA0D'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets'
+		scope	: 'meta.round-brackets, string.regexp.group, string.regexp.character-class'
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets 2'
+		scope	: 'meta.round-brackets meta.round-brackets '
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets 3'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets '
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets 4'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets '
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets 5'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets '
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'keyword.operator'
+		scope	: 'keyword.operator.js'
+	settings : 	{
+		foreground	: '#555555'
+	}
+	}
+
+	{
+		title     : 'Sin'
+		scope	: 'string, keyword.other.release-notes, constant.character.escaped'
+	settings : 	{
+		background	: '#AA55001A'
+		foreground	: '#D89F69'
+	}
+	}
+
+	{
+		title     : 'More Sin'
+		scope	: 'string -string.quoted.double.ruby.mod, keyword.other.release-notes, constant.character.escaped'
+	settings : 	{
+		foreground	: '#FFFF08'
+	}
+	}
+
+	{
+		title     : 'Mild Sin'
+		scope	: 'string.regexp, constant.character, constant.numeric, constant.language -constant.language.pseudo-variable, string.quoted constant.character.escaped'
+	settings : 	{
+		background	: '#AA55001A'
+		foreground	: '#D76A00'
+	}
+	}
+
+	{
+		title     : 'Evil Sin'
+		scope	: 'string source'
+	settings : 	{
+		background	: '#AAAAAA26'
+	}
+	}
+
+	{
+		title     : 'DOOM'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#AA0000BF'
+	}
+	}
+
+	{
+		title     : 'The Devil You Say?'
+		scope	: 'keyword.other.go.sql'
+	settings : 	{
+		background	: '#000000'
+		font_style	: 'bold italic underline'
+		foreground	: '#404040'
+	}
+	}
+
+	{
+		title     : 'meta.tab'
+		scope	: 'meta.even-tab'
+	settings : 	{
+		background	: '#FEFEFE08'
+	}
+	}
+
+]
+uuid      : 'FEF57928-E3DE-4382-ADD8-9CA5B50C97EF'
+}

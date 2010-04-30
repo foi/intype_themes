@@ -1,0 +1,464 @@
+{
+
+title      : 'mintBlue'
+settings  : [
+	{
+	settings : 	{
+		background	: '#FFFFFFF2'
+		caret	: '#D42755'
+		foreground	: '#323232'
+		invisibles	: '#92DAFF80'
+		line_highlight	: '#00104705'
+		selection	: '#D89CF580'
+	}
+	}
+
+	{
+		title     : 'source'
+		scope	: 'source -meta.source.embedded, declaration.xml-processing'
+	settings : 	{
+		background	: '#656565'
+		font_style	: ''
+		foreground	: '#ECEBEC'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded'
+		scope	: 'meta.source.embedded -meta.source.embedded.bound'
+	settings : 	{
+		background	: '#565656'
+		foreground	: '#787878'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded.bound'
+		scope	: 'meta.source.embedded.bound'
+	settings : 	{
+		background	: '#99D8F680'
+		font_style	: ''
+		foreground	: '#4C6C7B'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded.bound source'
+		scope	: 'meta.source.embedded.bound source'
+	settings : 	{
+		background	: '#4C6C7B'
+		foreground	: '#DCEDF5'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded.script-tag'
+		scope	: 'meta.source.embedded.script-tag -(meta.source.embedded.script-tag source)'
+	settings : 	{
+		background	: '#D42755'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'source.js'
+		scope	: 'source.js'
+	settings : 	{
+		background	: '#596459'
+	}
+	}
+
+	{
+		title     : 'source string'
+		scope	: 'source string, constant'
+	settings : 	{
+		font_style	: 'underline'
+		foreground	: '#BCDE90'
+	}
+	}
+
+	{
+		title     : 'source string.quoted.single'
+		scope	: 'source string.quoted.single'
+	settings : 	{
+		foreground	: '#F9FAAB'
+	}
+	}
+
+	{
+		title     : 'variable'
+		scope	: 'variable -(text string source), support'
+	settings : 	{
+		foreground	: '#99D8F6'
+	}
+	}
+
+	{
+		title     : 'constant.character.entity'
+		scope	: 'constant.character.entity'
+	settings : 	{
+		foreground	: '#99D8F6'
+	}
+	}
+
+	{
+		title     : 'text source'
+		scope	: 'text source -(declaration.tag string)'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'text string source'
+		scope	: 'text string source -meta.source.embedded.bound, meta.source.embedded.return-value -meta.source.embedded.bound, text string meta.source.embedded'
+	settings : 	{
+		background	: '#9BB474'
+		font_style	: ''
+		foreground	: '#FFFFFFE6'
+	}
+	}
+
+	{
+		title     : 'source string source'
+		scope	: 'source string source'
+	settings : 	{
+		background	: '#878B8C'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'source comment'
+		scope	: 'source comment'
+	settings : 	{
+		background	: '#6B606B'
+		foreground	: '#BFA0D6'
+	}
+	}
+
+	{
+		title     : 'text comment -source'
+		scope	: 'text comment -source, declaration.sgml'
+	settings : 	{
+		background	: '#9E7BB21A'
+		foreground	: '#AB90C0'
+	}
+	}
+
+	{
+		title     : 'declaration.tag'
+		scope	: 'declaration.tag, meta.tag'
+	settings : 	{
+		background	: '#9CD8F540'
+		foreground	: '#99D8F6'
+	}
+	}
+
+	{
+		title     : 'declaration.sgml'
+		scope	: 'declaration.sgml'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'entity.name.tag'
+		scope	: 'entity.name.tag -source'
+	settings : 	{
+		background	: '#9CD8F51A'
+		font_style	: 'bold'
+		foreground	: '#33333340'
+	}
+	}
+
+	{
+		title     : 'declaration.attribute-with-value.id'
+		scope	: 'declaration.attribute-with-value.id'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'entity.other.attribute-name'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+		title     : 'declaration.tag.html string'
+		scope	: 'declaration.tag string -(declaration.tag string source string), meta.tag string -(meta.tag string source string), meta.tag string meta.source.embedded.return-value'
+	settings : 	{
+		foreground	: '#6A8B56'
+	}
+	}
+
+	{
+		title     : 'string'
+		scope	: 'string'
+	settings : 	{
+		background	: '#6B813E0D'
+		font_style	: 'underline'
+	}
+	}
+
+	{
+		title     : 'string.interpolated'
+		scope	: 'string.interpolated'
+	settings : 	{
+		background	: '#7B9F5380'
+	}
+	}
+
+	{
+		title     : 'meta.ending-space'
+		scope	: 'meta.ending-space -source'
+	settings : 	{
+		background	: '#92DAFF1A'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'source meta.ending-space'
+		scope	: 'source meta.ending-space -(string meta.source)'
+	settings : 	{
+		background	: '#0000001A'
+	}
+	}
+
+	{
+		title     : 'source meta.leading-space'
+		scope	: 'source meta.leading-space -(string meta.source)'
+	settings : 	{
+		font_style	: 'underline'
+		foreground	: '#5D5D5D'
+	}
+	}
+
+	{
+		title     : 'source meta.odd-tab'
+		scope	: 'source meta.even-tab -(string meta.source)'
+	settings : 	{
+		foreground	: '#697074'
+	}
+	}
+
+	{
+		title     : 'meta.leading-space'
+		scope	: 'meta.leading-space -meta.round-brackets'
+	settings : 	{
+		background	: '#92DAFF1A'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'string meta.source meta.leading-space'
+		scope	: 'string meta.source meta.leading-space, string meta.source meta.ending-space'
+	settings : 	{
+		background	: '#F1F5E5'
+	}
+	}
+
+	{
+		title     : 'string meta.source meta.ending-space'
+		scope	: 'string meta.source meta.ending-space'
+	settings : 	{
+		background	: '#9BB474'
+	}
+	}
+
+	{
+		title     : 'meta.tab'
+		scope	: 'meta.even-tab -meta.round-brackets'
+	settings : 	{
+		background	: '#92DAFF1A'
+	}
+	}
+
+	{
+		title     : 'round-brackets 0'
+		scope	: 'meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 1'
+		scope	: 'meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 2'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 3'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 4'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 5'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 6'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 7'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 8'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'round-brackets 9'
+		scope	: 'meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets'
+	settings : 	{
+		background	: '#00000033'
+		font_style	: 'underline'
+	}
+	}
+
+	{
+		title     : 'text string source test'
+		scope	: 'text string source test'
+	settings : 	{
+		background	: '#86A175'
+	}
+	}
+
+	{
+		title     : 'support.function'
+		scope	: 'support.function'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#B6D48F'
+	}
+	}
+
+	{
+		title     : 'keyword.operator'
+		scope	: 'keyword.operator'
+	settings : 	{
+		foreground	: '#000000'
+	}
+	}
+
+	{
+		title     : 'variable'
+		scope	: 'variable &(text string source)'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'variable.parameter.function'
+		scope	: 'variable.parameter.function, meta.function variable, support.class'
+	settings : 	{
+		background	: '#99D8F6'
+		foreground	: '#424252'
+	}
+	}
+
+	{
+		title     : 'meta.function, storage.type'
+		scope	: 'meta.function, storage.type, support.function, entity.name.function'
+	settings : 	{
+		background	: '#C2DB90'
+		foreground	: '#344152'
+	}
+	}
+
+	{
+		title     : 'meta.function, storage.type'
+		scope	: 'meta.function  -(text declaration.tag string source), storage.type -(text declaration.tag string source)'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'storage, storage.type.function'
+		scope	: 'storage, storage.type.function, declaration.class'
+	settings : 	{
+		background	: '#F9FAAB'
+		foreground	: '#1C7A1F'
+	}
+	}
+
+	{
+		title     : 'support.function, support.function entity.name.function'
+		scope	: 'support.function, support.function entity.name.function'
+	settings : 	{
+		background	: '#809960'
+		foreground	: '#BADF8B'
+	}
+	}
+
+	{
+		title     : 'invalid'
+		scope	: 'invalid -declaration.sgml -source'
+	settings : 	{
+		background	: '#D42755'
+	}
+	}
+
+]
+uuid      : '2D2CC1FA-BE95-4103-8254-D2CD0BC0730B'
+}

@@ -1,0 +1,233 @@
+{
+	title     : 'All Hallow''s Eve'
+	settings  : [
+		{
+			settings  : {
+				background      : '#000000'
+				caret           : '#FFFFFF'
+				foreground      : '#FFFFFF'
+				invisibles      : '#404040'
+				line_highlight  : '#333300'
+				selection       : '#73597EE0'
+			}
+		}
+ 		/******************************************************/
+		/*                     Text base                      */
+		/******************************************************/
+		{
+			title     : 'Text base'
+			scope     : 'text'
+			settings  : {
+				background  : '#434242'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                    Source base                     */
+		/******************************************************/
+		{
+			title     : 'Source base'
+			scope     : 'source'
+			settings  : {
+				background  : '#000000'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				foreground  : '#9933CC'
+			}
+		}
+ 		/******************************************************/
+		/*                      Constant                      */
+		/******************************************************/
+		{
+			title     : 'Constant'
+			scope     : 'constant'
+			settings  : {
+				foreground  : '#3387CC'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : ''
+				foreground  : '#CC7833'
+			}
+		}
+ 		/******************************************************/
+		/*                 Pre-processor Line                 */
+		/******************************************************/
+		{
+			title     : 'Pre-processor Line'
+			scope     : 'meta.preprocessor.c'
+			settings  : {
+				font_style  : ''
+				foreground  : '#D0D0FF'
+			}
+		}
+ 		/******************************************************/
+		/*              Pre-processor Directive               */
+		/******************************************************/
+		{
+			title     : 'Pre-processor Directive'
+			scope     : 'keyword.control.import'
+			settings  : {
+				font_style  : ''
+			}
+		}
+ 		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function'
+			settings  : {
+				font_style  : ''
+			}
+		}
+ 		/******************************************************/
+		/*                 Function argument                  */
+		/******************************************************/
+		{
+			title     : 'Function argument'
+			scope     : 'variable.parameter'
+			settings  : {
+				font_style  : 'italic'
+			}
+		}
+ 		/******************************************************/
+		/*                   Block comment                    */
+		/******************************************************/
+		{
+			title     : 'Block comment'
+			scope     : 'source comment.block'
+			settings  : {
+				background  : '#9B9B9B'
+				foreground  : '#FFFFFF'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground  : '#66CC33'
+			}
+		}
+ 		/******************************************************/
+		/*                   String escapes                   */
+		/******************************************************/
+		{
+			title     : 'String escapes'
+			scope     : 'string constant.character.escape'
+			settings  : {
+				foreground  : '#AAAAAA'
+			}
+		}
+ 		/******************************************************/
+		/*                 String (executed)                  */
+		/******************************************************/
+		{
+			title     : 'String (executed)'
+			scope     : 'string.interpolated'
+			settings  : {
+				background  : '#CCCC33'
+				foreground  : '#000000'
+			}
+		}
+ 		/******************************************************/
+		/*                 Regular expression                 */
+		/******************************************************/
+		{
+			title     : 'Regular expression'
+			scope     : 'string.regexp'
+			settings  : {
+				foreground  : '#CCCC33'
+			}
+		}
+ 		/******************************************************/
+		/*                  String (literal)                  */
+		/******************************************************/
+		{
+			title     : 'String (literal)'
+			scope     : 'string.literal'
+			settings  : {
+				foreground  : '#CCCC33'
+			}
+		}
+ 		/******************************************************/
+		/*             String escapes (executed)              */
+		/******************************************************/
+		{
+			title     : 'String escapes (executed)'
+			scope     : 'string.interpolated constant.character.escape'
+			settings  : {
+				foreground  : '#555555'
+			}
+		}
+ 		/******************************************************/
+		/*                     Type name                      */
+		/******************************************************/
+		{
+			title     : 'Type name'
+			scope     : 'entity.name.type'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                 Class inheritance                  */
+		/******************************************************/
+		{
+			title     : 'Class inheritance'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'italic underline'
+			}
+		}
+ 		/******************************************************/
+		/*                      Tag name                      */
+		/******************************************************/
+		{
+			title     : 'Tag name'
+			scope     : 'entity.name.tag'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                   Tag attribute                    */
+		/******************************************************/
+		{
+			title     : 'Tag attribute'
+			scope     : 'entity.other.attribute-name'
+			settings  : {
+				font_style  : ''
+			}
+		}
+ 		/******************************************************/
+		/*                  Support function                  */
+		/******************************************************/
+		{
+			title     : 'Support function'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : ''
+				foreground  : '#C83730'
+			}
+		}
+ 	]
+	uuid      : '37F22BDC-B2F4-11D9-850C-000A95A89C98'
+}

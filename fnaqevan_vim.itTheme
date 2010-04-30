@@ -1,0 +1,411 @@
+{
+	title      : 'Fnaqevan'
+	settings  : [
+		{
+			settings  : {
+				background      : '#000000'
+				foreground      : '#C0C0C0'
+				invisibles      : '#FFFFFF'
+				caret           : '#FFFFFF'
+				line_highlight  : '#B2B2B2DD'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#00B8E0'
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#FFA850'
+			}
+		}
+		/******************************************************/
+		/*                      Special                       */
+		/******************************************************/
+		{
+			title     : 'Special'
+			scope     : 'special'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#B899C8'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#EEE840'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#00B098'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#40D040'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#006699'
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				background      : '#005900'
+				foreground      : '#40C940'
+			}
+		}
+		/******************************************************/
+		/*                     VisualNOS                      */
+		/******************************************************/
+		{
+			title     : 'VisualNOS'
+			scope     : 'visualnos'
+			settings  : {
+				background      : '#005900'
+				foreground      : '#40C940'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				background      : '#707000'
+				foreground      : '#FFFF00'
+			}
+		}
+		/******************************************************/
+		/*                     IncSearch                      */
+		/******************************************************/
+		{
+			title     : 'IncSearch'
+			scope     : 'incsearch'
+			settings  : {
+				background      : '#D05000'
+				foreground      : '#FFE000'
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				background      : '#707000'
+				foreground      : '#FFFF00'
+			}
+		}
+		/******************************************************/
+		/*                      MoreMsg                       */
+		/******************************************************/
+		{
+			title     : 'MoreMsg'
+			scope     : 'moremsg'
+			settings  : {
+				background      : '#000070'
+				foreground      : '#00B8E0'
+			}
+		}
+		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid, invalid.deprecated, invalid.illegal, invalid.illegal.attribute-value.unrecognized'
+			settings  : {
+				background      : '#CC0000'
+				foreground      : '#FFEE00'
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#E8E8E8'
+			}
+		}
+		/******************************************************/
+		/*                      WildMenu                      */
+		/******************************************************/
+		{
+			title     : 'WildMenu'
+			scope     : 'wildmenu'
+			settings  : {
+				background      : '#5F5F5F'
+				foreground      : '#FFEE60'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				background      : '#1F1F1F'
+				foreground      : '#F0F0F0'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				background      : '#0F0F0F'
+				foreground      : '#EAEA3A'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+				background      : '#1F1F1F'
+				foreground      : '#F0F0F0'
+			}
+		}
+		/******************************************************/
+		/*                       Error                        */
+		/******************************************************/
+		{
+			title     : 'Error'
+			scope     : 'error'
+			settings  : {
+				background      : '#EE0000'
+				foreground      : '#FFDD60'
+			}
+		}
+		/******************************************************/
+		/*                        Todo                        */
+		/******************************************************/
+		{
+			title     : 'Todo'
+			scope     : 'todo'
+			settings  : {
+				background      : '#EEE000'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                       Title                        */
+		/******************************************************/
+		{
+			title     : 'Title'
+			scope     : 'title'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#FFFFFF'
+			}
+		}
+		/******************************************************/
+		/*                      Question                      */
+		/******************************************************/
+		{
+			title     : 'Question'
+			scope     : 'question'
+			settings  : {
+				background      : '#005900'
+				foreground      : '#40E840'
+			}
+		}
+		/******************************************************/
+		/*                       LineNr                       */
+		/******************************************************/
+		{
+			title     : 'LineNr'
+			scope     : 'linenr'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#F0B0E0'
+			}
+		}
+		/******************************************************/
+		/*                     Directory                      */
+		/******************************************************/
+		{
+			title     : 'Directory'
+			scope     : 'directory'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#D0D0D0'
+			}
+		}
+		/******************************************************/
+		/*                      NonText                       */
+		/******************************************************/
+		{
+			title     : 'NonText'
+			scope     : 'nontext'
+			settings  : {
+				background      : '#000000'
+				foreground      : '#FFDDAA'
+			}
+		}
+		/******************************************************/
+		/*                      DiffAdd                       */
+		/******************************************************/
+		{
+			title     : 'DiffAdd'
+			scope     : 'diffadd'
+			settings  : {
+				background      : '#505050'
+				foreground      : '#D0D0D0'
+			}
+		}
+		/******************************************************/
+		/*                     DiffChange                     */
+		/******************************************************/
+		{
+			title     : 'DiffChange'
+			scope     : 'diffchange'
+			settings  : {
+				background      : '#505050'
+				foreground      : '#D0D0D0'
+			}
+		}
+		/******************************************************/
+		/*                     DiffDelete                     */
+		/******************************************************/
+		{
+			title     : 'DiffDelete'
+			scope     : 'diffdelete'
+			settings  : {
+				background      : '#505050'
+				foreground      : '#D0D0D0'
+			}
+		}
+		/******************************************************/
+		/*                      DiffText                      */
+		/******************************************************/
+		{
+			title     : 'DiffText'
+			scope     : 'difftext'
+			settings  : {
+				background      : '#707070'
+				foreground      : '#F0F0F0'
+			}
+		}
+		/******************************************************/
+		/*                       Folded                       */
+		/******************************************************/
+		{
+			title     : 'Folded'
+			scope     : 'folded'
+			settings  : {
+				background      : '#703070'
+				foreground      : '#DDB8DD'
+			}
+		}
+		/******************************************************/
+		/*                     FoldColumn                     */
+		/******************************************************/
+		{
+			title     : 'FoldColumn'
+			scope     : 'foldcolumn'
+			settings  : {
+				background      : '#C4153B'
+				foreground      : '#F0F0F0'
+			}
+		}
+		/******************************************************/
+		/*                      icursor                       */
+		/******************************************************/
+		{
+			title     : 'icursor'
+			scope     : 'icursor'
+			settings  : {
+				background      : '#FFEE00'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                      ncursor                       */
+		/******************************************************/
+		{
+			title     : 'ncursor'
+			scope     : 'ncursor'
+			settings  : {
+				background      : '#FFFFFF'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                      rcursor                       */
+		/******************************************************/
+		{
+			title     : 'rcursor'
+			scope     : 'rcursor'
+			settings  : {
+				background      : '#00CCFF'
+				foreground      : '#000000'
+			}
+		}
+		/******************************************************/
+		/*                      lcursor                       */
+		/******************************************************/
+		{
+			title     : 'lcursor'
+			scope     : 'lcursor'
+			settings  : {
+				background      : '#40D040'
+				foreground      : '#000000'
+			}
+		}
+	]
+	uuid      : '1821B346-C420-2BE9-4093-4389D64DB275'
+}

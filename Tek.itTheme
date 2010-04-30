@@ -1,0 +1,156 @@
+{
+
+title      : 'Tek'
+settings  : [
+	{
+	settings : 	{
+		background	: '#2F4F4F'
+		caret	: '#FFFFFF'
+		foreground	: '#DBFEF8'
+		invisibles	: '#FFC600'
+		line_highlight	: '#FFFFFF26'
+		selection	: '#FFFFFF66'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		font_style	: 'italic'
+		foreground	: '#E6E8FA'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		foreground	: '#FFFCCF'
+	}
+	}
+
+	{
+		title     : 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#F0F8FF'
+	}
+	}
+
+	{
+		title     : 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'User-defined constant'
+		scope	: 'constant.character, constant.other'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable.language, variable.other'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		font_style	: 'bold'
+	}
+	}
+
+	{
+		title     : 'Storage'
+		scope	: 'storage'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Inherited class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Function name'
+		scope	: 'entity.name.function'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Function argument'
+		scope	: 'variable.parameter'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Library class/type'
+		scope	: 'support.type, support.class'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+	}
+	}
+
+]
+uuid      : 'B31767D0-53CA-11DA-9CA6-001124750376'
+}

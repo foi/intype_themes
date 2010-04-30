@@ -1,0 +1,574 @@
+{
+	/*
+		(π) Soryu, 2005
+	*/
+	title     : 'Sunburst'
+	settings  : [
+		{
+			settings  : {
+				background      : '#000000'
+				caret           : '#A7A7A7'
+				foreground      : '#F8F8F8'
+				invisibles      : '#CAE2FB3D'
+				line_highlight  : '#FFFFFF0D'
+				selection       : '#DDF0FF33'
+			}
+		}
+ 		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#AEAEAE'
+			}
+		}
+ 		/******************************************************/
+		/*                      Constant                      */
+		/******************************************************/
+		{
+			title     : 'Constant'
+			scope     : 'constant'
+			settings  : {
+				foreground  : '#3387CC'
+			}
+		}
+ 		/******************************************************/
+		/*                       Entity                       */
+		/******************************************************/
+		{
+			title     : 'Entity'
+			scope     : 'entity'
+			settings  : {
+				font_style  : ''
+				foreground  : '#89BDFF'
+			}
+		}
+ 		/******************************************************/
+		/*                      Keyword                       */
+		/******************************************************/
+		{
+			title     : 'Keyword'
+			scope     : 'keyword'
+			settings  : {
+				font_style  : ''
+				foreground  : '#E28964'
+			}
+		}
+ 		/******************************************************/
+		/*                      Storage                       */
+		/******************************************************/
+		{
+			title     : 'Storage'
+			scope     : 'storage'
+			settings  : {
+				font_style  : ''
+				foreground  : '#99CF50'
+			}
+		}
+ 		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				font_style  : ''
+				foreground  : '#65B042'
+			}
+		}
+ 		/******************************************************/
+		/*                      Support                       */
+		/******************************************************/
+		{
+			title     : 'Support'
+			scope     : 'support'
+			settings  : {
+				font_style  : ''
+				foreground  : '#9B859D'
+			}
+		}
+ 		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable'
+			settings  : {
+				foreground  : '#3E87E3'
+			}
+		}
+ 		/******************************************************/
+		/*               Invalid – Deprecated               */
+		/******************************************************/
+		{
+			title     : 'Invalid – Deprecated'
+			scope     : 'invalid.deprecated'
+			settings  : {
+				font_style  : 'italic underline'
+				foreground  : '#FD5FF1'
+			}
+		}
+ 		/******************************************************/
+		/*                Invalid – Illegal                 */
+		/******************************************************/
+		{
+			title     : 'Invalid – Illegal'
+			scope     : 'invalid.illegal'
+			settings  : {
+				background  : '#562D56BF'
+				foreground  : '#FD5FF1'
+			}
+		}
+ 		/******************************************************/
+		/*        -----------------------------------         */
+		/******************************************************/
+		{
+			title     : '-----------------------------------'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*            ♦ Embedded Source (Bright)            */
+		/******************************************************/
+		{
+			title     : '♦ Embedded Source (Bright)'
+			scope     : 'text source'
+			settings  : {
+				background  : '#B1B3BA08'
+			}
+		}
+ 		/******************************************************/
+		/*             ♦ Entity inherited-class             */
+		/******************************************************/
+		{
+			title     : '♦ Entity inherited-class'
+			scope     : 'entity.other.inherited-class'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#9B5C2E'
+			}
+		}
+ 		/******************************************************/
+		/*             ♦ String embedded-source             */
+		/******************************************************/
+		{
+			title     : '♦ String embedded-source'
+			scope     : 'string.quoted source'
+			settings  : {
+				font_style  : ''
+				foreground  : '#DAEFA3'
+			}
+		}
+ 		/******************************************************/
+		/*                ♦ String constant                 */
+		/******************************************************/
+		{
+			title     : '♦ String constant'
+			scope     : 'string constant'
+			settings  : {
+				foreground  : '#DDF2A4'
+			}
+		}
+ 		/******************************************************/
+		/*                 ♦ String.regexp                  */
+		/******************************************************/
+		{
+			title     : '♦ String.regexp'
+			scope     : 'string.regexp'
+			settings  : {
+				foreground  : '#E9C062'
+			}
+		}
+ 		/******************************************************/
+		/*           ♦ String.regexp.«special»            */
+		/******************************************************/
+		{
+			title     : '♦ String.regexp.«special»'
+			scope     : 'string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition'
+			settings  : {
+				foreground  : '#CF7D34'
+			}
+		}
+ 		/******************************************************/
+		/*                ♦ String variable                 */
+		/******************************************************/
+		{
+			title     : '♦ String variable'
+			scope     : 'string variable'
+			settings  : {
+				foreground  : '#8A9A95'
+			}
+		}
+ 		/******************************************************/
+		/*                ♦ Support.function                */
+		/******************************************************/
+		{
+			title     : '♦ Support.function'
+			scope     : 'support.function'
+			settings  : {
+				font_style  : ''
+				foreground  : '#DAD085'
+			}
+		}
+ 		/******************************************************/
+		/*                ♦ Support.constant                */
+		/******************************************************/
+		{
+			title     : '♦ Support.constant'
+			scope     : 'support.constant'
+			settings  : {
+				font_style  : ''
+				foreground  : '#CF6A4C'
+			}
+		}
+ 		/******************************************************/
+		/*             c C/C++ Preprocessor Line              */
+		/******************************************************/
+		{
+			title     : 'c C/C++ Preprocessor Line'
+			scope     : 'meta.preprocessor.c'
+			settings  : {
+				foreground  : '#8996A8'
+			}
+		}
+ 		/******************************************************/
+		/*           c C/C++ Preprocessor Directive           */
+		/******************************************************/
+		{
+			title     : 'c C/C++ Preprocessor Directive'
+			scope     : 'meta.preprocessor.c keyword'
+			settings  : {
+				foreground  : '#AFC4DB'
+			}
+		}
+ 		/******************************************************/
+		/*                 j Entity Name Type                 */
+		/******************************************************/
+		{
+			title     : 'j Entity Name Type'
+			scope     : 'entity.name.type'
+			settings  : {
+				font_style  : 'underline'
+			}
+		}
+ 		/******************************************************/
+		/*                       j Cast                       */
+		/******************************************************/
+		{
+			title     : 'j Cast'
+			scope     : 'meta.cast'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#676767'
+			}
+		}
+ 		/******************************************************/
+		/*             ✘ Doctype/XML Processing             */
+		/******************************************************/
+		{
+			title     : '✘ Doctype/XML Processing'
+			scope     : 'meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity, meta.sgml.html meta.doctype string, meta.xml-processing, meta.xml-processing entity, meta.xml-processing string'
+			settings  : {
+				foreground  : '#494949'
+			}
+		}
+ 		/******************************************************/
+		/*                ✘ Meta.tag.«all»                */
+		/******************************************************/
+		{
+			title     : '✘ Meta.tag.«all»'
+			scope     : 'meta.tag, meta.tag entity'
+			settings  : {
+				foreground  : '#89BDFF'
+			}
+		}
+ 		/******************************************************/
+		/*                ✘ Meta.tag.inline                 */
+		/******************************************************/
+		{
+			title     : '✘ Meta.tag.inline'
+			scope     : 'source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity'
+			settings  : {
+				foreground  : '#E0C589'
+			}
+		}
+ 		/******************************************************/
+		/*                   ✘ Namespaces                   */
+		/******************************************************/
+		{
+			title     : '✘ Namespaces'
+			scope     : 'entity.name.tag.namespace, entity.other.attribute-name.namespace'
+			settings  : {
+				foreground  : '#E18964'
+			}
+		}
+ 		/******************************************************/
+		/*                  § css tag-name                   */
+		/******************************************************/
+		{
+			title     : '§ css tag-name'
+			scope     : 'meta.selector.css entity.name.tag'
+			settings  : {
+				foreground  : '#CDA869'
+			}
+		}
+ 		/******************************************************/
+		/*                § css:pseudo-class                 */
+		/******************************************************/
+		{
+			title     : '§ css:pseudo-class'
+			scope     : 'meta.selector.css entity.other.attribute-name.tag.pseudo-class'
+			settings  : {
+				foreground  : '#8F9D6A'
+			}
+		}
+ 		/******************************************************/
+		/*                     § css#id                      */
+		/******************************************************/
+		{
+			title     : '§ css#id'
+			scope     : 'meta.selector.css entity.other.attribute-name.id'
+			settings  : {
+				foreground  : '#8B98AB'
+			}
+		}
+ 		/******************************************************/
+		/*                    § css.class                    */
+		/******************************************************/
+		{
+			title     : '§ css.class'
+			scope     : 'meta.selector.css entity.other.attribute-name.class'
+			settings  : {
+				foreground  : '#9B703F'
+			}
+		}
+ 		/******************************************************/
+		/*               § css property-name:                */
+		/******************************************************/
+		{
+			title     : '§ css property-name:'
+			scope     : 'support.type.property-name.css'
+			settings  : {
+				foreground  : '#C5AF75'
+			}
+		}
+ 		/******************************************************/
+		/*               § css property-value;               */
+		/******************************************************/
+		{
+			title     : '§ css property-value;'
+			scope     : 'meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css'
+			settings  : {
+				foreground  : '#F9EE98'
+			}
+		}
+ 		/******************************************************/
+		/*                  § css @at-rule                   */
+		/******************************************************/
+		{
+			title     : '§ css @at-rule'
+			scope     : 'meta.preprocessor.at-rule keyword.control.at-rule'
+			settings  : {
+				foreground  : '#8693A5'
+			}
+		}
+ 		/******************************************************/
+		/*            § css additional-constants             */
+		/******************************************************/
+		{
+			title     : '§ css additional-constants'
+			scope     : 'meta.property-value support.constant.named-color.css, meta.property-value constant'
+			settings  : {
+				foreground  : '#DD7B3B'
+			}
+		}
+ 		/******************************************************/
+		/*            § css constructor.argument             */
+		/******************************************************/
+		{
+			title     : '§ css constructor.argument'
+			scope     : 'meta.constructor.argument.css'
+			settings  : {
+				foreground  : '#8F9D6A'
+			}
+		}
+ 		/******************************************************/
+		/*                  ⎇ diff.header                   */
+		/******************************************************/
+		{
+			title     : '⎇ diff.header'
+			scope     : 'meta.diff, meta.diff.header'
+			settings  : {
+				background  : '#0E2231'
+				font_style  : 'italic'
+				foreground  : '#F8F8F8'
+			}
+		}
+ 		/******************************************************/
+		/*                  ⎇ diff.deleted                  */
+		/******************************************************/
+		{
+			title     : '⎇ diff.deleted'
+			scope     : 'markup.deleted'
+			settings  : {
+				background  : '#420E09'
+				foreground  : '#F8F8F8'
+			}
+		}
+ 		/******************************************************/
+		/*                  ⎇ diff.changed                  */
+		/******************************************************/
+		{
+			title     : '⎇ diff.changed'
+			scope     : 'markup.changed'
+			settings  : {
+				background  : '#4A410D'
+				foreground  : '#F8F8F8'
+			}
+		}
+ 		/******************************************************/
+		/*                 ⎇ diff.inserted                  */
+		/******************************************************/
+		{
+			title     : '⎇ diff.inserted'
+			scope     : 'markup.inserted'
+			settings  : {
+				background  : '#253B22'
+				foreground  : '#F8F8F8'
+			}
+		}
+ 		/******************************************************/
+		/*          --------------------------------          */
+		/******************************************************/
+		{
+			title     : '--------------------------------'
+			settings  : {
+			}
+		}
+ 		/******************************************************/
+		/*                   Markup: Italic                   */
+		/******************************************************/
+		{
+			title     : 'Markup: Italic'
+			scope     : 'markup.italic'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#E9C062'
+			}
+		}
+ 		/******************************************************/
+		/*                    Markup: Bold                    */
+		/******************************************************/
+		{
+			title     : 'Markup: Bold'
+			scope     : 'markup.bold'
+			settings  : {
+				font_style  : 'bold'
+				foreground  : '#E9C062'
+			}
+		}
+ 		/******************************************************/
+		/*                 Markup: Underline                  */
+		/******************************************************/
+		{
+			title     : 'Markup: Underline'
+			scope     : 'markup.underline'
+			settings  : {
+				font_style  : 'underline'
+				foreground  : '#E18964'
+			}
+		}
+ 		/******************************************************/
+		/*                   Markup: Quote                    */
+		/******************************************************/
+		{
+			title     : 'Markup: Quote'
+			scope     : 'markup.quote'
+			settings  : {
+				background  : '#FEE09C12'
+				font_style  : 'italic'
+				foreground  : '#E1D4B9'
+			}
+		}
+ 		/******************************************************/
+		/*                  Markup: Heading                   */
+		/******************************************************/
+		{
+			title     : 'Markup: Heading'
+			scope     : 'markup.heading, markup.heading entity'
+			settings  : {
+				background  : '#632D04'
+				font_style  : ''
+				foreground  : '#FEDCC5'
+			}
+		}
+ 		/******************************************************/
+		/*                    Markup: List                    */
+		/******************************************************/
+		{
+			title     : 'Markup: List'
+			scope     : 'markup.list'
+			settings  : {
+				foreground  : '#E1D4B9'
+			}
+		}
+ 		/******************************************************/
+		/*                    Markup: Raw                     */
+		/******************************************************/
+		{
+			title     : 'Markup: Raw'
+			scope     : 'markup.raw'
+			settings  : {
+				background  : '#B1B3BA08'
+				font_style  : ''
+				foreground  : '#578BB3'
+			}
+		}
+ 		/******************************************************/
+		/*                  Markup: Comment                   */
+		/******************************************************/
+		{
+			title     : 'Markup: Comment'
+			scope     : 'markup comment'
+			settings  : {
+				font_style  : 'italic'
+				foreground  : '#F67B37'
+			}
+		}
+ 		/******************************************************/
+		/*                 Markup: Separator                  */
+		/******************************************************/
+		{
+			title     : 'Markup: Separator'
+			scope     : 'meta.separator'
+			settings  : {
+				background  : '#242424'
+				foreground  : '#60A633'
+			}
+		}
+ 		/******************************************************/
+		/*                     Log Entry                      */
+		/******************************************************/
+		{
+			title     : 'Log Entry'
+			scope     : 'meta.line.entry.logfile, meta.line.exit.logfile'
+			settings  : {
+				background  : '#EEEEEE29'
+			}
+		}
+ 		/******************************************************/
+		/*                  Log Entry Error                   */
+		/******************************************************/
+		{
+			title     : 'Log Entry Error'
+			scope     : 'meta.line.error.logfile'
+			settings  : {
+				background  : '#751012'
+			}
+		}
+ 	]
+	uuid      : 'C8C58F9A-35FE-44A4-9BC2-2F3C343DC81D'
+}

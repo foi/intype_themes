@@ -1,0 +1,1622 @@
+{
+
+title     : 'Thomas Aylott ㊷ subtleGradient.com'
+settings  : [
+	{
+	settings : 	{
+		background	: '#050505FA'
+		caret	: '#3333FF'
+		foreground	: '#CDCDCD'
+		invisibles	: '#CDCDCD1A'
+		line_highlight	: '#0000801A'
+		selection	: '#1717E64D'
+	}
+	}
+
+	{
+	title: 'Thomas Aylott ㊷'
+		scope	: 'meta.thomas_aylott'
+	settings : 	{
+		background	: '#FFFFFF'
+		font_style	: 'bold'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: 'subtleGradient.com'
+		scope	: 'meta.subtlegradient'
+	settings : 	{
+		background	: '#FFFFFF'
+		font_style	: 'underline'
+		foreground	: '#555555'
+	}
+	}
+
+	{
+	title: '——————————————————'
+		scope	: 'meta.subtlegradient'
+	settings : 	{
+		background	: '#FFFFFF'
+		foreground	: '#E6E6E6'
+	}
+	}
+
+	{
+	title: '~ String'
+		scope	: 'string -meta.tag -meta.doctype -string.regexp -string.literal -string.interpolated -string.quoted.literal -string.unquoted, variable.parameter.misc.css, text string source string, string.unquoted string, string.regexp string'
+	settings : 	{
+		background	: '#803D0033'
+		foreground	: '#FFFC80'
+	}
+	}
+
+	{
+	title: '~ String Punctuation'
+		scope	: 'punctuation.definition.string -meta.tag'
+	settings : 	{
+		foreground	: '#803D00'
+	}
+	}
+
+	{
+	title: '~ String Punctuation II'
+		scope	: 'string.regexp punctuation.definition.string, string.quoted.literal punctuation.definition.string, string.quoted.double.ruby.mod punctuation.definition.string'
+	settings : 	{
+		foreground	: '#FFF80033'
+	}
+	}
+
+	{
+	title: '~ String Literal'
+		scope	: 'string.quoted.literal, string.quoted.double.ruby.mod'
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#FFF800'
+	}
+	}
+
+	{
+	title: '~ String Unquoted'
+		scope	: 'string.unquoted -string.unquoted.embedded, string.quoted.double.multiline, meta.scope.heredoc'
+	settings : 	{
+		foreground	: '#FFBC80'
+	}
+	}
+
+	{
+	title: '~ String Interpolated'
+		scope	: 'string.interpolated'
+	settings : 	{
+		background	: '#1A1A1A'
+		foreground	: '#FFFC80'
+	}
+	}
+
+	{
+	title: '~ String RegEx'
+		scope	: 'string.regexp'
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#FFF800'
+	}
+	}
+
+	{
+	title: '~ String RegEx Group 1'
+		scope	: 'string.regexp.group'
+	settings : 	{
+		background	: '#43800033'
+	}
+	}
+
+	{
+	title: '~ String RegEx Group 2'
+		scope	: 'string.regexp.group string.regexp.group '
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#FFFFFF66'
+	}
+	}
+
+	{
+	title: '~ String RegEx Group 3'
+		scope	: 'string.regexp.group string.regexp.group string.regexp.group '
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#FFFFFF66'
+	}
+	}
+
+	{
+	title: '~ String RegEx Group 4'
+		scope	: 'string.regexp.group string.regexp.group string.regexp.group string.regexp.group '
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#FFFFFF66'
+	}
+	}
+
+	{
+	title: '~ String RegEx Character-Class'
+		scope	: 'string.regexp.character-class'
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#86FF00'
+	}
+	}
+
+	{
+	title: '~ String RegEx Arbitrary-Repitition'
+		scope	: 'string.regexp.arbitrary-repitition'
+	settings : 	{
+		background	: '#43800033'
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: '~ Meta Group Assertion Regexp '
+		scope	: 'meta.group.assertion.regexp '
+	settings : 	{
+		background	: '#0086FF33'
+	}
+	}
+
+	{
+	title: '~ Meta Assertion'
+		scope	: 'meta.assertion, meta.group.assertion keyword.control.group.regexp'
+	settings : 	{
+		foreground	: '#0086FF'
+	}
+	}
+
+	{
+	title: '~ Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		foreground	: '#C6FF00'
+	}
+	}
+
+	{
+	title: '~ Character constant'
+		scope	: 'constant.character'
+	settings : 	{
+		foreground	: '#86FF00'
+	}
+	}
+
+	{
+	title: '~ Built-in constant'
+		scope	: 'constant.language, keyword.other.unit, constant.other.java, constant.other.unit'
+	settings : 	{
+		foreground	: '#07FF00'
+	}
+	}
+
+	{
+	title: '~ Built-in constant+'
+		scope	: 'constant.language.pseudo-variable'
+	settings : 	{
+		background	: '#04800033'
+		foreground	: '#07FF00'
+	}
+	}
+
+	{
+	title: '~ User-defined constant'
+		scope	: 'constant.other, constant.block'
+	settings : 	{
+		foreground	: '#00FF79'
+	}
+	}
+
+	{
+	title: '~ Library constant'
+		scope	: 'support.constant, constant.name'
+	settings : 	{
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '√ global pre-defined variable'
+		scope	: 'variable.other.readwrite.global.pre-defined'
+	settings : 	{
+		background	: '#00807C33'
+		foreground	: '#00FF79'
+	}
+	}
+
+	{
+	title: '√ Constant Variable'
+		scope	: 'variable.other.constant'
+	settings : 	{
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: '√ Library variable'
+		scope	: 'support.variable'
+	settings : 	{
+		background	: '#00807C33'
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: '√ global Variable'
+		scope	: 'variable.other.readwrite.global'
+	settings : 	{
+		background	: '#00438033'
+		foreground	: '#00807C'
+	}
+	}
+
+	{
+	title: '√ Variable'
+		scope	: 'variable.language, variable.other, variable.js'
+	settings : 	{
+		foreground	: '#0086FF'
+	}
+	}
+
+	{
+	title: '√ class Variable'
+		scope	: 'variable.other.readwrite.class'
+	settings : 	{
+		background	: '#0007FF33'
+		foreground	: '#0086FF'
+	}
+	}
+
+	{
+	title: '√ instance Variable'
+		scope	: 'variable.other.readwrite.instance'
+	settings : 	{
+		foreground	: '#406180'
+	}
+	}
+
+	{
+	title: '√ Normal Variables'
+		scope	: 'variable.other.php, variable.other.normal'
+	settings : 	{
+		foreground	: '#406180'
+	}
+	}
+
+	{
+	title: '√ Variable Punctuation'
+		scope	: 'punctuation.definition'
+	settings : 	{
+		foreground	: '#00000080'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '¢ Storage'
+		scope	: 'storage -storage.modifier'
+	settings : 	{
+		foreground	: '#FF7900'
+	}
+	}
+
+	{
+	title: '¢ EntitytitlePreprocessor'
+		scope	: 'other.preprocessor, entity.name.preprocessor'
+	settings : 	{
+		background	: '#803D0033'
+	}
+	}
+
+	{
+	title: '~ variable.language.this.js.prototype'
+		scope	: 'variable.language.this.js'
+	settings : 	{
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: '¢ Storage Modifier'
+		scope	: 'storage.modifier'
+	settings : 	{
+		foreground	: '#803D00'
+	}
+	}
+
+	{
+	title: '¢ Class name'
+		scope	: 'entity.name.class, entity.name.type.class'
+	settings : 	{
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: '¢ Class'
+		scope	: 'meta.class -meta.class.instance, declaration.class, meta.definition.class, declaration.module'
+	settings : 	{
+		background	: '#FF000733'
+		foreground	: '#800004'
+	}
+	}
+
+	{
+	title: '¢ Library class/type'
+		scope	: 'support.type, support.class'
+	settings : 	{
+		background	: '#80000433'
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: '¢ Instance'
+		scope	: 'entity.name.instance'
+	settings : 	{
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: '¢ Instance.constructor'
+		scope	: 'meta.class.instance.constructor'
+	settings : 	{
+		background	: '#80004333'
+	}
+	}
+
+	{
+	title: '¢ Inherited class'
+		scope	: 'entity.other.inherited-class, entity.name.module'
+	settings : 	{
+		background	: '#80000433'
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: '¢ Class Method'
+		scope	: 'object.property.function, meta.definition.method'
+	settings : 	{
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: '¢ Function'
+		scope	: 'meta.function, meta.property.function, declaration.function'
+	settings : 	{
+		background	: '#80004333'
+		foreground	: '#800043'
+	}
+	}
+
+	{
+	title: '¢ Function name'
+		scope	: 'entity.name.function, entity.name.preprocessor'
+	settings : 	{
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '™ Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		foreground	: '#F800FF'
+	}
+	}
+
+	{
+	title: '™ Keyword.control'
+		scope	: 'keyword.control'
+	settings : 	{
+		background	: '#3C008033'
+		foreground	: '#F800FF'
+	}
+	}
+
+	{
+	title: '™ HACK keyword.control.ruby.start-block'
+		scope	: 'keyword.control.ruby.start-block'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '™ Special Function'
+		scope	: 'keyword.other.special-method, meta.function-call entity.name.function'
+	settings : 	{
+		background	: '#3C008033'
+		foreground	: '#7900FF'
+	}
+	}
+
+	{
+	title: '™ Keyword.operator'
+		scope	: 'keyword.operator, declaration.function.operator, meta.preprocessor.c.include'
+	settings : 	{
+		foreground	: '#6100CC'
+	}
+	}
+
+	{
+	title: '™ Library function'
+		scope	: 'support.function - variable'
+	settings : 	{
+		foreground	: '#8C60BF'
+	}
+	}
+
+	{
+	title: '™ keyword.operator.getter'
+		scope	: 'keyword.operator.getter'
+	settings : 	{
+		foreground	: '#8083FF'
+	}
+	}
+
+	{
+	title: '™ keyword.operator.setter'
+		scope	: 'keyword.operator.setter'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '™ Function argument'
+		scope	: 'variable.parameter -variable.parameter.misc.css, meta.definition.method  meta.definition.param-list, meta.function.method.with-arguments variable.parameter.function'
+	settings : 	{
+		background	: '#3C008033'
+		foreground	: '#8083FF'
+	}
+	}
+
+	{
+	title: 'source.regexp keyword'
+		scope	: 'source.regexp keyword.operator'
+	settings : 	{
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '✘ HTML'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '✘ Tag Doctype'
+		scope	: 'meta.doctype, meta.tag.sgml-declaration.doctype, meta.tag.sgml.doctype'
+	settings : 	{
+		background	: '#333333'
+		foreground	: '#CDCDCD'
+	}
+	}
+
+	{
+	title: '✘ Tag'
+		scope	: 'meta.tag'
+	settings : 	{
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: '✘ Tag Structure'
+		scope	: 'meta.tag.structure, meta.tag.segment'
+	settings : 	{
+		background	: '#333333'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: '✘ Tag Block'
+		scope	: 'meta.tag.block, meta.tag.xml, meta.tag.key'
+	settings : 	{
+		background	: '#4C4C4C33'
+		foreground	: '#4C4C4C'
+	}
+	}
+
+	{
+	title: '✘ Tag Inline'
+		scope	: 'meta.tag.inline'
+	settings : 	{
+		background	: '#803D0033'
+		foreground	: '#FF7900'
+	}
+	}
+
+	{
+	title: 'meta.tag.inline source'
+		scope	: 'meta.tag.inline source'
+	settings : 	{
+		background	: '#803D0033'
+	}
+	}
+
+	{
+	title: '✘ Tag Other'
+		scope	: 'meta.tag.other, entity.name.tag.style, source entity.other.attribute-name -text.html.basic.embedded , entity.name.tag.script, meta.tag.block.script'
+	settings : 	{
+		background	: '#80000433'
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: '✘ Tag Form'
+		scope	: 'meta.tag.form, meta.tag.block.form'
+	settings : 	{
+		background	: '#00438033'
+		foreground	: '#0086FF'
+	}
+	}
+
+	{
+	title: '✘ Tag Meta'
+		scope	: 'meta.tag.meta'
+	settings : 	{
+		background	: '#3C008033'
+		foreground	: '#F800FF'
+	}
+	}
+
+	{
+	title: '✘ Tag Block Head'
+		scope	: 'meta.section.html.head'
+	settings : 	{
+		background	: '#121212'
+	}
+	}
+
+	{
+	title: '✘ Tag Block Form'
+		scope	: 'meta.section.html.form'
+	settings : 	{
+		background	: '#0043801A'
+	}
+	}
+
+	{
+	title: '✘ XML Tag'
+		scope	: 'meta.tag.xml'
+	settings : 	{
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: '✘ Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		foreground	: '#FFFFFF4D'
+	}
+	}
+
+	{
+	title: '✘ Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+		foreground	: '#FFFFFF33'
+	}
+	}
+
+	{
+	title: '✘ Tag value'
+		scope	: 'meta.tag string -source -punctuation, text source text meta.tag string -punctuation'
+	settings : 	{
+		foreground	: '#FFFFFF66'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'M markdown'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'M markup'
+		scope	: 'markup markup -(markup meta.paragraph.list)'
+	settings : 	{
+		background	: '#33333333'
+		foreground	: '#FFF800'
+	}
+	}
+
+	{
+	title: 'M HR'
+		scope	: 'markup.hr'
+	settings : 	{
+		background	: '#FFFFFF'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: 'M heading'
+		scope	: 'markup.heading'
+	settings : 	{
+		background	: '#33333380'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'M bold'
+		scope	: 'markup.bold'
+	settings : 	{
+		font_style	: 'bold'
+	}
+	}
+
+	{
+	title: 'M italic'
+		scope	: 'markup.italic'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: 'M strike'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'M add'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'M del'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'M underline'
+		scope	: 'markup.underline'
+	settings : 	{
+		font_style	: 'underline'
+	}
+	}
+
+	{
+	title: 'M reference'
+		scope	: 'meta.reference, markup.underline.link'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#0086FF'
+	}
+	}
+
+	{
+	title: 'M reference name'
+		scope	: 'entity.name.reference'
+	settings : 	{
+		background	: '#00438033'
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: 'M underline link'
+		scope	: 'meta.reference.list markup.underline.link, text.html.textile markup.underline.link'
+	settings : 	{
+		font_style	: 'underline'
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: 'M raw block'
+		scope	: 'markup.raw.block'
+	settings : 	{
+		background	: '#000000'
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: 'M quote block'
+		scope	: 'markup.quote'
+	settings : 	{
+		background	: '#FFFFFF1A'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '§ CSS'
+		scope	: 'source.css'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '§ Selector'
+		scope	: 'meta.selector'
+	settings : 	{
+		background	: '#00000080'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: '§ Attribute-Match'
+		scope	: 'meta.attribute-match.css'
+	settings : 	{
+		background	: '#00048033'
+		foreground	: '#0007FF'
+	}
+	}
+
+	{
+	title: '§ Pseudo-Class'
+		scope	: 'entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class'
+	settings : 	{
+		foreground	: '#7900FF'
+	}
+	}
+
+	{
+	title: '§ Class'
+		scope	: 'meta.selector entity.other.attribute-name.class'
+	settings : 	{
+		foreground	: '#F800FF'
+	}
+	}
+
+	{
+	title: '§ ID'
+		scope	: 'meta.selector entity.other.attribute-name.id'
+	settings : 	{
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: '§ Tag'
+		scope	: 'meta.selector entity.name.tag'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: '§ Tag Wildcard'
+		scope	: 'entity.name.tag.wildcard, entity.other.attribute-name.universal'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FF7900'
+	}
+	}
+
+	{
+	title: '§ meta.property-list'
+		scope	: 'meta.property-list'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: '§ meta.property-name'
+		scope	: 'meta.property-name'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: '§ support.type.property-name'
+		scope	: 'support.type.property-name'
+	settings : 	{
+		background	: '#000000'
+		font_style	: ''
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: '§ meta.property-value'
+		scope	: 'meta.property-value'
+	settings : 	{
+		background	: '#0D0D0D'
+		font_style	: ''
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'LaTeX'
+		scope	: 'text.latex'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'L Markup Raw'
+		scope	: 'text.latex markup.raw'
+	settings : 	{
+		background	: '#000000'
+	}
+	}
+
+	{
+	title: 'L support.function'
+		scope	: 'text.latex support.function -support.function.textit -support.function.emph'
+	settings : 	{
+		foreground	: '#BC80FF'
+	}
+	}
+
+	{
+	title: 'L support.function.section'
+		scope	: 'text.latex support.function.section'
+	settings : 	{
+		foreground	: '#FFFFFFBF'
+	}
+	}
+
+	{
+	title: 'L entity.name.section'
+		scope	: 'text.latex entity.name.section -meta.group -keyword.operator.braces'
+	settings : 	{
+		background	: '#FFFFFF'
+		font_style	: ''
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: 'L constant.language.general'
+		scope	: 'text.latex constant.language.general'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'L keyword.operator.delimiter'
+		scope	: 'text.latex keyword.operator.delimiter'
+	settings : 	{
+		background	: '#00000080'
+	}
+	}
+
+	{
+	title: 'L keyword.operator.brackets'
+		scope	: 'text.latex keyword.operator.brackets'
+	settings : 	{
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: 'L keyword.operator.braces'
+		scope	: 'text.latex keyword.operator.braces'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'L meta.footnote'
+		scope	: 'meta.footnote'
+	settings : 	{
+		background	: '#00048033'
+		foreground	: '#0008FF4D'
+	}
+	}
+
+	{
+	title: 'L meta.label.reference'
+		scope	: 'text.latex meta.label.reference'
+	settings : 	{
+		background	: '#FFFFFF0D'
+		font_style	: ''
+	}
+	}
+
+	{
+	title: 'L keyword.control.ref'
+		scope	: 'text.latex keyword.control.ref'
+	settings : 	{
+		background	: '#260001'
+		foreground	: '#FF0007'
+	}
+	}
+
+	{
+	title: 'L variable.parameter.label.reference'
+		scope	: 'text.latex variable.parameter.label.reference'
+	settings : 	{
+		background	: '#400002'
+		foreground	: '#FFBC80'
+	}
+	}
+
+	{
+	title: 'L keyword.control.cite'
+		scope	: 'text.latex keyword.control.cite'
+	settings : 	{
+		background	: '#260014'
+		foreground	: '#FF0086'
+	}
+	}
+
+	{
+	title: 'L variable.parameter.cite'
+		scope	: 'variable.parameter.cite'
+	settings : 	{
+		background	: '#400022'
+		foreground	: '#FFBFE1'
+	}
+	}
+
+	{
+	title: 'L variable.parameter.label'
+		scope	: 'text.latex variable.parameter.label'
+	settings : 	{
+		foreground	: '#FFFFFF80'
+	}
+	}
+
+	{
+	title: 'L meta.group.braces'
+		scope	: 'text.latex meta.group.braces'
+	settings : 	{
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list'
+		scope	: 'text.latex meta.environment.list'
+	settings : 	{
+		background	: '#00000080'
+		font_style	: ''
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list 2'
+		scope	: 'text.latex meta.environment.list meta.environment.list '
+	settings : 	{
+		background	: '#00000080'
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list 3'
+		scope	: 'text.latex meta.environment.list meta.environment.list meta.environment.list '
+	settings : 	{
+		background	: '#000000'
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list 4'
+		scope	: 'text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list '
+	settings : 	{
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list 5'
+		scope	: 'text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list '
+	settings : 	{
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.environment.list 6'
+		scope	: 'text.latex meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list meta.environment.list '
+	settings : 	{
+		foreground	: '#33333333'
+	}
+	}
+
+	{
+	title: 'L meta.end-document'
+		scope	: 'text.latex meta.end-document, text.latex meta.begin-document, meta.end-document.latex support.function, meta.end-document.latex variable.parameter, meta.begin-document.latex support.function, meta.begin-document.latex variable.parameter'
+	settings : 	{
+		background	: '#CDCDCD'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'meta.brace.erb.return-value'
+		scope	: 'meta.brace.erb.return-value'
+	settings : 	{
+		background	: '#45815D33'
+		foreground	: '#45815D'
+	}
+	}
+
+	{
+	title: 'source.ruby.rails.embedded.return-value.one-line'
+		scope	: 'source.ruby.rails.embedded.return-value.one-line'
+	settings : 	{
+		background	: '#66666633'
+	}
+	}
+
+	{
+	title: 'meta.brace.erb'
+		scope	: 'punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html'
+	settings : 	{
+		background	: '#00FFF81A'
+		foreground	: '#00FFF8'
+	}
+	}
+
+	{
+	title: 'source.ruby.rails.embedded.one-line'
+		scope	: 'source.ruby.rails.embedded.one-line'
+	settings : 	{
+		background	: '#00FFF81A'
+	}
+	}
+
+	{
+	title: 'String Embedded Source'
+		scope	: 'source string source punctuation.section.embedded'
+	settings : 	{
+		foreground	: '#406180'
+	}
+	}
+
+	{
+	title: '◊ Source'
+		scope	: 'source'
+	settings : 	{
+		background	: '#000000'
+		font_style	: ''
+	}
+	}
+
+	{
+	title: '◊ meta.brace.erb'
+		scope	: 'meta.brace.erb'
+	settings : 	{
+		background	: '#000000'
+	}
+	}
+
+	{
+	title: '◊ Source String Source'
+		scope	: 'source string source'
+	settings : 	{
+		background	: '#33333380'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: '◊ Source String Interpolated Source'
+		scope	: 'source string.interpolated source'
+	settings : 	{
+		background	: '#00000099'
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: '◊ Source Embeded Source'
+		scope	: 'source.java.embedded'
+	settings : 	{
+		background	: '#3333331A'
+	}
+	}
+
+	{
+	title: '◊ Text'
+		scope	: 'text -text.xml.strict'
+	settings : 	{
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: '◊ Text Source'
+		scope	: 'text source, meta.scope.django.template'
+	settings : 	{
+		background	: '#000000'
+		foreground	: '#CCCCCC'
+	}
+	}
+
+	{
+	title: '◊ Text Source Text String'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '◊ Text String Source'
+		scope	: 'text string source'
+	settings : 	{
+		foreground	: '#999999'
+	}
+	}
+
+	{
+	title: '◊ Text Source String Source'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '◊ Text String Source String Source'
+		scope	: 'text string source string source'
+	settings : 	{
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'Syntax'
+		scope	: 'meta.syntax'
+	settings : 	{
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+		background	: '#FF0007'
+		font_style	: 'bold'
+		foreground	: '#330000'
+	}
+	}
+
+	{
+	title: 'Comment'
+		scope	: '0comment'
+	settings : 	{
+		background	: '#0000FF1A'
+		font_style	: 'italic'
+		foreground	: '#5555FF'
+	}
+	}
+
+	{
+	title: 'Comment Punctuation'
+		scope	: 'comment punctuation'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#0000FF1A'
+	}
+	}
+
+	{
+	title: 'comment'
+		scope	: 'comment'
+	settings : 	{
+		background	: '#050505'
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: 'Comment Punctuation'
+		scope	: 'comment punctuation'
+	settings : 	{
+		foreground	: '#333333'
+	}
+	}
+
+	{
+	title: '✘ HTML Comment'
+		scope	: 'text comment.block -source'
+	settings : 	{
+		font_style	: 'italic'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'D Diff Add'
+		scope	: 'markup.inserted'
+	settings : 	{
+		background	: '#00401E'
+		foreground	: '#40FF9A'
+	}
+	}
+
+	{
+	title: 'D Diff Delete'
+		scope	: 'markup.deleted'
+	settings : 	{
+		background	: '#400021'
+		foreground	: '#FF40A3'
+	}
+	}
+
+	{
+	title: 'D Diff Changed'
+		scope	: 'markup.changed'
+	settings : 	{
+		background	: '#803D00'
+		foreground	: '#FFFF55'
+	}
+	}
+
+	{
+	title: 'text.subversion-commit meta.scope.changed-files'
+		scope	: 'text.subversion-commit meta.scope.changed-files, text.subversion-commit meta.scope.changed-files.svn meta.diff.separator'
+	settings : 	{
+		background	: '#000000'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'text.subversion-commit'
+		scope	: 'text.subversion-commit'
+	settings : 	{
+		background	: '#FFFFFF'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'meta.delimiter'
+		scope	: 'punctuation.terminator, meta.delimiter, punctuation.delimiter.method'
+	settings : 	{
+		background	: '#FFFFFF03'
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'meta.delimiter.statement.js'
+		scope	: 'punctuation.terminator.statement, meta.delimiter.statement.js'
+	settings : 	{
+		background	: '#000000BF'
+	}
+	}
+
+	{
+	title: 'meta.delimiter.object.js'
+		scope	: 'meta.delimiter.object.js'
+	settings : 	{
+		background	: '#00000040'
+	}
+	}
+
+	{
+	title: 'Bold String Quotes'
+		scope	: 'string.quoted.single.brace, string.quoted.double.brace'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#803D00'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'meta.headers.blog'
+		scope	: 'text.blog -(text.blog text)'
+	settings : 	{
+		background	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'meta.headers.blog'
+		scope	: 'meta.headers.blog'
+	settings : 	{
+		background	: '#FFFFFF'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'meta.headers.blog keyword.other.blog'
+		scope	: 'meta.headers.blog keyword.other.blog'
+	settings : 	{
+		background	: '#00FFF81A'
+		font_style	: ''
+		foreground	: '#06403E'
+	}
+	}
+
+	{
+	title: 'meta.headers.blog string.unquoted.blog'
+		scope	: 'meta.headers.blog string.unquoted.blog'
+	settings : 	{
+		background	: '#FFFF551A'
+		foreground	: '#803D00'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'meta.brace.pipe'
+		scope	: 'meta.brace.pipe'
+	settings : 	{
+		background	: '#33333333'
+		font_style	: ''
+		foreground	: '#4C4C4C'
+	}
+	}
+
+	{
+	title: 'Misc Punctuation'
+		scope	: 'meta.brace.erb, source.ruby.embedded.source.brace, punctuation.section.dictionary, punctuation.terminator.dictionary, punctuation.delimiter.object'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#4C4C4C'
+	}
+	}
+
+	{
+	title: 'Curly Punctuation'
+		scope	: 'meta.group.braces.curly punctuation.section.scope, meta.brace.curly'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+	title: 'Object Punctuation'
+		scope	: 'punctuation.separator.objects, meta.group.braces.curly meta.delimiter.object.comma, punctuation.separator.key-value -meta.tag'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#0C823B'
+	}
+	}
+
+	{
+	title: 'Array Punctuation'
+		scope	: 'meta.group.braces.square punctuation.section.scope, meta.group.braces.square meta.delimiter.object.comma, meta.brace.square, punctuation.separator.array, punctuation.section.array'
+	settings : 	{
+		background	: '#803D001A'
+		font_style	: 'bold'
+		foreground	: '#7F5E40'
+	}
+	}
+
+	{
+	title: 'meta.brace.curly meta.group'
+		scope	: 'meta.brace.curly meta.group'
+	settings : 	{
+		background	: '#00000080'
+		font_style	: ''
+		foreground	: '#CDCDCD'
+	}
+	}
+
+	{
+	title: 'Function Punctuation'
+		scope	: 'meta.group.braces.round punctuation.section.scope, meta.group.braces.round meta.delimiter.object.comma, meta.brace.round'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#800043'
+	}
+	}
+
+	{
+	title: 'meta.brace.curly.function'
+		scope	: 'punctuation.section.function, meta.brace.curly.function'
+	settings : 	{
+		background	: '#3C008033'
+		font_style	: ''
+		foreground	: '#8083FF'
+	}
+	}
+
+	{
+	title: 'º meta.source.embedded'
+		scope	: 'meta.source.embedded, entity.other.django.tagbraces'
+	settings : 	{
+		background	: '#00000080'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces.round JS'
+		scope	: 'source.js meta.group.braces.round, meta.scope.heredoc'
+	settings : 	{
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 1'
+		scope	: 'meta.odd-tab.group1, meta.group.braces, meta.block.slate, text.xml.strict meta.tag'
+	settings : 	{
+		background	: '#0A0A0A'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 2'
+		scope	: 'meta.even-tab.group2, meta.group.braces meta.group.braces, meta.block.slate meta.block.slate, text.xml.strict meta.tag meta.tag, meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#0E0E0E'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 3'
+		scope	: 'meta.odd-tab.group3, meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#111111'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 4'
+		scope	: 'meta.even-tab.group4, meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#151515'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 5'
+		scope	: 'meta.odd-tab.group5, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#191919'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 6'
+		scope	: 'meta.even-tab.group6, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#1C1C1C'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 7'
+		scope	: 'meta.odd-tab.group7, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#1F1F1F'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 8'
+		scope	: 'meta.even-tab.group8, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#212121'
+	}
+	}
+
+	{
+	title: 'º meta.group.braces 9'
+		scope	: 'meta.odd-tab.group11, meta.odd-tab.group10, meta.odd-tab.group9, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces , meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate meta.block.slate , text.xml.strict meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag meta.tag, meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces meta.group.braces'
+	settings : 	{
+		background	: '#242424'
+	}
+	}
+
+	{
+	title: 'º meta.block.slate '
+		scope	: 'meta.block.slate'
+	settings : 	{
+		foreground	: '#666666'
+	}
+	}
+
+	{
+	title: 'º meta.block.content.slate '
+		scope	: 'meta.block.content.slate '
+	settings : 	{
+		foreground	: '#CDCDCD'
+	}
+	}
+
+	{
+	title: '—————————————————'
+	settings : 	{
+	}
+	}
+
+]
+uuid      : ''
+}

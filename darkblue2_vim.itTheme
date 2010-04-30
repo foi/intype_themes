@@ -1,0 +1,421 @@
+{
+	title      : 'Darkblue2'
+	settings  : [
+		{
+			settings  : {
+				caret           : '#FFFF00'
+				background      : '#233B5A'
+				foreground      : '#FFF8DC'
+				line_highlight  : '#B2B200DD'
+			}
+		}
+		/******************************************************/
+		/*                      CursorIM                      */
+		/******************************************************/
+		{
+			title     : 'CursorIM'
+			scope     : 'cursorim'
+			settings  : {
+				foreground      : '#00000000'
+				background      : '#FFFF00'
+			}
+		}
+		/******************************************************/
+		/*                     Directory                      */
+		/******************************************************/
+		{
+			title     : 'Directory'
+			scope     : 'directory'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*                      DiffText                      */
+		/******************************************************/
+		{
+			title     : 'DiffText'
+			scope     : 'difftext'
+			settings  : {
+				background      : '#7F7F7F'
+			}
+		}
+		/******************************************************/
+		/*                      Invalid                       */
+		/******************************************************/
+		{
+			title     : 'Invalid'
+			scope     : 'invalid, invalid.deprecated, invalid.illegal, invalid.illegal.attribute-value.unrecognized'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFFFFF'
+				background      : '#D9D9D9'
+			}
+		}
+		/******************************************************/
+		/*                     VertSplit                      */
+		/******************************************************/
+		{
+			title     : 'VertSplit'
+			scope     : 'vertsplit'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#00000000'
+				background      : '#CCCCCC'
+			}
+		}
+		/******************************************************/
+		/*                      ModeMsg                       */
+		/******************************************************/
+		{
+			title     : 'ModeMsg'
+			scope     : 'modemsg'
+			settings  : {
+				font_style      : 'bold'
+			}
+		}
+		/******************************************************/
+		/*                       Search                       */
+		/******************************************************/
+		{
+			title     : 'Search'
+			scope     : 'search'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#233B5A'
+				background      : '#EEDD82'
+			}
+		}
+		/******************************************************/
+		/*                     StatusLine                     */
+		/******************************************************/
+		{
+			title     : 'StatusLine'
+			scope     : 'statusline'
+			settings  : {
+				foreground      : '#7FFFD4'
+			}
+		}
+		/******************************************************/
+		/*                    StatusLineNC                    */
+		/******************************************************/
+		{
+			title     : 'StatusLineNC'
+			scope     : 'statuslinenc'
+			settings  : {
+				foreground      : ''
+			}
+		}
+		/******************************************************/
+		/*                       Visual                       */
+		/******************************************************/
+		{
+			title     : 'Visual'
+			scope     : 'visual'
+			settings  : {
+				foreground      : '#4682B4'
+				background      : ''
+			}
+		}
+		/******************************************************/
+		/*                     VisualNOS                      */
+		/******************************************************/
+		{
+			title     : 'VisualNOS'
+			scope     : 'visualnos'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#4682B4'
+				background      : ''
+			}
+		}
+		/******************************************************/
+		/*                     WarningMsg                     */
+		/******************************************************/
+		{
+			title     : 'WarningMsg'
+			scope     : 'warningmsg'
+			settings  : {
+				foreground      : '#FFFFFF'
+				background      : '#FF6347'
+			}
+		}
+		/******************************************************/
+		/*                      Comment                       */
+		/******************************************************/
+		{
+			title     : 'Comment'
+			scope     : 'comment, meta.doctype, declaration.doctype, meta.doctype.DTD, declaration.doctype.DTD'
+			settings  : {
+				foreground      : '#66CDAA'
+			}
+		}
+		/******************************************************/
+		/*                 Built-in constant                  */
+		/******************************************************/
+		{
+			title     : 'Built-in constant'
+			scope     : 'constant, constant.language'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                       String                       */
+		/******************************************************/
+		{
+			title     : 'String'
+			scope     : 'string'
+			settings  : {
+				foreground      : '#7FFFD4'
+			}
+		}
+		/******************************************************/
+		/*                     Character                      */
+		/******************************************************/
+		{
+			title     : 'Character'
+			scope     : 'character'
+			settings  : {
+				foreground      : '#7FFFD4'
+			}
+		}
+		/******************************************************/
+		/*                       Number                       */
+		/******************************************************/
+		{
+			title     : 'Number'
+			scope     : 'constant.numeric'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                      Boolean                       */
+		/******************************************************/
+		{
+			title     : 'Boolean'
+			scope     : 'boolean'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                       Float                        */
+		/******************************************************/
+		{
+			title     : 'Float'
+			scope     : 'float'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                      Variable                      */
+		/******************************************************/
+		{
+			title     : 'Variable'
+			scope     : 'variable, variable.language, variable.other'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#98FB98'
+			}
+		}
+		/******************************************************/
+		/*                   Function name                    */
+		/******************************************************/
+		{
+			title     : 'Function name'
+			scope     : 'entity.name.function, keyword.other.name-of-parameter.objc'
+			settings  : {
+				foreground      : '#87CEFA'
+			}
+		}
+		/******************************************************/
+		/*                     Statement                      */
+		/******************************************************/
+		{
+			title     : 'Statement'
+			scope     : 'statement'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*                    Conditional                     */
+		/******************************************************/
+		{
+			title     : 'Conditional'
+			scope     : 'conditional'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*                       Repeat                       */
+		/******************************************************/
+		{
+			title     : 'Repeat'
+			scope     : 'repeat'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*                       Label                        */
+		/******************************************************/
+		{
+			title     : 'Label'
+			scope     : 'label'
+			settings  : {
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*                      Operator                      */
+		/******************************************************/
+		{
+			title     : 'Operator'
+			scope     : 'operator'
+			settings  : {
+				foreground      : '#00FFFF'
+			}
+		}
+		/******************************************************/
+		/*               Preprocessor directive               */
+		/******************************************************/
+		{
+			title     : 'Preprocessor directive'
+			scope     : 'entity.name.preprocessor, other.preprocessor'
+			settings  : {
+				foreground      : '#B0C4DE'
+			}
+		}
+		/******************************************************/
+		/*                      Include                       */
+		/******************************************************/
+		{
+			title     : 'Include'
+			scope     : 'include'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#B0C4DE'
+			}
+		}
+		/******************************************************/
+		/*                       Define                       */
+		/******************************************************/
+		{
+			title     : 'Define'
+			scope     : 'define'
+			settings  : {
+				foreground      : '#B0C4DE'
+			}
+		}
+		/******************************************************/
+		/*                       Macro                        */
+		/******************************************************/
+		{
+			title     : 'Macro'
+			scope     : 'macro'
+			settings  : {
+				foreground      : '#B0C4DE'
+			}
+		}
+		/******************************************************/
+		/*                     PreCondit                      */
+		/******************************************************/
+		{
+			title     : 'PreCondit'
+			scope     : 'precondit'
+			settings  : {
+				foreground      : '#B0C4DE'
+			}
+		}
+		/******************************************************/
+		/*                        Type                        */
+		/******************************************************/
+		{
+			title     : 'Type'
+			scope     : 'type'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#98FB98'
+			}
+		}
+		/******************************************************/
+		/*                    StorageClass                    */
+		/******************************************************/
+		{
+			title     : 'StorageClass'
+			scope     : 'storageclass'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                     Structure                      */
+		/******************************************************/
+		{
+			title     : 'Structure'
+			scope     : 'structure'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                      Typedef                       */
+		/******************************************************/
+		{
+			title     : 'Typedef'
+			scope     : 'typedef'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFEC8B'
+			}
+		}
+		/******************************************************/
+		/*                     Underlined                     */
+		/******************************************************/
+		{
+			title     : 'Underlined'
+			scope     : 'underlined'
+			settings  : {
+				font_style      : 'underline'
+			}
+		}
+		/******************************************************/
+		/*                       Ignore                       */
+		/******************************************************/
+		{
+			title     : 'Ignore'
+			scope     : 'ignore'
+			settings  : {
+				foreground      : '#233B5A'
+			}
+		}
+		/******************************************************/
+		/*                       Error                        */
+		/******************************************************/
+		{
+			title     : 'Error'
+			scope     : 'error'
+			settings  : {
+				font_style      : 'bold'
+				foreground      : '#FFFFFF'
+				background      : '#FF0000'
+			}
+		}
+	]
+	uuid      : 'DDDDDEA8-B4A3-C65D-A036-5CA82D86BB45'
+}

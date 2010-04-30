@@ -1,0 +1,429 @@
+{
+title      : 'iLife 05 2.0'
+settings  : [
+	{
+	settings : 	{
+		background	: '#FFFFFFFC'
+		caret	: '#A600F6'
+		foreground	: '#333333'
+		invisibles	: '#D76A004D'
+		line_highlight	: '#FFFF551A'
+		selection	: '#A600F640'
+	}
+	}
+
+	{
+		title     : 'text'
+		scope	: 'text'
+	settings : 	{
+		background	: '#F2F1F2F2'
+		foreground	: '#333333'
+	}
+	}
+
+	{
+		title     : 'source'
+		scope	: 'source -meta.source.embedded'
+	settings : 	{
+		background	: '#FFFFFFF2'
+		foreground	: '#565859'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded'
+		scope	: 'meta.source.embedded'
+	settings : 	{
+		foreground	: '#C8415C'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded source'
+		scope	: 'meta.source.embedded source'
+	settings : 	{
+		background	: '#FFFFFFF2'
+		foreground	: '#666666'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded.bound'
+		scope	: 'meta.source.embedded.bound'
+	settings : 	{
+		background	: '#E6FAFF'
+		foreground	: '#308095'
+	}
+	}
+
+	{
+		title     : 'meta.source.embedded.return-value'
+		scope	: 'meta.source.embedded.return-value'
+	settings : 	{
+		background	: '#F4FFE6'
+		foreground	: '#B6D48F'
+	}
+	}
+
+	{
+		title     : 'string.interpolated'
+		scope	: 'string.interpolated'
+	settings : 	{
+		background	: '#FFFF55BF'
+	}
+	}
+
+	{
+		title     : 'html tags'
+		scope	: 'meta.tag, declaration.tag'
+	settings : 	{
+		background	: '#39A0BA1A'
+		foreground	: '#39A0BA'
+	}
+	}
+
+	{
+		title     : 'Tag name'
+		scope	: 'entity.name.tag'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#308095'
+	}
+	}
+
+	{
+		title     : 'Tag attribute'
+		scope	: 'entity.other.attribute-name'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Tag attribute value'
+		scope	: 'meta.tag string -(text source), declaration.tag string -(text source)'
+	settings : 	{
+		font_style	: ''
+		foreground	: '#69B200'
+	}
+	}
+
+	{
+		title     : 'String Source'
+		scope	: 'meta.tag string &(text source), declaration.tag string &(text source), source string source'
+	settings : 	{
+		background	: '#FFFFFF'
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'source.ruby.embedded.source'
+		scope	: 'source string source'
+	settings : 	{
+		background	: '#ECEBEC'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+		title     : 'Comment'
+		scope	: 'comment'
+	settings : 	{
+		background	: '#00000008'
+		font_style	: 'italic'
+		foreground	: '#B35EED'
+	}
+	}
+
+	{
+		title     : 'String'
+		scope	: 'string'
+	settings : 	{
+		background	: '#FFFBBC1A'
+		font_style	: ''
+		foreground	: '#69B200'
+	}
+	}
+
+	{
+		title     : 'String Source String'
+		scope	: 'String Source String, meta.tag string source string'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Number'
+		scope	: 'constant.numeric'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#69B200'
+	}
+	}
+
+	{
+		title     : 'Built-in constant'
+		scope	: 'constant.language'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#1C7A1F'
+	}
+	}
+
+	{
+		title     : 'User-defined constant'
+		scope	: 'constant.character, constant.other'
+	settings : 	{
+		background	: '#B6D48F26'
+		foreground	: '#1C7A1F'
+	}
+	}
+
+	{
+		title     : 'constant.character, constant.other'
+		scope	: 'text source constant.character, text source constant.other'
+	settings : 	{
+		background	: '#FFFEF4'
+	}
+	}
+
+	{
+		title     : 'Variable'
+		scope	: 'variable.language, variable.other, variable'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#308095'
+	}
+	}
+
+	{
+		title     : 'Keyword'
+		scope	: 'keyword'
+	settings : 	{
+		background	: '#FCE8EC1A'
+		font_style	: 'bold'
+		foreground	: '#000000'
+	}
+	}
+
+	{
+		title     : 'keyword'
+		scope	: 'text source keyword'
+	settings : 	{
+		background	: '#C5425D0D'
+	}
+	}
+
+	{
+		title     : 'Storage'
+		scope	: 'storage'
+	settings : 	{
+		background	: '#9999991A'
+		font_style	: 'bold'
+		foreground	: '#999999'
+	}
+	}
+
+	{
+		title     : 'Class name'
+		scope	: 'entity.name.class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Inherited class'
+		scope	: 'entity.other.inherited-class'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'support.function'
+		scope	: 'support.function'
+	settings : 	{
+		background	: '#D4275508'
+		font_style	: ''
+		foreground	: '#D42755'
+	}
+	}
+
+	{
+		title     : 'Function name'
+		scope	: 'entity.name.function, storage.type.function'
+	settings : 	{
+		background	: '#69B200'
+		font_style	: 'bold'
+		foreground	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'meta.property.function'
+		scope	: 'meta.property.function, meta.function'
+	settings : 	{
+		background	: '#1C7A1F'
+		foreground	: '#B6D48F'
+	}
+	}
+
+	{
+		title     : 'Function argument'
+		scope	: 'variable.parameter.function'
+	settings : 	{
+		font_style	: 'bold'
+		foreground	: '#62D6F4'
+	}
+	}
+
+	{
+		title     : 'Library function'
+		scope	: 'support.function'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Library constant'
+		scope	: 'support.constant'
+	settings : 	{
+		background	: '#B6D48F40'
+		foreground	: '#69B200'
+	}
+	}
+
+	{
+		title     : 'Library class or type'
+		scope	: 'support.type, support.class'
+	settings : 	{
+		font_style	: ''
+	}
+	}
+
+	{
+		title     : 'Library variable'
+		scope	: 'support.other.variable'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'Invalid'
+		scope	: 'invalid'
+	settings : 	{
+	}
+	}
+
+	{
+		title     : 'support.class'
+		scope	: 'support.class'
+	settings : 	{
+		background	: '#1C7A1F0D'
+		foreground	: '#1C7A1F'
+	}
+	}
+
+	{
+		title     : 'support.class.collection'
+		scope	: 'support.class.collection'
+	settings : 	{
+		font_style	: 'bold'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets1'
+		scope	: 'meta.round-brackets, meta.property-list, comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA1A'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets2'
+		scope	: ' meta.round-brackets meta.round-brackets, comment.block.conditional comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA0D'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets3'
+		scope	: ' meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA0D'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets4'
+		scope	: ' meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA0D'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets5'
+		scope	: ' meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA0D'
+		foreground	: '#191919'
+	}
+	}
+
+	{
+		title     : 'meta.round-brackets6'
+		scope	: ' meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets meta.round-brackets,  comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional comment.block.conditional'
+	settings : 	{
+		background	: '#39A0BA0D'
+	}
+	}
+
+	{
+		title     : 'text.plain'
+		scope	: 'text.plain'
+	settings : 	{
+		background	: '#FFFFFF'
+	}
+	}
+
+	{
+		title     : 'special seperator'
+		scope	: 'keyword.other.go.sql'
+	settings : 	{
+		background	: '#FFFF551A'
+		foreground	: '#D76A00'
+	}
+	}
+
+	{
+		title     : 'meta.leading-space'
+		scope	: 'meta.leading-space'
+	settings : 	{
+		background	: '#FFFF551A'
+	}
+	}
+
+	{
+		title     : 'meta.property.value.css'
+		scope	: 'meta.property-value.css'
+	settings : 	{
+		background	: '#39A0BA1A'
+		foreground	: '#39A0BA'
+	}
+	}
+
+	{
+		title     : 'support.constant.property-value.css'
+		scope	: 'support.constant.property-value.css'
+	settings : 	{
+		foreground	: '#AA5500'
+	}
+	}
+
+]
+uuid      : ''
+}
